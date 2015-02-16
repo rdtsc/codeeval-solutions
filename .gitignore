@@ -13,3 +13,6 @@ Thumbs.db
 *.a
 *.dll
 *.so
+
+# Vendor files.
+node_modules
