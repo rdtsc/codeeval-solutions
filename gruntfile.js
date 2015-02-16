@@ -16,6 +16,22 @@ module.exports = function(grunt)
           humanFriendly: true
         }
       }
+    },
+
+    'init-solution':
+    {
+      config:
+      {
+        sourcePath: './src/',
+        problemListPath: './tools/storage/problems.json',
+        problemUrlFormat: 'https://www.codeeval.com/browse/%s/',
+        files:
+        {
+          meta: 'meta.yaml',
+          input: 'input.txt',
+          readme: 'readme.md'
+        }
+      }
     }
   });
 
