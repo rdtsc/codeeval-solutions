@@ -82,8 +82,8 @@ module.exports = function(grunt)
     {
       if(!grunt.option('overwrite') && grunt.file.isDir(paths.solutions))
       {
-        grunt.log.writeln('Skipped "solutions" directory creation ' +
-                          '-- already exists in: ' + solutionDir);
+        grunt.log.writeln('Skipped "solutions" directory creation' +
+                          ' -- already exists in: ' + solutionDir);
 
         return;
       }
@@ -171,7 +171,7 @@ module.exports = function(grunt)
         if(!$input.length)
         {
           grunt.log.writeln('Skipped ' + config.files.input +
-                            " -- no input found in problem statement.");
+                            ' -- no input found in problem statement.');
         }
 
         else
