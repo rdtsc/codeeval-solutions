@@ -4,7 +4,7 @@
 
   String.prototype.fullStop = function()
   {
-    if(/[!;\?]/i.test(this.slice(-1))) return this.trim();
+    if(/[!;\?\.]/i.test(this.slice(-1))) return this.trim();
 
     return this.trim() + '.';
   };
