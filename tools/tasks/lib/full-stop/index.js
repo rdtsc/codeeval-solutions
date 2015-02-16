@@ -4,6 +4,8 @@
 
   String.prototype.fullStop = function()
   {
-    return this.toString() + ((this.slice(-1) === '.') ? '' : '.');
+    if(/[!;\?]/i.test(this.slice(-1))) return this.trim();
+
+    return this.trim() + '.';
   };
 })();
