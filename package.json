@@ -1,5 +1,9 @@
 {
   "name": "code-eval-solutions",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "dependencies":
+  {
+    "grunt": "~0.4.5"
+  }
 }
