@@ -137,6 +137,37 @@ module.exports = function(grunt)
       grunt.log.ok('Created ' + config.files.readme + ' in: ' + solutionDir);
     })();
 
+    // Make solution templates.
+    function makeSolutionTemplates(problemHasInput)
+    {
+      for(var language in config.files.languages)
+      {
+        var filename = 'solution' +
+                       path.extname(config.files.languages[language].argless);
+
+        var solutionFile = path.join(solutionDir,
+                                     'solutions',
+                                     language.toLowerCase(),
+                                     filename);
+
+        if(!grunt.option('overwrite') && grunt.file.isFile(solutionFile))
+        {
+          grunt.log.writeln('Skipped ' + filename + ' -- already exists in: ' +
+                            path.dirname(solutionFile));
+
+          continue;
+        }
+
+        var template = config.files.languages[language];
+
+        grunt.file.copy(!!problemHasInput ? template.args : template.argless,
+                        solutionFile);
+
+        grunt.log.ok('Created ' + filename + ' in: ' +
+                     path.dirname(solutionFile));
+      }
+    }
+
     // Make input file.
     (function(task)
     {
@@ -144,6 +175,8 @@ module.exports = function(grunt)
       {
         grunt.log.writeln('Skipped ' + config.files.input +
                           ' -- already exists in: ' + solutionDir);
+
+        makeSolutionTemplates(true);
 
         return;
       }
@@ -179,6 +212,8 @@ module.exports = function(grunt)
           grunt.file.write(paths.input, $input.first().text().trim() + '\n');
           grunt.log.ok('Created ' + config.files.input + ' in: ' + solutionDir);
         }
+
+        makeSolutionTemplates(!!$input.length);
 
         done();
       });

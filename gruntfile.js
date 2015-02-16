@@ -29,7 +29,21 @@ module.exports = function(grunt)
         {
           meta: 'meta.yaml',
           input: 'input.txt',
-          readme: 'readme.md'
+          readme: 'readme.md',
+          languages:
+          {
+            c:
+            {
+              args: './tools/templates/c/main-args.c',
+              argless: './tools/templates/c/main.c'
+            },
+
+            'c++':
+            {
+              args: './tools/templates/c++/main-args.cpp',
+              argless: './tools/templates/c++/main.cpp'
+            }
+          }
         }
       }
     }
