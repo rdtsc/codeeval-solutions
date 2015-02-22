@@ -1096,5 +1096,11 @@
     "name": "Details",
     "summary": "Determine how many cells will be shifted detail.",
     "category": "easy"
+  },
+  {
+    "id": "184",
+    "name": "Burrows-Wheeler transform",
+    "summary": "Complete file decompression by inverting BWT.",
+    "category": "moderate"
   }
 ]
