@@ -1102,5 +1102,17 @@
     "name": "Burrows-Wheeler transform",
     "summary": "Complete file decompression by inverting BWT.",
     "category": "moderate"
+  },
+  {
+    "id": "185",
+    "name": "Glue Shredded Pieces",
+    "summary": "Reconstruct the original text from overlapping pieces.",
+    "category": "hard"
+  },
+  {
+    "id": "186",
+    "name": "Max Range Sum",
+    "summary": "Determine max sum at the range.",
+    "category": "easy"
   }
 ]
