@@ -8,6 +8,7 @@ module.exports = function(grunt)
   var cheerio = require('cheerio');
   var yaml    = require('js-yaml');
   var slug    = require('slug');
+  var wrap    = require('word-wrap');
 
   require('array.prototype.find');
   require('./lib/to-title-case');
@@ -122,7 +123,7 @@ module.exports = function(grunt)
       [
         '[%s][ce]\n%s',
         '**Problem %s**',
-        '> %s',
+        '%s',
         'Full problem statement is available on [CodeEval][ce].',
         '[ce]: %s\n      "View problem statement on CodeEval"\n'
       ].join('\n\n');
@@ -130,7 +131,12 @@ module.exports = function(grunt)
       readme = util.format(readme, metadata.name,
                                    Array(metadata.name.length + 7).join('-'),
                                    metadata.problemId,
-                                   metadata.summary,
+                                   wrap(metadata.summary,
+                                   {
+                                     indent: '> ',
+                                     trim: true,
+                                     width: 78
+                                   }),
                                    metadata.url);
 
       grunt.file.write(paths.readme, readme);
