@@ -191,6 +191,13 @@ module.exports = function(grunt)
           grunt.fatal('Failed to fetch problem statement -> ' + error);
         }
 
+        // HACK: Some problem statements have unescaped HTML entities. Cheerio
+        // (or maybe its dependency, htmlparser2) fails to escape less-than
+        // signs which are immediately followed by an equals sign. This results
+        // in the introduction of additional DOM nodes and breaks the extraction
+        // of sample input from problem statement pages.
+        body = body.replace(/<=/g, '&gt;=');
+
         var $ = cheerio.load(body);
 
         var isInputHeader =
