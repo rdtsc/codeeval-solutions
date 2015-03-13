@@ -1114,5 +1114,11 @@
     "name": "Max Range Sum",
     "summary": "Determine max sum at the range.",
     "category": "easy"
+  },
+  {
+    "id": "187",
+    "name": "Consecutive Primes",
+    "summary": "Determine how many ways the numbers can be arranged such that every consecutive pair sums to a prime.",
+    "category": "moderate"
   }
 ]
