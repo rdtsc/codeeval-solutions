@@ -49,7 +49,7 @@ int main(const int argc, const char* const argv[])
         dump(z, i)
     */
 
-    #include "sequence.inl"
+    #include "sequence.dat"
   };
 
   for(std::size_t n = 0; inputStream >> n;)

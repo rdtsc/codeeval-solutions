@@ -53,7 +53,7 @@ int main(const int argc, const char* const argv[])
         dump(z, i)
     */
 
-    #include "sequence.inl"
+    #include "sequence.dat"
   };
 
   for(size_t n = 0; fscanf(inputStream, "%zu", &n) == 1;)
