@@ -20,7 +20,7 @@ template<typename T> static inline bool isPrime(const T n)
   const T limit = std::sqrt(n);
 
   // Primes >3 are of the form (6n +/- 1).
-  for(uint_fast64_t i = 5; i <= limit; i += 6)
+  for(T i = 5; i <= limit; i += 6)
   {
     if(!(n % i) || !(n % (i + 2))) return false;
   }
