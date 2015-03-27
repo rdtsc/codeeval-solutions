@@ -1120,5 +1120,17 @@
     "name": "Consecutive Primes",
     "summary": "Determine how many ways the numbers can be arranged such that every consecutive pair sums to a prime.",
     "category": "moderate"
+  },
+  {
+    "id": "188",
+    "name": "Distinct Triangles",
+    "summary": "Find the number of distinct triangles formed in a graph.",
+    "category": "hard"
+  },
+  {
+    "id": "189",
+    "name": "Minimum Distance",
+    "summary": "Find a point with the smallest sum of distances to every given point.",
+    "category": "easy"
   }
 ]
