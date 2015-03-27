@@ -44,14 +44,13 @@ int main(const int argc, const char* const argv[])
     // Eat trailing whitespace.
     while(*c && *c == ' ') ++c;
 
-    unsigned addresses[100] = {0}, addressSum = 0;
+    unsigned addresses[100] = {0};
 
     for(unsigned n = 0, i = 0;; ++c)
     {
       if(*c == ' ' || *c == '\n' || !*c)
       {
         addresses[i++] = n;
-        addressSum += n;
         n = 0;
 
         if(*c == '\n' || !*c) break;
@@ -69,7 +68,7 @@ int main(const int argc, const char* const argv[])
 
     #undef MID
 
-    unsigned totalDistance  = 0;
+    unsigned totalDistance = 0;
 
     // Get the total distance from our address to all of our friends' houses.
     for(size_t i = 0; i < friendCount; ++i)
