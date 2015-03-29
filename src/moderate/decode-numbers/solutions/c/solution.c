@@ -6,6 +6,7 @@ static inline unsigned getDecodingCount(const char* message)
   assert(message);
 
   const char this = *message, peek = *(message + 1);
+
   if(!this || !peek || this == '\n' || peek == '\n') return 1;
 
   else if((this == '2' && peek >= '7') || this >= '3')
