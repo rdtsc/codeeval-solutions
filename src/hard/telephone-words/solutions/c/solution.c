@@ -53,7 +53,7 @@ int main(const int argc, const char* const argv[])
     [8] = REGISTER(tuv),
     [9] = REGISTER(wxyz)
 
-    #undef VALUES
+    #undef REGISTER
   };
 
   static const size_t telephoneLength = 7;
