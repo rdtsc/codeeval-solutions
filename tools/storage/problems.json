@@ -1132,5 +1132,17 @@
     "name": "Minimum Distance",
     "summary": "Find a point with the smallest sum of distances to every given point.",
     "category": "easy"
+  },
+  {
+    "id": "190",
+    "name": "Number Operations",
+    "summary": "Determine if it is possible to produce the number 42 with five cards.",
+    "category": "moderate"
+  },
+  {
+    "id": "191",
+    "name": "Lights Out",
+    "summary": "Switch all the lights off with minimum number of moves.",
+    "category": "hard"
   }
 ]
