@@ -3,7 +3,7 @@
 
 ## About
 
-This repository houses my personal solutions to [CodeEval's][ce] public problems
+This repository houses my personal solutions to [CodeEval][ce]'s public problems
 in various programming languages.
 
 It is strongly encouraged that you do not view my solutions unless you've
