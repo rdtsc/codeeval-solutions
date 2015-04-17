@@ -31,8 +31,8 @@ int main(const int argc, const char* const argv[])
 
   for(Point2d<int> pos, dst; inputStream >> pos >> dst; bearing.clear())
   {
-    if(pos.y != dst.y)  bearing.push_back(pos.y > dst.y ? 'S' : 'N');
-    if(pos.x != dst.x)  bearing.push_back(pos.x > dst.x ? 'W' : 'E');
+    if(pos.y != dst.y) bearing.push_back(pos.y > dst.y ? 'S' : 'N');
+    if(pos.x != dst.x) bearing.push_back(pos.x > dst.x ? 'W' : 'E');
 
     // If nothing's written to the buffer, we're already at the destination.
     if(bearing.empty()) bearing = "here";
