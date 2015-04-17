@@ -1144,5 +1144,11 @@
     "name": "Lights Out",
     "summary": "Switch all the lights off with minimum number of moves.",
     "category": "hard"
+  },
+  {
+    "id": "192",
+    "name": "Compare Points",
+    "summary": "Given two (x, y) points A and B, determine which cardinal direction B is from A.",
+    "category": "easy"
   }
 ]
