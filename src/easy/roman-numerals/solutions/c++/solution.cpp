@@ -45,7 +45,7 @@ int main(const int argc, const char* const argv[])
 
   static const Numeral<value_type> numerals[] =
   {
-    #define MAP(Symbol, Value) Numeral<value_type>(#Symbol, Value)
+    #define MAP(Symbol, Value) Numeral<value_type>(#Symbol, (Value))
 
     MAP(I,   1), MAP(IV,   4), MAP(V,   5), MAP(IX,   9),
     MAP(X,  10), MAP(XL,  40), MAP(L,  50), MAP(XC,  90),
