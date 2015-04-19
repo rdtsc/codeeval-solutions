@@ -45,12 +45,12 @@ int main(const int argc, const char* const argv[])
 
   static const Numeral<value_type> numerals[] =
   {
-    #define MAP(Symbol, Value) {#Symbol, static_cast<value_type>(Value)}
+    #define MAP(Symbol, Value) Numeral<value_type>(#Symbol, Value)
 
-    MAP(I ,   1), MAP(IV,   4), MAP(V ,   5), MAP(IX,   9),
-    MAP(X ,  10), MAP(XL,  40), MAP(L ,  50), MAP(XC,  90),
-    MAP(C , 1e2), MAP(CD, 4e2), MAP(D , 5e2), MAP(CM, 9e2),
-    MAP(M , 1e3)
+    MAP(I,   1), MAP(IV,   4), MAP(V,   5), MAP(IX,   9),
+    MAP(X,  10), MAP(XL,  40), MAP(L,  50), MAP(XC,  90),
+    MAP(C, 100), MAP(CD, 400), MAP(D, 500), MAP(CM, 900),
+    MAP(M, 1e3)
 
     #undef MAP
   };
