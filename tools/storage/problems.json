@@ -1150,5 +1150,11 @@
     "name": "Compare Points",
     "summary": "Given two (x, y) points A and B, determine which cardinal direction B is from A.",
     "category": "easy"
+  },
+  {
+    "id": "193",
+    "name": "Magic Numbers",
+    "summary": "Print out a list of all the magic numbers in a provided range.",
+    "category": "moderate"
   }
 ]
