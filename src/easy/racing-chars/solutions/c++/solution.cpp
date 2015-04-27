@@ -51,7 +51,7 @@ int main(const int argc, const char* const argv[])
     // Patch the current track slice with the appropriate turn symbol based on
     // the position of the previous portal. Checkpoints are given priority by
     // being checked for first.
-    for(const auto portal : portals) if(portal.exists)
+    for(const auto& portal : portals) if(portal.exists)
     {
       const auto index = portal.index;
 
