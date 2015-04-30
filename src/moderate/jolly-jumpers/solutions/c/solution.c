@@ -37,16 +37,14 @@ int main(const int argc, const char* const argv[])
       while(*c && *c == ' ') ++c;
     }
 
-    assert(termCount);
+    // Sanity check. Unrestricted VLAs can lead to UB if allocation fails.
+    assert(termCount && termCount <= 512);
 
     if(termCount == 1)
     {
       puts("Jolly");
       continue;
     }
-
-    // Sanity check. Unrestricted VLAs can lead to UB if allocation fails.
-    assert(termCount && termCount <= 512);
 
     // VLAs yield a slightly better memory score on CodeEval than straight
     // [m,c]alloc. Shouldn't rely on this in C11 and onwards, though.
