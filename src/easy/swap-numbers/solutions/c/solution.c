@@ -9,7 +9,7 @@ int main(const int argc, const char* const argv[])
   // being benchmarked. Don't forget to define NDEBUG prior to submitting!
   assert(argc >= 2 && "Expecting at least one command-line argument.");
 
-  static char stdoutBuffer[512] = "";
+  static char stdoutBuffer[4096] = "";
 
   // Turn on full output buffering for stdout.
   setvbuf(stdout, stdoutBuffer, _IOFBF, sizeof stdoutBuffer);
