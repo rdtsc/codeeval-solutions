@@ -1156,5 +1156,23 @@
     "name": "Magic Numbers",
     "summary": "Print out a list of all the magic numbers in a provided range.",
     "category": "moderate"
+  },
+  {
+    "id": "194",
+    "name": "Twenty Forty Eight",
+    "summary": "Implement the 2048 game logic.",
+    "category": "moderate"
+  },
+  {
+    "id": "195",
+    "name": "Crime House",
+    "summary": "Count criminals in the Crime House.",
+    "category": "hard"
+  },
+  {
+    "id": "196",
+    "name": "Swap Numbers",
+    "summary": "Swap numbers surrounding a word.",
+    "category": "easy"
   }
 ]
