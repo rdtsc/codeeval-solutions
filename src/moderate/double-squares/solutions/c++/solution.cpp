@@ -22,7 +22,7 @@ int main(const int argc, const char* const argv[])
   {
     const value_type upperLimit = ::sqrt(n);
 
-    auto result = [&]
+    const auto result = [&]
     {
       unsigned result = 0;
 
