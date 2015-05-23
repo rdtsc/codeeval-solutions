@@ -1174,5 +1174,11 @@
     "name": "Swap Numbers",
     "summary": "Swap numbers surrounding a word.",
     "category": "easy"
+  },
+  {
+    "id": "197",
+    "name": "Column Names",
+    "summary": "Convert integer to excel-style column name.",
+    "category": "moderate"
   }
 ]
