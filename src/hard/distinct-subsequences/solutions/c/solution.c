@@ -8,8 +8,8 @@ static inline size_t getDistinctSubsequenceCount(const char* const sequence,
 {
   assert(sequence && subsequence);
 
-  // Probably should ask the caller for these, as this work was already been
-  // done during parsing. Whatever.
+  // Probably should ask the caller for these, as this work was already
+  // done during parsing.
   const size_t seqLength = strlen(sequence),
                subLength = strlen(subsequence);
 
