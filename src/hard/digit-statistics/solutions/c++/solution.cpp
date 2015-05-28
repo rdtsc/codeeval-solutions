@@ -58,12 +58,12 @@ int main(const int argc, const char* const argv[])
 
     else
     {
-      const auto digitOccurances = n / patternWidth;
+      const auto digitOccurrences = n / patternWidth;
 
       // Record the number of times our pattern's digits occur.
       for(std::size_t i = 0; i < patternWidth; ++i)
       {
-        digitCount[digitLut[a - 2][i]] = digitOccurances;
+        digitCount[digitLut[a - 2][i]] = digitOccurrences;
 
         // Take care of any remainder occurrences.
         if(i < (n % patternWidth)) ++digitCount[digitLut[a - 2][i]];
