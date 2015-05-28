@@ -72,7 +72,7 @@ int main(const int argc, const char* const argv[])
       {
         digitCount[digitLut[a - 2][i]] = digitOccurances;
 
-        // Take care of any remainder occurances.
+        // Take care of any remainder occurrences.
         if(i < (n % patternWidth)) ++digitCount[digitLut[a - 2][i]];
       }
     }
