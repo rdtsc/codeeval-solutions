@@ -1180,5 +1180,17 @@
     "name": "Column Names",
     "summary": "Convert integer to excel-style column name.",
     "category": "moderate"
+  },
+  {
+    "id": "198",
+    "name": "Less Money, More Problems",
+    "summary": "Help citizens by adding new coin denominations.",
+    "category": "hard"
+  },
+  {
+    "id": "199",
+    "name": "String mask",
+    "summary": "Change case letters by mask.",
+    "category": "easy"
   }
 ]
