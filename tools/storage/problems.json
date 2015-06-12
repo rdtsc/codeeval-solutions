@@ -1192,5 +1192,11 @@
     "name": "String mask",
     "summary": "Change case letters by mask.",
     "category": "easy"
+  },
+  {
+    "id": "200",
+    "name": "Sort matrix columns",
+    "summary": "Sort matrix columns from lowest to highest numbers.",
+    "category": "moderate"
   }
 ]
