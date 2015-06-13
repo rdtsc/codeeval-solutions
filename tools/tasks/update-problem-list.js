@@ -119,7 +119,7 @@ module.exports = function(grunt)
       problemSet = humanFriendlyJson ? JSON.stringify(problemSet, null, 2) :
                                        JSON.stringify(problemSet);
 
-      grunt.file.write(config.storage.path, problemSet);
+      grunt.file.write(config.storage.path, problemSet + '\n');
 
       grunt.log.ok('Saved ' + problemCount + ' problem descriptions in: ' +
                    config.storage.path);
