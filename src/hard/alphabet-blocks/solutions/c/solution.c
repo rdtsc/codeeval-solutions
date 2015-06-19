@@ -97,7 +97,9 @@ static bool canArrange(const size_t blockCount,
 {
   assert(blocks && word && strlen(word) && (blockCount >= strlen(word)));
 
-  return tryArrangement(blocks, blocks + blockCount, word);
+  block_type* const blocksEnd = (blocks + blockCount);
+
+  return tryArrangement(blocks, blocksEnd, word);
 }
 
 int main(const int argc, const char* const argv[])
