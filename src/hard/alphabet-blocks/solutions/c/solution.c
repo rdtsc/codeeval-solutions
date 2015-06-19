@@ -52,7 +52,7 @@ static bool tryArrangement(block_type* const blocksBegin,
                            block_type* const blocksEnd,
                            const char* const word)
 {
-  assert(blocksEnd >= blocksBegin);
+  assert(blocksBegin && blocksEnd && word && (blocksEnd >= blocksBegin));
 
   // Found.
   if(!*word) return true;
