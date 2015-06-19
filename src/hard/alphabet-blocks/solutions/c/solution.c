@@ -76,8 +76,10 @@ static bool tryArrangement(block_type* const blocksBegin,
       *i = *blocksBegin;
       *blocksBegin = scratch;
 
-      const bool isFound =
-        tryArrangement(blocksBegin + 1, blocksEnd, word + 1);
+      block_type* const nextBlock  = (blocksBegin + 1);
+      const char* const nextLetter = (word + 1);
+
+      const bool isFound = tryArrangement(nextBlock, blocksEnd, nextLetter);
 
       *blocksBegin = *i;
       *i = scratch;
