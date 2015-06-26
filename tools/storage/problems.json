@@ -1204,5 +1204,11 @@
     "name": "Alphabet blocks",
     "summary": "Forming words from alphabet blocks.",
     "category": "hard"
+  },
+  {
+    "id": "202",
+    "name": "Stepwise word",
+    "summary": "Print the longest word in a stepwise manner.",
+    "category": "easy"
   }
 ]
