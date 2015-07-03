@@ -1210,5 +1210,11 @@
     "name": "Stepwise word",
     "summary": "Print the longest word in a stepwise manner.",
     "category": "easy"
+  },
+  {
+    "id": "203",
+    "name": "Strings and arrows",
+    "summary": "Print the number of arrows in a string.",
+    "category": "easy"
   }
 ]
