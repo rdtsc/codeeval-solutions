@@ -1216,5 +1216,11 @@
     "name": "Strings and arrows",
     "summary": "Print the number of arrows in a string.",
     "category": "easy"
+  },
+  {
+    "id": "204",
+    "name": "Straight lines",
+    "summary": "Print the number of straight lines.",
+    "category": "hard"
   }
 ]
