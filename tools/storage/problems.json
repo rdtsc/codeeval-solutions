@@ -1222,5 +1222,11 @@
     "name": "Straight lines",
     "summary": "Print the number of straight lines.",
     "category": "hard"
+  },
+  {
+    "id": "205",
+    "name": "Clean up the words",
+    "summary": "Print the words separated by spaces.",
+    "category": "easy"
   }
 ]
