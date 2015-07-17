@@ -25,7 +25,7 @@ int main(const int argc, const char* const argv[])
     // [A-Z] + [a-z]
     char hitCount[52] = "";
 
-    // Count the number of occurances of each character.
+    // Count the number of occurrences of each character.
     for(const char* c = lineBuffer; *c && *c != '\n'; ++c)
     {
       if(islower(*c))      ++hitCount[*c - 'a'];

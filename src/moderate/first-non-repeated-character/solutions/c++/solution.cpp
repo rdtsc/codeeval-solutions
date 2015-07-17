@@ -21,7 +21,7 @@ int main(const int argc, const char* const argv[])
 
   for(std::string line; std::getline(inputStream, line); hitCount.clear())
   {
-    // Count the number of occurances of each character.
+    // Count the number of occurrences of each character.
     for(const auto c : line) if(::isalpha(c))
     {
       ++hitCount[c];
