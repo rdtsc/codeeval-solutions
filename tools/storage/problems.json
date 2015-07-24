@@ -1228,5 +1228,11 @@
     "name": "Clean up the words",
     "summary": "Print the words separated by spaces.",
     "category": "easy"
+  },
+  {
+    "id": "206",
+    "name": "Lucky tickets",
+    "summary": "Count the lucky tickets.",
+    "category": "moderate"
   }
 ]
