@@ -61,26 +61,24 @@ static bool matrix2dUnserialize(Matrix2d* const matrix,
   const char* cursor = lineBuffer;
 
   for(size_t y = 0; y < rows; ++y)
+  for(size_t x = 0; x < cols; ++x)
   {
-    for(size_t x = 0; x < cols; ++x)
+    // Eat leading garbage.
+    while(*cursor == ' ') ++cursor;
+
+    char* cell = matrix->data[y][x];
+
+    // Copy the cell's payload.
+    for(size_t i = 0; (i < sizeof(Cell) - 1); ++i)
     {
-      // Eat leading garbage.
-      while(*cursor == ' ') ++cursor;
+      const char c = (*cursor++);
 
-      char* cell = matrix->data[y][x];
+      if(c == ' ' || c == '\n' || c == EOF) break;
 
-      // Copy the cell's payload.
-      for(size_t i = 0; (i < sizeof(Cell) - 1); ++i)
-      {
-        const char c = (*cursor++);
-
-        if(c == ' ' || c == '\n' || c == EOF) break;
-
-        *cell++ = c;
-      }
-
-      *cell = '\0';
+      *cell++ = c;
     }
+
+    *cell = '\0';
   }
 
   // Confirm matrix rectangularity.
