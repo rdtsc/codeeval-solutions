@@ -58,6 +58,14 @@ You will need to re-run this task once you try to auto-generate a solution
 boilerplate for a challenge that's not in the local cache. For example:
 
 ```text
+$ grunt init-solution:1
+
+Running "init-solution:1" (init-solution) task
+Fatal error: Problem 1 not found in local list.
+Try running `grunt update-problem-list` first!
+```
+
+```text
 $ grunt update-problem-list
 
 Running "update-problem-list" task
