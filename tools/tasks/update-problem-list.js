@@ -2,6 +2,7 @@ module.exports = function(grunt)
 {
   'use strict';
 
+  var path     = require('path');
   var request  = require('request');
   var cheerio  = require('cheerio');
   var readline = require('readline-sync');
@@ -122,7 +123,7 @@ module.exports = function(grunt)
       grunt.file.write(config.storage.path, problemSet + '\n');
 
       grunt.log.ok('Saved ' + problemCount + ' problem descriptions in: ' +
-                   config.storage.path);
+                   path.normalize(config.storage.path));
 
       // Notify Grunt that we're done.
       done();
