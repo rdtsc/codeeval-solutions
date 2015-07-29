@@ -69,7 +69,8 @@ Done, without errors.
 ```
 
 <sup>* CodeEval supports 3rd-party authentication via Facebook and GitHub,
-though neither of these authentication methods are currently supported.</sup>
+though neither of these authentication methods are currently supported by this
+task.</sup>
 
 #### Task: `init-solution`
 
