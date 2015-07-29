@@ -123,7 +123,7 @@ static void matrix2dSnakeIteratorAdvance(Matrix2dSnakeIterator* const i)
 // Dump cells in an outer->inner snake pattern starting from the upper-left
 // corner of the supplied matrix.
 static void matrix2dDumpSnakePath(const Matrix2d* const matrix,
-                                 FILE* const outputStream)
+                                  FILE* const outputStream)
 {
   assert(matrix && outputStream && !ferror(outputStream));
   assert(matrix->rows && matrix->cols);
