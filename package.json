@@ -11,6 +11,7 @@
     "array.prototype.find": "~1.0.0",
     "js-yaml": "~3.2.6",
     "slug": "~0.8.0",
-    "word-wrap": "~1.0.2"
+    "word-wrap": "~1.0.2",
+    "clui": "~0.3.1"
   }
 }

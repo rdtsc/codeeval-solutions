@@ -46,6 +46,48 @@ module.exports = function(grunt)
           }
         }
       }
+    },
+
+    watch:
+    {
+      config:
+      {
+        sourcePath: './src/',
+        problemListPath: './tools/storage/problems.json',
+        pollingInterval: 500,
+        clearScreen: true,
+        measureTime: true,
+        languages:
+        {
+          c:
+          {
+            sourceName: 'solution.c',
+            binaryName: 'solution',
+            compile:
+            [
+              'gcc -std=c99',
+              '-Wall -Wextra -pedantic',
+              '-O1 -o solution',
+              'solution.c -lm'
+            ].join(' '),
+            run: './solution ../../input.txt',
+          },
+
+          'c++':
+          {
+            sourceName: 'solution.cpp',
+            binaryName: 'solution',
+            compile:
+            [
+              'g++ -std=c++11',
+              '-Wall -Wextra -pedantic',
+              '-O1 -o solution',
+              'solution.cpp -lm'
+            ].join(' '),
+            run: './solution ../../input.txt',
+          }
+        }
+      }
     }
   });
 

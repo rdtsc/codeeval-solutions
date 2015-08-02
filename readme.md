@@ -39,10 +39,11 @@ $ npm install
 ### Workflow
 
 To keep things consistent, the following [Grunt][grunt] tasks are provided for
-automating solution boilerplate creation:
+automating solution boilerplate creation and testing:
 
 - `update-problem-list`
 - `init-solution`
+- `watch`
 
 #### Task: `update-problem-list`
 
@@ -126,18 +127,58 @@ Also note the following:
 - Solution templates can be configured by modifying this task's settings in:
   `./gruntfile.js`.
 
+#### Task: `watch`
+
+The `watch` task is able to watch a specific solution file for changes and
+automatically perform the following series of actions when it detects a change
+to the source:
+
+- (Re)compile the solution.
+- Display any compilation errors and bail, or;
+- Execute the generated binary against the problem's sample input.
+- Report execution time.
+- Remove the generated binary.
+
+This task expects a two command-line arguments to be passed in the form of
+the problem's ID and target language. For example:
+
+```text
+$ grunt watch:1:c++
+
+Running "watch:1:c++" (watch) task
+
+# Commit changes to ./src/easy/fizz-buzz/solutions/c++/solution.cpp
+
+* Compiling...
+* Executing...
+
+--------------------------------------------------------------------------------
+1 2 F 4 B F 7 8 F B
+1 F 3 F 5 F B F 9 F 11 F 13 FB 15
+--------------------------------------------------------------------------------
+>> real 0m0.002s
+>> user 0m0.001s
+>> sys  0m0.001s
+
+# Poll for changes. Redo steps above once changes are detected.
+```
+
+Any compilation errors and/or warnings will show up above the first fold. C and
+C++ are supported out of the box. Support for additional languages may be added
+by modifying this task's settings in: `./gruntfile.js`.
+
 ### Testing
 
-As per CodeEval's setup, use at least GCC 4.8.1
+As per CodeEval's setup, use at least GCC 4.8.1.
 
 #### C99
 ```bash
-$ gcc -std=c99 -Wall -Wextra -pedantic -O3 -o solution solution.c -lm
+$ gcc -std=c99 -Wall -Wextra -pedantic -O1 -o solution solution.c -lm
 ```
 
 #### C++11
 ```bash
-$ g++ -std=c++11 -Wall -Wextra -pedantic -O3 -o solution solution.cpp -lm
+$ g++ -std=c++11 -Wall -Wextra -pedantic -O1 -o solution solution.cpp -lm
 ```
 
 
