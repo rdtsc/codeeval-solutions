@@ -98,7 +98,7 @@ module.exports = function(grunt)
 
       var execOptions = {cwd: solutionDir};
 
-      var separator = Array(process.stdout.columns + 1 || 80).join('-');
+      var separator = Array((process.stdout.columns || 80) + 1).join('-');
 
       spinner.message('Compiling...');
       spinner.start();
