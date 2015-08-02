@@ -133,14 +133,14 @@ The `watch` task is able to watch a specific solution file for changes and
 automatically perform the following series of actions when it detects a change
 to the source:
 
-- (Re)compile the solution.
+- Compile the solution.
 - Display any compilation errors and bail, or;
 - Execute the generated binary against the problem's sample input.
 - Report execution time.
 - Remove the generated binary.
 
-This task expects a two command-line arguments to be passed in the form of
-the problem's ID and target language. For example:
+This task expects two command-line arguments to be passed in the form of the
+problem's ID and target language. For example:
 
 ```text
 $ grunt watch:1:c++
@@ -160,12 +160,13 @@ Running "watch:1:c++" (watch) task
 >> user 0m0.001s
 >> sys  0m0.001s
 
-# Poll for changes. Redo steps above once changes are detected.
+# Poll for changes and redo steps above once changes are detected.
 ```
 
-Any compilation errors and/or warnings will show up above the first fold. C and
+Any compilation errors and/or warnings will appear above the first fold. C and
 C++ are supported out of the box. Support for additional languages may be added
-by modifying this task's settings in: `./gruntfile.js`.
+by modifying this task's settings in: `./gruntfile.js`. This task is currently
+not cross-platform friendly.
 
 ### Testing
 
