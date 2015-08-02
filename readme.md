@@ -158,7 +158,7 @@ Running "watch:1:c++" (watch) task
 >> user 0m0.001s
 >> sys  0m0.001s
 
-# Poll for changes and redo steps above once changes are detected.
+# The task will poll for changes and redo steps above once changes are detected.
 ```
 
 Any compilation errors and/or warnings will appear above the first fold.
