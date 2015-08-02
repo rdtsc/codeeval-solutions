@@ -1234,5 +1234,11 @@
     "name": "Lucky tickets",
     "summary": "Count the lucky tickets.",
     "category": "moderate"
+  },
+  {
+    "id": "207",
+    "name": "Which way is faster?",
+    "summary": "Find the fastest way.",
+    "category": "hard"
   }
 ]
