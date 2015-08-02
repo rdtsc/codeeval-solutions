@@ -131,7 +131,7 @@ Also note the following:
 
 The `watch` task is able to watch a specific solution file for changes and
 automatically perform the following series of actions when it detects a change
-to the source:
+to the source*:
 
 - Compile the solution.
 - Display any compilation errors and bail, or;
@@ -146,8 +146,7 @@ problem's ID and target language. For example:
 $ grunt watch:1:c++
 
 Running "watch:1:c++" (watch) task
-
-# Commit changes to ./src/easy/fizz-buzz/solutions/c++/solution.cpp
+# Make changes to ./src/easy/fizz-buzz/solutions/c++/solution.cpp
 
 * Compiling...
 * Executing...
@@ -163,10 +162,12 @@ Running "watch:1:c++" (watch) task
 # Poll for changes and redo steps above once changes are detected.
 ```
 
-Any compilation errors and/or warnings will appear above the first fold. C and
-C++ are supported out of the box. Support for additional languages may be added
-by modifying this task's settings in: `./gruntfile.js`. This task is currently
-not cross-platform friendly.
+Any compilation errors and/or warnings will appear above the first fold.
+
+C and C++ are supported out of the box. Support for additional languages may be
+added by modifying this task's settings in: `./gruntfile.js`.
+
+<sup>* This task is currently not cross-platform friendly.</sup>
 
 ### Testing
 
