@@ -132,12 +132,12 @@ As per CodeEval's setup, use at least GCC 4.8.1
 
 #### C99
 ```bash
-$ gcc -std=c99 -Wall -Wextra -pedantic -O3 -lm -o solution solution.c
+$ gcc -std=c99 -Wall -Wextra -pedantic -O3 -o solution solution.c -lm
 ```
 
 #### C++11
 ```bash
-$ g++ -std=c++11 -Wall -Wextra -pedantic -O3 -lm -o solution solution.cpp
+$ g++ -std=c++11 -Wall -Wextra -pedantic -O3 -o solution solution.cpp -lm
 ```
 
 
