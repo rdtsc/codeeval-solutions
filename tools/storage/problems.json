@@ -1240,5 +1240,11 @@
     "name": "Which way is faster?",
     "summary": "Find the fastest way.",
     "category": "hard"
+  },
+  {
+    "id": "208",
+    "name": "Find the highest score",
+    "summary": "Find the highest rate in the table.",
+    "category": "easy"
   }
 ]
