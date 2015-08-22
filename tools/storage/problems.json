@@ -1246,5 +1246,17 @@
     "name": "Find the highest score",
     "summary": "Find the highest rate in the table.",
     "category": "easy"
+  },
+  {
+    "id": "209",
+    "name": "Black or white",
+    "summary": "Find the smallest submatrix.",
+    "category": "moderate"
+  },
+  {
+    "id": "210",
+    "name": "Brainf*ck",
+    "summary": "Blow your mind.",
+    "category": "hard"
   }
 ]
