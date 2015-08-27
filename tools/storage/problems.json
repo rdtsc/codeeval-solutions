@@ -1258,5 +1258,11 @@
     "name": "Brainf*ck",
     "summary": "Blow your mind.",
     "category": "hard"
+  },
+  {
+    "id": "211",
+    "name": "Chardonnay or Cabernet",
+    "summary": "Guess a wine name.",
+    "category": "easy"
   }
 ]
