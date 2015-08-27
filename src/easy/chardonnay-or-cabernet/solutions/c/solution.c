@@ -64,7 +64,7 @@ int main(const int argc, const char* const argv[])
     // Snip the string and fast-forward to the fragments section.
     for(*fragments++ = '\0'; *fragments == ' '; ++fragments);
 
-    size_t matchCount = 0;
+    bool foundMatches = false;
 
     // Process candidates.
     for(const char* chunk = strtok(lineBuffer, " ");
@@ -72,14 +72,13 @@ int main(const int argc, const char* const argv[])
     {
       if(containsAllFragments(chunk, fragments))
       {
-        ++matchCount;
-
+        foundMatches = true;
         fputs(chunk, stdout);
         putchar(' ');
       }
     }
 
-    if(!matchCount) fputs("False", stdout);
+    if(!foundMatches) fputs("False", stdout);
   }
 
   // The CRT takes care of cleanup.
