@@ -39,7 +39,7 @@ $ npm install
 ### Workflow
 
 To keep things consistent, the following [Grunt][grunt] tasks are provided for
-automating solution boilerplate creation and testing:
+automating solution testing and boilerplate creation.
 
 - `update-problem-list`
 - `init-solution`
@@ -130,8 +130,8 @@ Also note the following:
 #### Task: `watch`
 
 The `watch` task is able to watch a specific solution file for changes and
-automatically perform the following series of actions when it detects a change
-to the source*:
+automatically perform the following series of actions when a change is
+detected*:
 
 - Compile the solution.
 - Display any compilation errors and bail, or;
