@@ -1270,5 +1270,11 @@
     "name": "Robo and Robitta",
     "summary": "Count all nuts.",
     "category": "moderate"
+  },
+  {
+    "id": "213",
+    "name": "Lakes, not cakes",
+    "summary": "Count all lakes.",
+    "category": "hard"
   }
 ]
