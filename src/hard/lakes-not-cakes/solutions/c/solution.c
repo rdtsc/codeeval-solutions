@@ -19,9 +19,9 @@ typedef struct
   #undef MAX_WORLD_WIDTH
 } World;
 
-static void worldUnserialize(const char* const data, World* const world)
+static void worldUnserialize(World* const world, const char* const data)
 {
-  assert(data && *data && world);
+  assert(world && data && *data);
 
   memset(world, 0, sizeof(World));
 
@@ -149,7 +149,7 @@ int main(const int argc, const char* const argv[])
   for(char lineBuffer[2048] = "";
       fgets(lineBuffer, sizeof lineBuffer, inputStream);)
   {
-    worldUnserialize(lineBuffer, &world);
+    worldUnserialize(&world, lineBuffer);
 
     printf("%u\n", worldGetLakeCount(&world));
   }
