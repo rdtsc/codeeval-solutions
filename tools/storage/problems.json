@@ -1276,5 +1276,11 @@
     "name": "Lakes, not cakes",
     "summary": "Count all lakes.",
     "category": "hard"
+  },
+  {
+    "id": "214",
+    "name": "Time to eat",
+    "summary": "Sort timestamps in the right order.",
+    "category": "easy"
   }
 ]
