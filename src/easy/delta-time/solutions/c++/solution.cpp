@@ -29,8 +29,8 @@ template<typename T = unsigned> struct Timestamp
   T h, m, s;
 };
 
-template<typename T> std::istream& std::operator>>(std::istream& inputStream,
-                                                   Timestamp<T>& timestamp)
+template<typename T> std::istream& operator>>(std::istream& inputStream,
+                                              Timestamp<T>& timestamp)
 {
   static constexpr auto ignoreLimit =
     std::numeric_limits<std::streamsize>::max();
