@@ -1282,5 +1282,11 @@
     "name": "Time to eat",
     "summary": "Sort timestamps in the right order.",
     "category": "easy"
+  },
+  {
+    "id": "215",
+    "name": "Double trouble",
+    "summary": "Calculate the number of correct variants for messages.",
+    "category": "moderate"
   }
 ]
