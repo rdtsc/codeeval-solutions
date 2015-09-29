@@ -13,9 +13,7 @@ static std::uint_least64_t getVariantCount(const std::string& data)
 
   assert(std::all_of(data.cbegin(), data.cend(), [](const char c)
   {
-    if(c == 'A' || c == 'B' || c == '*') return true;
-
-    return false;
+    return (c == 'A' || c == 'B' || c == '*');
   }));
 
   const auto dataLeft  = data.cbegin(),
