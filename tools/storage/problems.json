@@ -1288,5 +1288,11 @@
     "name": "Double trouble",
     "summary": "Calculate the number of correct variants for messages.",
     "category": "moderate"
+  },
+  {
+    "id": "216",
+    "name": "Everything or nothing",
+    "summary": "Check if a code is correct.",
+    "category": "hard"
   }
 ]
