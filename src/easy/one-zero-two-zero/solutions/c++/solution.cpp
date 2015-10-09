@@ -39,7 +39,7 @@ int main(const int argc, const char* const argv[])
   {
     std::size_t occurrences = 0;
 
-    // Search space is [1, upperBound].
+    // Search space is [1, rhs].
     for(auto i = decltype(rhs){1}; i <= rhs; ++i)
     {
       if(::getZeroCount(i) == lhs) ++occurrences;
