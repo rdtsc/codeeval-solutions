@@ -1294,5 +1294,11 @@
     "name": "Everything or nothing",
     "summary": "Check if a code is correct.",
     "category": "hard"
+  },
+  {
+    "id": "217",
+    "name": "One zero, two zero...",
+    "summary": "Count zeros in a binary system.",
+    "category": "easy"
   }
 ]
