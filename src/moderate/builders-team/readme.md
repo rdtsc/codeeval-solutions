@@ -1,5 +1,5 @@
-[Builders Team.][ce]
---------------------
+[Builders Team][ce]
+-------------------
 
 **Problem 218**
 
