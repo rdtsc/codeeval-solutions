@@ -1297,8 +1297,14 @@
   },
   {
     "id": "217",
-    "name": "One zero, two zero...",
+    "name": "One zero, two zeros...",
     "summary": "Count zeros in a binary system.",
     "category": "easy"
+  },
+  {
+    "id": "218",
+    "name": "Builders team.",
+    "summary": "Count all squares on the map.",
+    "category": "moderate"
   }
 ]
