@@ -1306,5 +1306,11 @@
     "name": "Builders team.",
     "summary": "Count all squares on the map.",
     "category": "moderate"
+  },
+  {
+    "id": "219",
+    "name": "The Tourist",
+    "summary": "Find the shortest route between cities.",
+    "category": "hard"
   }
 ]
