@@ -135,7 +135,7 @@ static unsigned getMstLength(const Edge* const edges, const size_t edgeCount)
 
   // Presence of unvisited vertices means the "must visit all cities"
   // constraint can't be satisfied.
-  for(size_t i = 0; i < tableWidth; ++i) if(!used[i]) return 0;
+  if(memchr(used, false, sizeof used)) return 0;
 
   unsigned result = 0;
 

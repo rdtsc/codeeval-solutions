@@ -86,7 +86,7 @@ template<typename T> class Itinerary
     {
       T result = 0;
 
-      for(const auto& edge : edges)
+      for(const auto& edge : this->edges)
       {
         const auto peak = std::max(edge.u, edge.v);
 
