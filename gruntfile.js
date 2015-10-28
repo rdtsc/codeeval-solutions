@@ -70,7 +70,12 @@ module.exports = function(grunt)
               '-O1 -o solution',
               'solution.c -lm'
             ].join(' '),
-            run: './solution ../../input.txt',
+            run:
+            [
+              '[ ! -f ../../input.txt ]',
+              '&& ./solution',
+              '|| ./solution ../../input.txt < ../../input.txt'
+            ].join(' ')
           },
 
           'c++':
@@ -84,7 +89,12 @@ module.exports = function(grunt)
               '-O1 -o solution',
               'solution.cpp -lm'
             ].join(' '),
-            run: './solution ../../input.txt',
+            run:
+            [
+              '[ ! -f ../../input.txt ]',
+              '&& ./solution',
+              '|| ./solution ../../input.txt < ../../input.txt'
+            ].join(' ')
           }
         }
       }
