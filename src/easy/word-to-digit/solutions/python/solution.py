@@ -9,6 +9,6 @@ mapping = \
 }
 
 for line in (line.rstrip() for line in sys.stdin):
-  for literal in (literal[:2] for literal in line.split(';')):
-    print(mapping[literal], end='')
+  for literal in line.split(';'):
+    print(mapping[literal[:2]], end='')
   print()
