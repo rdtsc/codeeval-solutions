@@ -91,8 +91,9 @@ boilerplates which currently include the following actions:
   and a link to the official problem statement.
 - Creation of the problem's metadata in YAML.
 - Scraping of sample input from the problem statement page, if applicable.
-- Creation of skeleton solution files in C and C++. Appropriate templates are
-  selected based on the presence of sample input in the problem statement.
+- Creation of skeleton solution files in C, C++, and Python 3. Appropriate
+  templates are selected based on the presence of sample input in the problem
+  statement.
 
 This task expects a single command-line argument to be passed in the form of
 the problem's ID. For example:
@@ -107,6 +108,7 @@ Running "init-solution:1" (init-solution) task
 >> Created input.txt in: src/easy/fizz-buzz
 >> Created solution.c in: src/easy/fizz-buzz/solutions/c
 >> Created solution.cpp in: src/easy/fizz-buzz/solutions/c++
+>> Created solution.py in: src/easy/fizz-buzz/solutions/python
 
 Done, without errors.
 ```
@@ -164,8 +166,8 @@ Running "watch:1:c++" (watch) task
 
 Any compilation errors and/or warnings will appear above the first fold.
 
-C and C++ are supported out of the box. Support for additional languages may be
-added by modifying this task's settings in: `./gruntfile.js`.
+C, C++, and Python 3 are supported out of the box. Support for additional
+languages may be added by modifying this task's settings in: `./gruntfile.js`.
 
 <sup>* This task is currently not cross-platform friendly.</sup>
 
@@ -181,6 +183,11 @@ $ gcc -std=c99 -Wall -Wextra -pedantic -O1 -o solution solution.c -lm
 #### C++11
 ```bash
 $ g++ -std=c++11 -Wall -Wextra -pedantic -O1 -o solution solution.cpp -lm
+```
+
+#### Python 3
+```bash
+$ python3 ./solution.py
 ```
 
 

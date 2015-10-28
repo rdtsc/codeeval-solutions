@@ -42,6 +42,12 @@ module.exports = function(grunt)
             {
               args: './tools/templates/c++/main-args.cpp',
               argless: './tools/templates/c++/main.cpp'
+            },
+
+            python:
+            {
+              args: './tools/templates/python/main-args.py',
+              argless: './tools/templates/python/main.py'
             }
           }
         }
@@ -87,6 +93,15 @@ module.exports = function(grunt)
               'solution.cpp -lm'
             ].join(' '),
             run: './solution'
+          },
+
+          'python':
+          {
+            sourceName: 'solution.py',
+            binaryName: null,
+            inputFile: '../../input.txt',
+            compile: false,
+            run: 'python3 ./solution.py'
           }
         }
       }

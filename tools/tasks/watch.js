@@ -107,55 +107,93 @@ module.exports = function(grunt)
 
     var spinner = new spin();
 
-    fs.watchFile(solutionFile, {interval: config.pollingInterval}, function()
+    if(language.compile)
     {
-      if(!!config.clearScreen) grunt.log.write("\u001bc");
-
-      var execOptions = {cwd: solutionDir};
-
-      var separator = Array((process.stdout.columns || 80) + 1).join('-');
-
-      spinner.message('Compiling...');
-      spinner.start();
-
-      exec(language.compile, execOptions, function(error, stdout, stderr)
+      fs.watchFile(solutionFile, {interval: config.pollingInterval}, function()
       {
-        spinner.stop();
+        if(!!config.clearScreen) grunt.log.write("\u001bc");
 
-        if(stdout || stderr)
+        var execOptions = {cwd: solutionDir};
+
+        var separator = Array((process.stdout.columns || 80) + 1).join('-');
+
+        spinner.message('Compiling...');
+        spinner.start();
+
+        exec(language.compile, execOptions, function(error, stdout, stderr)
         {
-          if(!config.clearScreen) grunt.log.writeln(separator);
-          if(stdout) grunt.log.error(stdout);
-          if(stderr) grunt.log.error(stderr);
-        }
+          spinner.stop();
 
-        if(!error)
-        {
-          spinner.message('Executing...');
-          spinner.start();
-
-          exec(runCommand, execOptions, function(error, stdout, stderr)
+          if(stdout || stderr)
           {
-            spinner.stop();
+            if(!config.clearScreen) grunt.log.writeln(separator);
+            if(stdout) grunt.log.error(stdout);
+            if(stderr) grunt.log.error(stderr);
+          }
 
-            if(stdout)
+          if(!error)
+          {
+            spinner.message('Executing...');
+            spinner.start();
+
+            exec(runCommand, execOptions, function(error, stdout, stderr)
             {
-              grunt.log.writeln(separator);
-              grunt.log.write(stdout);
-            }
+              spinner.stop();
 
-            if(stderr)
-            {
-              grunt.log.writeln(separator);
-              grunt.log.error(stderr);
-            }
+              if(stdout)
+              {
+                grunt.log.writeln(separator);
+                grunt.log.write(stdout);
+              }
 
-            grunt.log.write('\n\n');
+              if(stderr)
+              {
+                grunt.log.writeln(separator);
+                grunt.log.error(stderr);
+              }
 
-            fs.unlinkSync(path.join(solutionDir, language.binaryName));
-          });
-        }
+              grunt.log.write('\n\n');
+
+              fs.unlinkSync(path.join(solutionDir, language.binaryName));
+            });
+          }
+        });
       });
-    });
+    }
+
+    // TODO: Remove code duplication.
+    else
+    {
+      fs.watchFile(solutionFile, {interval: config.pollingInterval}, function()
+      {
+        if(!!config.clearScreen) grunt.log.write("\u001bc");
+
+        var execOptions = {cwd: solutionDir};
+
+        var separator = Array((process.stdout.columns || 80) + 1).join('-');
+
+        spinner.message('Executing...');
+        spinner.start();
+
+        exec(runCommand, execOptions, function(error, stdout, stderr)
+        {
+          spinner.stop();
+
+          if(stdout)
+          {
+            grunt.log.writeln(separator);
+            grunt.log.write(stdout);
+          }
+
+          if(stderr)
+          {
+            grunt.log.writeln(separator);
+            grunt.log.error(stderr);
+          }
+
+          grunt.log.write('\n\n');
+        });
+      });
+    }
   });
 };
