@@ -82,12 +82,27 @@ module.exports = function(grunt)
 
     var runCommand = (function()
     {
+      var command = (function()
+      {
+        var inputFile =
+          path.join(process.cwd(), solutionDir, language.inputFile);
+
+        if(grunt.file.exists(inputFile))
+        {
+          return util.format('%s %s < %s', language.run,
+                                           language.inputFile,
+                                           language.inputFile);
+        }
+
+        return language.run;
+      })();
+
       if(!!config.measureTime)
       {
-        return util.format('/bin/bash -c "time %s"', language.run);
+        return util.format('/bin/bash -c "time %s"', command);
       }
 
-      return language.run;
+      return command;
     })();
 
     var spinner = new spin();

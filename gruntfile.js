@@ -63,6 +63,7 @@ module.exports = function(grunt)
           {
             sourceName: 'solution.c',
             binaryName: 'solution',
+            inputFile: '../../input.txt',
             compile:
             [
               'gcc -std=c99',
@@ -70,18 +71,14 @@ module.exports = function(grunt)
               '-O1 -o solution',
               'solution.c -lm'
             ].join(' '),
-            run:
-            [
-              '[ ! -f ../../input.txt ]',
-              '&& ./solution',
-              '|| ./solution ../../input.txt < ../../input.txt'
-            ].join(' ')
+            run: './solution'
           },
 
           'c++':
           {
             sourceName: 'solution.cpp',
             binaryName: 'solution',
+            inputFile: '../../input.txt',
             compile:
             [
               'g++ -std=c++11',
@@ -89,12 +86,7 @@ module.exports = function(grunt)
               '-O1 -o solution',
               'solution.cpp -lm'
             ].join(' '),
-            run:
-            [
-              '[ ! -f ../../input.txt ]',
-              '&& ./solution',
-              '|| ./solution ../../input.txt < ../../input.txt'
-            ].join(' ')
+            run: './solution'
           }
         }
       }
