@@ -173,7 +173,7 @@ languages may be added by modifying this task's settings in: `./gruntfile.js`.
 
 ### Testing
 
-As per CodeEval's setup, use at least GCC 4.8.1.
+As per CodeEval's setup, use at least GCC 4.8.1 and Python 3.2.3.
 
 #### C99
 ```bash
