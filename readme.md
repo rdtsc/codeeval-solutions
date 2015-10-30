@@ -143,7 +143,7 @@ detected*:
 - Remove the generated binary, if any.
 
 This task expects two command-line arguments to be passed in the form of the
-problem's ID and target language as displayed in the target's "solutions"
+problem's ID and target language as displayed in the target's `solutions`
 directory. For example:
 
 ```text
