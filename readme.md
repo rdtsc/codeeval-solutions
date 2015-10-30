@@ -140,7 +140,7 @@ detected*:
 - Display any compilation or interpreter errors and bail, or;
 - Execute the generated binary, if any, against the problem's sample input.
 - Report execution time.
-- Remove the generated binary, if applicable.
+- Remove the generated binary, if any.
 
 This task expects two command-line arguments to be passed in the form of the
 problem's ID and target language as displayed in the target's "solutions"
