@@ -3,9 +3,10 @@
 #include <iostream>
 #include <limits>
 
-template<typename T> static bool extractFrom(std::istream& inputStream,
-                                             const char delimiter,
-                                             T& value)
+template<typename T>
+static bool extractFrom(std::istream& inputStream,
+                        const char delimiter,
+                        T& value)
 {
   static constexpr auto ignoreLimit =
     std::numeric_limits<std::streamsize>::max();
