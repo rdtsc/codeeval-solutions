@@ -78,11 +78,9 @@ user's password: password
 Done, without errors.
 ```
 
-<sup>
-* CodeEval supports 3rd-party authentication via Facebook and GitHub,
+<sup>* CodeEval supports 3rd-party authentication via Facebook and GitHub,
 though neither of these authentication methods are currently supported by this
-task.
-</sup>
+task.</sup>
 
 #### Task: `init-solution`
 
@@ -174,9 +172,7 @@ first fold.
 C99, C++11, and Python 3 are supported out of the box. Support for additional
 languages may be added by modifying this task's settings in: `./gruntfile.js`.
 
-<sup>
-* This task is currently not cross-platform friendly.
-</sup>
+<sup>* This task is currently not cross-platform friendly.</sup>
 
 ### Testing
 
