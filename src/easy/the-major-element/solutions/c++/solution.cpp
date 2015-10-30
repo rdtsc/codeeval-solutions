@@ -21,7 +21,7 @@ int main(const int argc, const char* const argv[])
     unsigned count[101] = {};
     std::size_t termCount = 0;
 
-    // Count term occurances.
+    // Count term occurrences.
     {
       std::size_t term = 0;
 

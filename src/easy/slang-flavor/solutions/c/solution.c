@@ -44,7 +44,7 @@ int main(const int argc, const char* const argv[])
 
         else putchar(*c);
 
-        // Every other occurance of the above should be replaced.
+        // Every other occurrence of the above should be replaced.
         shouldInjectSlang = !shouldInjectSlang;
       }
 

@@ -42,7 +42,7 @@ int main(const int argc, const char* const argv[])
 
       else std::cout << c;
 
-      // Every other occurance of the above should be replaced.
+      // Every other occurrence of the above should be replaced.
       shouldInjectSlang = !shouldInjectSlang;
     }
 
