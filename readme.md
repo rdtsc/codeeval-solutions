@@ -6,7 +6,8 @@ problems.
 CodeEval takes execution speed and memory consumption into account (albeit
 incorrectly at the time of this writing) when calculating ranking points.
 C and C++ are therefore my languages of choice on this platform as they
-generally yield the highest scores.
+generally yield the highest scores. Python is used here and there, mainly
+for practice.
 
 It is strongly encouraged that you do not view my solutions unless you've
 already solved the relevant problems yourself.
@@ -77,9 +78,11 @@ user's password: password
 Done, without errors.
 ```
 
-<sup>* CodeEval supports 3rd-party authentication via Facebook and GitHub,
+<sup>
+* CodeEval supports 3rd-party authentication via Facebook and GitHub,
 though neither of these authentication methods are currently supported by this
-task.</sup>
+task.
+</sup>
 
 #### Task: `init-solution`
 
@@ -91,7 +94,7 @@ boilerplates which currently include the following actions:
   and a link to the official problem statement.
 - Creation of the problem's metadata in YAML.
 - Scraping of sample input from the problem statement page, if applicable.
-- Creation of skeleton solution files in C, C++, and Python 3. Appropriate
+- Creation of skeleton solution files in C99, C++11, and Python 3. Appropriate
   templates are selected based on the presence of sample input in the problem
   statement.
 
@@ -113,7 +116,7 @@ Running "init-solution:1" (init-solution) task
 Done, without errors.
 ```
 
-Problem IDs can be found in the problem statement page's URL.
+Problem IDs may be found in the problem statement page's URL.
 For example, the [Fizz Buzz][ce-1] challenge has the following URL:
 `https://www.codeeval.com/browse/1/` -- its ID is therefore: `1`.
 
@@ -123,10 +126,10 @@ Alternatively, you may simply reference the problem metadata cache located in:
 Also note the following:
 
 - Scraping of sample input is done on-demand and therefore requires an active
-  internet connection.
+  Internet connection.
 - Credentials are *not* required to run this task as the problem statement
   pages are publicly accessible.
-- Solution templates can be configured by modifying this task's settings in:
+- Solution templates may be configured by modifying this task's settings in:
   `./gruntfile.js`.
 
 #### Task: `watch`
@@ -135,20 +138,21 @@ The `watch` task is able to watch a specific solution file for changes and
 automatically perform the following series of actions when a change is
 detected*:
 
-- Compile the solution.
-- Display any compilation errors and bail, or;
-- Execute the generated binary against the problem's sample input.
+- Compile the solution, if applicable.
+- Display any compilation or interpreter errors and bail, or;
+- Execute the generated binary, if any, against the problem's sample input.
 - Report execution time.
-- Remove the generated binary.
+- Remove the generated binary, if applicable.
 
 This task expects two command-line arguments to be passed in the form of the
-problem's ID and target language. For example:
+problem's ID and target language as displayed in the target's "solutions"
+directory. For example:
 
 ```text
 $ grunt watch:1:c++
 
 Running "watch:1:c++" (watch) task
-# Make changes to ./src/easy/fizz-buzz/solutions/c++/solution.cpp
+# Make changes to ./src/easy/fizz-buzz/solutions/c++/solution.cpp...
 
 * Compiling...
 * Executing...
@@ -164,12 +168,15 @@ Running "watch:1:c++" (watch) task
 # Send a SIGINT to terminate the task, as it runs forever by default.
 ```
 
-Any compilation errors and/or warnings will appear above the first fold.
+Any compilation or interpreter errors and/or warnings will appear above the
+first fold.
 
-C, C++, and Python 3 are supported out of the box. Support for additional
+C99, C++11, and Python 3 are supported out of the box. Support for additional
 languages may be added by modifying this task's settings in: `./gruntfile.js`.
 
-<sup>* This task is currently not cross-platform friendly.</sup>
+<sup>
+* This task is currently not cross-platform friendly.
+</sup>
 
 ### Testing
 
