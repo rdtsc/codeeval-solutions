@@ -1312,5 +1312,11 @@
     "name": "The Tourist",
     "summary": "Find the shortest route between cities.",
     "category": "hard"
+  },
+  {
+    "id": "220",
+    "name": "Trick or Treat",
+    "summary": "Count all candies.",
+    "category": "easy"
   }
 ]
