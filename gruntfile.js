@@ -95,7 +95,7 @@ module.exports = function(grunt)
             run: './solution'
           },
 
-          'python':
+          python:
           {
             sourceName: 'solution.py',
             binaryName: null,
