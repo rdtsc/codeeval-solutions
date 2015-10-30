@@ -166,8 +166,8 @@ Running "watch:1:c++" (watch) task
 # Send a SIGINT to terminate the task, as it runs forever by default.
 ```
 
-Any compilation or interpreter errors and/or warnings will appear above the
-first fold.
+Any compilation/interpreter errors and/or warnings will appear above the first
+fold.
 
 C99, C++11, and Python 3 are supported out of the box. Support for additional
 languages may be added by modifying this task's settings in: `./gruntfile.js`.
