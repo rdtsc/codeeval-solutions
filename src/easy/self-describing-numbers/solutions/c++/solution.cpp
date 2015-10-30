@@ -9,16 +9,16 @@ template<typename T> static bool isSelfDescribing(T n)
   static_assert(std::is_integral<T>::value, "T should be an integral type.");
   assert(n > 0);
 
-  char digitOccurances[10] = {};
+  char digitOccurrences[10] = {};
 
   // Build the digit frequency map.
-  for(T i = n; i; i /= 10) ++digitOccurances[i % 10];
+  for(T i = n; i; i /= 10) ++digitOccurrences[i % 10];
 
   // Iterate through the digits RTL.
   for(T i = ::log10(n); n; n /= 10)
   {
     // Digit position should correspond to the digit count.
-    if(digitOccurances[i--] != n % 10) return false;
+    if(digitOccurrences[i--] != n % 10) return false;
   }
 
   return true;

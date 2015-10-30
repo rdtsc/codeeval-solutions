@@ -22,7 +22,7 @@ int main(const int argc, const char* const argv[])
   for(char lineBuffer[16] = "";
       fgets(lineBuffer, sizeof lineBuffer, inputStream);)
   {
-    char digitOccurances[10] = {0};
+    char digitOccurrences[10] = {0};
     size_t digitCount = 0;
 
     // Build the digit frequency map.
@@ -30,13 +30,13 @@ int main(const int argc, const char* const argv[])
     {
       assert(isdigit(*c));
 
-      ++digitOccurances[(size_t)(*c -= '0')];
+      ++digitOccurrences[(size_t)(*c -= '0')];
     }
 
     for(size_t i = 0; i < digitCount; ++i)
     {
       // Digit position should correspond to the digit count.
-      if(digitOccurances[i] != lineBuffer[i])
+      if(digitOccurrences[i] != lineBuffer[i])
       {
         *lineBuffer = '\0';
         break;
