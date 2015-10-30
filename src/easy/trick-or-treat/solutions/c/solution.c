@@ -20,8 +20,9 @@ int main(const int argc, const char* const argv[])
   static const char* const scanFormat =
     "%*[^:]:%u%*[^:]:%u%*[^:]:%u%*[^:]:%u";
 
-  for(unsigned v = 0, z = 0, w = 0, h = 0;
-      fscanf(inputStream, scanFormat, &v, &z, &w, &h) == 4;)
+  unsigned v = 0, z = 0, w = 0, h = 0;
+
+  while(fscanf(inputStream, scanFormat, &v, &z, &w, &h) == 4)
   {
     const unsigned take = v * 3 + // Vampires.
                           z * 4 + // Zombies.
