@@ -6,8 +6,8 @@ problems.
 CodeEval takes execution speed and memory consumption into account (albeit
 incorrectly at the time of this writing) when calculating ranking points.
 C and C++ are therefore my languages of choice on this platform as they
-generally yield the highest scores. Python is used here and there, mainly
-for practice.
+generally yield the highest scores. Additionally, Python is used here and
+there, mainly for practice.
 
 It is strongly encouraged that you do not view my solutions unless you've
 already solved the relevant problems yourself.
