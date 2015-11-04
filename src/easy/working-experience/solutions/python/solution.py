@@ -14,9 +14,7 @@ def getEpochOffset(monthYear):
     'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12
   }[month.lower()]
 
-  year = int(year)
-
-  return (year - EPOCH_YEAR) * 12 + month
+  return (int(year) - EPOCH_YEAR) * 12 + month
 
 for line in (line.rstrip() for line in sys.stdin):
   experience = [False] * ((2020 - EPOCH_YEAR) * 12)
