@@ -31,14 +31,14 @@ template<typename T> class Node
 
     for(const auto& child : node.children)
     {
-      std::cout << (isParent ? " [" : ", ");
+      outputStream << (isParent ? " [" : ", ");
 
       isParent = false;
 
       outputStream << *child;
     }
 
-    if(!isParent) std::cout << ']';
+    if(!isParent) outputStream << ']';
 
     return outputStream;
   }
