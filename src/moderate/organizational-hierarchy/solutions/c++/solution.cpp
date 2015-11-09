@@ -31,11 +31,9 @@ template<typename T> class Node
 
     for(const auto& child : node.children)
     {
-      outputStream << (isParent ? " [" : ", ");
+      outputStream << (isParent ? " [" : ", ") << *child;
 
       isParent = false;
-
-      outputStream << *child;
     }
 
     if(!isParent) outputStream << ']';
