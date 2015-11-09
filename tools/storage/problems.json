@@ -1318,5 +1318,11 @@
     "name": "Trick or Treat",
     "summary": "Count all candies.",
     "category": "easy"
+  },
+  {
+    "id": "221",
+    "name": "Organizational Hierarchy",
+    "summary": "Recreate the hierarchy tree.",
+    "category": "moderate"
   }
 ]
