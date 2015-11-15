@@ -24,9 +24,8 @@ int main(const int argc, const char* const argv[])
   for(char lineBuffer[128] = "";
       fgets(lineBuffer, sizeof lineBuffer, inputStream);)
   {
-    char* players[16] = {NULL};
+    const char* players[16] = {NULL};
     size_t playerCount = 0;
-
     unsigned target = 0;
 
     // Fetch (zero-based) black card index.
@@ -46,7 +45,7 @@ int main(const int argc, const char* const argv[])
     }
 
     // Fetch player names.
-    for(char* cursor = strtok(lineBuffer, " ");
+    for(const char* cursor = strtok(lineBuffer, " ");
         cursor; cursor = strtok(NULL, " "))
     {
       assert(playerCount < (sizeof players / sizeof *players));
