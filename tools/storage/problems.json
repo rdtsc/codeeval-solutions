@@ -1324,5 +1324,11 @@
     "name": "Organizational Hierarchy",
     "summary": "Recreate the hierarchy tree.",
     "category": "moderate"
+  },
+  {
+    "id": "222",
+    "name": "Black card",
+    "summary": "Find the winner.",
+    "category": "easy"
   }
 ]
