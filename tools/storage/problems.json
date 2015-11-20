@@ -1330,5 +1330,11 @@
     "name": "Black card",
     "summary": "Find the winner.",
     "category": "easy"
+  },
+  {
+    "id": "223",
+    "name": "Alternative reality",
+    "summary": "Count all alternative ways.",
+    "category": "moderate"
   }
 ]
