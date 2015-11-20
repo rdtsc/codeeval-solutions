@@ -11,7 +11,7 @@ static constexpr unsigned getCombinationCount(const int value,
                                               const std::size_t index = Size)
 {
   #define SELF(Value, Index) \
-    getCombinationCount((Value), denominations, (Index))
+    ::getCombinationCount((Value), denominations, (Index))
 
   #define LHS() SELF(value, (index - 1))
   #define RHS() SELF((value - denominations[index - 1]), index)
@@ -25,9 +25,9 @@ static constexpr unsigned getCombinationCount(const int value,
 
 static constexpr unsigned denominations[] = {1, 5, 10, 25, 50};
 
-static constexpr unsigned operator"" _(const unsigned long long n)
+static constexpr unsigned operator"" _(const unsigned long long index)
 {
-  return ::getCombinationCount(n, denominations);
+  return ::getCombinationCount(index, denominations);
 }
 
 int main(const int argc, const char* const argv[])
