@@ -13,14 +13,11 @@ static constexpr unsigned getCombinationCount(const int value,
   #define SELF(Value, Index) \
     getCombinationCount((Value), denominations, (Index))
 
-  #define LHS SELF(value, (index - 1))
-  #define RHS SELF((value - denominations[index - 1]), index)
+  #define LHS() SELF(value, (index - 1))
+  #define RHS() SELF((value - denominations[index - 1]), index)
 
-  #define NEXT (LHS + RHS)
+  return ((value <= 0) || !index) ? (!value) : (LHS() + RHS());
 
-  return ((value <= 0) || !index) ? (!value) : (NEXT);
-
-  #undef NEXT
   #undef RHS
   #undef LHS
   #undef SELF
@@ -49,32 +46,31 @@ int main(const int argc, const char* const argv[])
       from decimal import Decimal
 
       for i in range(1, 101):
-        end = ', ' if i % 5 else ',\n'
-        print(('V({:.1e})'.format(Decimal(i))).replace('+', ''), end=end)
+        print('V(0x{:02X})'.format(i), end=', ' if i % 5 else ',\n')
     */
 
     #define V(Value) ::getCombinationCount((Value), denominations)
 
-    V(1.0e0), V(2.0e0), V(3.0e0), V(4.0e0), V(5.0e0),
-    V(6.0e0), V(7.0e0), V(8.0e0), V(9.0e0), V(1.0e1),
-    V(1.1e1), V(1.2e1), V(1.3e1), V(1.4e1), V(1.5e1),
-    V(1.6e1), V(1.7e1), V(1.8e1), V(1.9e1), V(2.0e1),
-    V(2.1e1), V(2.2e1), V(2.3e1), V(2.4e1), V(2.5e1),
-    V(2.6e1), V(2.7e1), V(2.8e1), V(2.9e1), V(3.0e1),
-    V(3.1e1), V(3.2e1), V(3.3e1), V(3.4e1), V(3.5e1),
-    V(3.6e1), V(3.7e1), V(3.8e1), V(3.9e1), V(4.0e1),
-    V(4.1e1), V(4.2e1), V(4.3e1), V(4.4e1), V(4.5e1),
-    V(4.6e1), V(4.7e1), V(4.8e1), V(4.9e1), V(5.0e1),
-    V(5.1e1), V(5.2e1), V(5.3e1), V(5.4e1), V(5.5e1),
-    V(5.6e1), V(5.7e1), V(5.8e1), V(5.9e1), V(6.0e1),
-    V(6.1e1), V(6.2e1), V(6.3e1), V(6.4e1), V(6.5e1),
-    V(6.6e1), V(6.7e1), V(6.8e1), V(6.9e1), V(7.0e1),
-    V(7.1e1), V(7.2e1), V(7.3e1), V(7.4e1), V(7.5e1),
-    V(7.6e1), V(7.7e1), V(7.8e1), V(7.9e1), V(8.0e1),
-    V(8.1e1), V(8.2e1), V(8.3e1), V(8.4e1), V(8.5e1),
-    V(8.6e1), V(8.7e1), V(8.8e1), V(8.9e1), V(9.0e1),
-    V(9.1e1), V(9.2e1), V(9.3e1), V(9.4e1), V(9.5e1),
-    V(9.6e1), V(9.7e1), V(9.8e1), V(9.9e1), V(1.0e2)
+    V(0x01), V(0x02), V(0x03), V(0x04), V(0x05),
+    V(0x06), V(0x07), V(0x08), V(0x09), V(0x0A),
+    V(0x0B), V(0x0C), V(0x0D), V(0x0E), V(0x0F),
+    V(0x10), V(0x11), V(0x12), V(0x13), V(0x14),
+    V(0x15), V(0x16), V(0x17), V(0x18), V(0x19),
+    V(0x1A), V(0x1B), V(0x1C), V(0x1D), V(0x1E),
+    V(0x1F), V(0x20), V(0x21), V(0x22), V(0x23),
+    V(0x24), V(0x25), V(0x26), V(0x27), V(0x28),
+    V(0x29), V(0x2A), V(0x2B), V(0x2C), V(0x2D),
+    V(0x2E), V(0x2F), V(0x30), V(0x31), V(0x32),
+    V(0x33), V(0x34), V(0x35), V(0x36), V(0x37),
+    V(0x38), V(0x39), V(0x3A), V(0x3B), V(0x3C),
+    V(0x3D), V(0x3E), V(0x3F), V(0x40), V(0x41),
+    V(0x42), V(0x43), V(0x44), V(0x45), V(0x46),
+    V(0x47), V(0x48), V(0x49), V(0x4A), V(0x4B),
+    V(0x4C), V(0x4D), V(0x4E), V(0x4F), V(0x50),
+    V(0x51), V(0x52), V(0x53), V(0x54), V(0x55),
+    V(0x56), V(0x57), V(0x58), V(0x59), V(0x5A),
+    V(0x5B), V(0x5C), V(0x5D), V(0x5E), V(0x5F),
+    V(0x60), V(0x61), V(0x62), V(0x63), V(0x64),
 
     #undef V
   };
