@@ -1336,5 +1336,11 @@
     "name": "Alternative reality",
     "summary": "Count all alternative ways.",
     "category": "moderate"
+  },
+  {
+    "id": "224",
+    "name": "Prisoner or Citizen",
+    "summary": "In jail or at large?",
+    "category": "hard"
   }
 ]
