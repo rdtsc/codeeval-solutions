@@ -28,7 +28,7 @@ template<typename T> struct Point2d
     for(std::size_t i = 0, j = (pointCount - 1); i < pointCount; j = i++)
     {
       // Points on the perimeter are considered to be inside the polygon.
-      if(this->isOnSegment(outline[i], outline[j])) return true;
+      if(this->onSegment(outline[i], outline[j])) return true;
 
       const float x1 = outline[i].x, y1 = outline[i].y,
                   x2 = outline[j].x, y2 = outline[j].y;
@@ -48,7 +48,7 @@ template<typename T> struct Point2d
     return (intersections & 1);
   }
 
-  bool isOnSegment(const Point2d& a, const Point2d& b) const
+  bool onSegment(const Point2d& a, const Point2d& b) const
   {
     const auto& c = *this;
 
