@@ -118,7 +118,7 @@ template<typename T> struct Snapshot
     // As per the problem statement, 0° azimuth is equivalent to the +Y axis.
     for(auto& azimuth : snapshot.angles)
     {
-      azimuth = (-azimuth + 90) * radians;
+      azimuth = (90 - azimuth) * radians;
     }
 
     return inputStream;
