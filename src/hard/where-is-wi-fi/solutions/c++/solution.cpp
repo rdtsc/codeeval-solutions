@@ -10,12 +10,33 @@
 #include <type_traits>
 #include <vector>
 
+template<typename T> struct Point;
+
+template<typename T> using Polygon = std::vector<Point<T>>;
+
+template<typename T> std::istream& operator>>(std::istream& inputStream,
+                                              Polygon<T>& polygon)
+{
+  polygon.clear();
+
+  for(typename Polygon<T>::value_type point; inputStream >> point;)
+  {
+    polygon.emplace_back(point);
+
+    const auto peek = inputStream.peek();
+
+    if(peek == '\n' || peek == EOF) break;
+  }
+
+  return inputStream;
+}
+
 template<typename T> struct Point
 {
   Point() : x(), y() {}
   Point(const T& x, const T& y) : x(x), y(y) {}
 
-  bool inPolygon(const std::vector<Point>& bounds) const
+  bool inPolygon(const Polygon<T>& bounds) const
   {
     const auto pointCount = bounds.size();
 
@@ -60,25 +81,6 @@ template<typename T> struct Point
 
   T x, y;
 };
-
-template<typename T> using Polygon = std::vector<Point<T>>;
-
-template<typename T> std::istream& operator>>(std::istream& inputStream,
-                                              Polygon<T>& polygon)
-{
-  polygon.clear();
-
-  for(typename Polygon<T>::value_type point; inputStream >> point;)
-  {
-    polygon.emplace_back(point);
-
-    const auto peek = inputStream.peek();
-
-    if(peek == '\n' || peek == EOF) break;
-  }
-
-  return inputStream;
-}
 
 template<typename T> struct Building
 {
