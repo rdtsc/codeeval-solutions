@@ -46,11 +46,11 @@ template<typename T> struct Point
 
   bool operator<(const Point& other) const
   {
-    const auto& x0 = this->x, & y0 = this->y,
-              & x1 = other.x, & y1 = other.y;
+    const auto& x1 = this->x, & y1 = this->y,
+              & x2 = other.x, & y2 = other.y;
 
     // A la std::pair.
-    return ((x0 < x1) || (!(x1 < x0) && (y0 < y1)));
+    return ((x1 < x2) || (!(x2 < x1) && (y1 < y2)));
   }
 
   friend std::istream& operator>>(std::istream& inputStream, Point& point)
@@ -130,8 +130,8 @@ template<typename T> struct Snapshot
 
 template<typename T> struct Segment
 {
-  Segment(const T& x0, const T& y0, const T& x1, const T& y1) :
-    a(x0, y0), b(x1, y1) {}
+  Segment(const T& x1, const T& y1, const T& x2, const T& y2) :
+    a(x1, y1), b(x2, y2) {}
 
   bool intersects(const Segment& other) const
   {
@@ -217,17 +217,17 @@ template<typename T> struct SiteSurvey
     // Create signal return segments.
     for(const auto& snapshot : site.snapshots)
     {
-      const auto& x0 = snapshot.position.x,
-                & y0 = snapshot.position.y;
+      const auto& x1 = snapshot.position.x,
+                & y1 = snapshot.position.y;
 
       for(const auto& angle : snapshot.angles)
       {
         static constexpr T segmentLength = 1e3;
 
-        const auto x1 = (x0 + (segmentLength * std::cos(angle))),
-                   y1 = (y0 + (segmentLength * std::sin(angle)));
+        const auto x2 = (x1 + (segmentLength * std::cos(angle))),
+                   y2 = (y1 + (segmentLength * std::sin(angle)));
 
-        segments.emplace_back(x0, y0, x1, y1);
+        segments.emplace_back(x1, y1, x2, y2);
       }
     }
 
