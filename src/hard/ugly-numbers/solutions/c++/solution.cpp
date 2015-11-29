@@ -91,7 +91,7 @@ int main(const int argc, const char* const argv[])
     assert(!line.empty() && (line.size() < 14));
     assert(std::all_of(line.cbegin(), line.cend(), ::isdigit));
 
-    // There are floor(log10(n))) slots to insert operators.
+    // There are floor(log10(n)) slots to insert operators.
     const std::size_t operatorCount = (line.size() - 1);
 
     // Add spaces between digits to make room for operators; "123" -> "1 2 3".
