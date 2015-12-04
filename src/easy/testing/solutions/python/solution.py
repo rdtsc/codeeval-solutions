@@ -9,10 +9,7 @@ classify = lambda n: 'Done'     if n == 0 else \
                      'Critical'
 
 for line in (line.rstrip() for line in sys.stdin):
-  (lhs, rhs) = line.split('|')
-
-  lhs = lhs.rstrip()
-  rhs = rhs.lstrip()
+  (lhs, rhs) = line.split(' | ')
 
   mistakes = sum(lhs[i] != rhs[i] for i in range(min(len(lhs), len(rhs))))
 
