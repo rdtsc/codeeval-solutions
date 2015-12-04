@@ -1342,5 +1342,11 @@
     "name": "Prisoner or Citizen",
     "summary": "In jail or at large?",
     "category": "hard"
+  },
+  {
+    "id": "225",
+    "name": "Testing",
+    "summary": "Wanna try to be a tester?",
+    "category": "easy"
   }
 ]
