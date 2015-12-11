@@ -24,10 +24,7 @@ int main(const int argc, const char* const argv[])
   for(std::string line; std::getline(inputStream, line);)
   {
     // As per the problem statement.
-    assert(std::all_of(line.cbegin(), line.cend(), [](const char c)
-    {
-      return ::isalpha(c) && ::islower(c);
-    }));
+    assert(std::all_of(line.cbegin(), line.cend(), ::islower));
 
     decode(line);
 
