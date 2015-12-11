@@ -21,8 +21,10 @@ int main(const int argc, const char* const argv[])
   for(char lineBuffer[256] = "";
       fgets(lineBuffer, sizeof lineBuffer, inputStream);)
   {
-    for(char* c = lineBuffer; *c; ++c) if(islower(*c))
+    for(char* c = lineBuffer; *c && *c != '\n'; ++c)
     {
+      assert(islower(*c));
+
       *c = "uvwxyznopqrstghijklmabcdef"[*c - 'a'];
     }
 

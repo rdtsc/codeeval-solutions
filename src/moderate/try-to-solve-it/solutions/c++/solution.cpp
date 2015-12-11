@@ -16,17 +16,14 @@ int main(const int argc, const char* const argv[])
 
   assert(inputStream && "Failed to open input stream.");
 
-  const auto decode = [](std::string& message)
-  {
-    for(char& c : message) c = "uvwxyznopqrstghijklmabcdef"[c - 'a'];
-  };
-
   for(std::string line; std::getline(inputStream, line);)
   {
-    // As per the problem statement.
-    assert(std::all_of(line.cbegin(), line.cend(), ::islower));
+    std::transform(line.begin(), line.end(), line.begin(), [](const char c)
+    {
+      assert(::islower(c));
 
-    decode(line);
+      return "uvwxyznopqrstghijklmabcdef"[c - 'a'];
+    });
 
     std::cout << line << '\n';
   }
