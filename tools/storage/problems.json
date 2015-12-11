@@ -1348,5 +1348,11 @@
     "name": "Testing",
     "summary": "Wanna try to be a tester?",
     "category": "easy"
+  },
+  {
+    "id": "226",
+    "name": "Try to solve it",
+    "summary": "How good decoder are you?",
+    "category": "moderate"
   }
 ]
