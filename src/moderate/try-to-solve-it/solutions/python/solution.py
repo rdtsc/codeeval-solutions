@@ -5,4 +5,4 @@ import string
 
 mapping = str.maketrans(string.ascii_lowercase, 'uvwxyznopqrstghijklmabcdef')
 
-print(*(line.rstrip().translate(mapping) for line in sys.stdin), sep='\n')
+print(sys.stdin.read().translate(mapping))
