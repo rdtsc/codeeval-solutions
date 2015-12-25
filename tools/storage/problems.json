@@ -1360,5 +1360,11 @@
     "name": "Real fake",
     "summary": "Check credit card numbers.",
     "category": "easy"
+  },
+  {
+    "id": "228",
+    "name": "To PI or not to PI",
+    "summary": "Print a PI number.",
+    "category": "moderate"
   }
 ]
