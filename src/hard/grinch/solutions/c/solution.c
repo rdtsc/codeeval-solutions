@@ -173,10 +173,10 @@ int main(const int argc, const char* const argv[])
       };
     }
 
+    assert(edgeCount > 1);
+
     // Account for the the trailing source/destination edge pair.
     --edgeCount;
-
-    assert(edgeCount);
 
     // Source/destination edge pair will have no weight.
     assert(!edges[edgeCount].w);
