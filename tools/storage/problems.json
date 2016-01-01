@@ -1366,5 +1366,11 @@
     "name": "To PI or not to PI",
     "summary": "Print a PI number.",
     "category": "moderate"
+  },
+  {
+    "id": "229",
+    "name": "Grinch",
+    "summary": "Help Grinch to find the shortest way.",
+    "category": "hard"
   }
 ]
