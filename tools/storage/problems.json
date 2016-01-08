@@ -1372,5 +1372,11 @@
     "name": "Grinch",
     "summary": "Help Grinch to find the shortest way.",
     "category": "hard"
+  },
+  {
+    "id": "230",
+    "name": "Football",
+    "summary": "Find countries that are football fans.",
+    "category": "easy"
   }
 ]
