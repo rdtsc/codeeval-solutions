@@ -175,7 +175,7 @@ int main(const int argc, const char* const argv[])
 
   for(Itinerary<unsigned> itinerary; inputStream >> itinerary;)
   {
-    const auto pathLength  = itinerary.getLength();
+    const auto pathLength = itinerary.getLength();
 
     if(pathLength == decltype(itinerary)::unreachable)
     {
