@@ -9,7 +9,7 @@
 #define BASE_TYPE long double
 #define BASE_TYPE_FORMAT "Lf"
 
-typedef struct Symbol
+typedef struct
 {
   int type;
   const char* name;
