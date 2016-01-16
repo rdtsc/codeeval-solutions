@@ -2,5 +2,6 @@
 
 import sys
 
-for line in (line.rstrip() for line in sys.stdin):
-  pass
+with open(sys.argv[1]) as file:
+  for line in (line.rstrip() for line in file):
+    pass
