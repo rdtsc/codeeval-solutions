@@ -89,9 +89,7 @@ module.exports = function(grunt)
 
         if(grunt.file.exists(inputFile))
         {
-          return util.format('%s %s < %s', language.run,
-                                           language.inputFile,
-                                           language.inputFile);
+          return util.format('%s %s', language.run, language.inputFile);
         }
 
         return language.run;

@@ -181,19 +181,19 @@ As per CodeEval's setup, use at least GCC 4.8.4 and Python 3.4.3.
 #### C99
 ```bash
 $ gcc -std=c99 -Wall -Wextra -pedantic -O1 -o solution solution.c -lm
-$ [ ! -f input.txt ] && ./solution || ./solution input.txt < input.txt
+$ [ ! -f input.txt ] && ./solution || ./solution input.txt
 ```
 
 #### C++11
 ```bash
 $ g++ -std=c++11 -Wall -Wextra -pedantic -O1 -o solution solution.cpp -lm
-$ [ ! -f input.txt ] && ./solution || ./solution input.txt < input.txt
+$ [ ! -f input.txt ] && ./solution || ./solution input.txt
 ```
 
 #### Python 3
 ```bash
 $ chmod u+x ./solution.py
-$ [ ! -f input.txt ] && ./solution.py || ./solution.py input.txt < input.txt
+$ [ ! -f input.txt ] && ./solution.py || ./solution.py input.txt
 ```
 
 
