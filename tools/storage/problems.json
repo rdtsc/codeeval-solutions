@@ -1378,5 +1378,11 @@
     "name": "Football",
     "summary": "Find countries that are football fans.",
     "category": "easy"
+  },
+  {
+    "id": "231",
+    "name": "Meet Cocktail sort",
+    "summary": "Learn more about cocktail sort algorithm.",
+    "category": "moderate"
   }
 ]
