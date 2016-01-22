@@ -1384,5 +1384,11 @@
     "name": "Meet Cocktail sort",
     "summary": "Learn more about cocktail sort algorithm.",
     "category": "moderate"
+  },
+  {
+    "id": "232",
+    "name": "Not so clever",
+    "summary": "Simplicity is not always good.",
+    "category": "easy"
   }
 ]
