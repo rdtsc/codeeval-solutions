@@ -1386,9 +1386,21 @@
     "category": "moderate"
   },
   {
+    "id": "232",
+    "name": "Not so clever",
+    "summary": "Simplicity is not always good.",
+    "category": "easy"
+  },
+  {
     "id": "233",
     "name": "Meet Comb sort",
     "summary": "Learn more about the comb sort algorithm.",
     "category": "moderate"
+  },
+  {
+    "id": "234",
+    "name": "Code like Huffman",
+    "summary": "Learn more about Huffman's tree.",
+    "category": "hard"
   }
 ]
