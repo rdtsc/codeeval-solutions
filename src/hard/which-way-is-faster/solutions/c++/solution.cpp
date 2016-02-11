@@ -9,21 +9,11 @@
 #include <type_traits>
 #include <vector>
 
-template<typename T> struct Cell
-{
-  Cell(const T& x, const T& y) : x(x), y(y) {}
-
-  bool operator==(const Cell& other) const
-  {
-    return (this->x == other.x) && (this->y == other.y);
-  }
-
-  T x, y;
-};
-
 template<typename T> class World
 {
   private: static_assert(std::is_signed<T>::value, "T must be a signed type.");
+
+  private: struct Cell;
 
   public: unsigned getShortestRouteLength() const
   {
@@ -100,15 +90,15 @@ template<typename T> class World
   }
 
   private: std::vector<std::vector<T>>
-    getDistances(const Cell<T>& source) const
+    getDistances(const Cell& source) const
   {
     const std::size_t worldWidth = this->cells.size();
 
     // Table representing cell distances to the source.
     auto result = [&]
     {
-      std::vector<std::vector<T>> result(worldWidth,
-                                         std::vector<T>(worldWidth));
+      std::vector<std::vector<T>>
+        result(worldWidth, std::vector<T>(worldWidth));
 
       for(auto& slice : result) for(auto& cell : slice)
       {
@@ -147,7 +137,7 @@ template<typename T> class World
       if((this->cells[y][x] != '*') || (result[y][x] > 0)) return false;
 
       // Guard source.
-      if(source == Cell<T>(x, y)) return false;
+      if(source == Cell(x, y)) return false;
 
       return true;
     };
@@ -158,7 +148,7 @@ template<typename T> class World
       {0, +1}, {+1, 0}  // Down, Left.
     };
 
-    std::queue<Cell<T>> search;
+    std::queue<Cell> search;
 
     // Populate the distance table via BFS.
     for(search.emplace(source); !search.empty();)
@@ -248,8 +238,20 @@ template<typename T> class World
     return inputStream;
   }
 
+  private: struct Cell
+  {
+    Cell(const T& x, const T& y) : x(x), y(y) {}
+
+    bool operator==(const Cell& other) const
+    {
+      return (this->x == other.x) && (this->y == other.y);
+    }
+
+    T x, y;
+  };
+
   private: std::vector<std::string> cells;
-  private: std::vector<Cell<T>> goals, ports;
+  private: std::vector<Cell> goals, ports;
 };
 
 int main(const int argc, const char* const argv[])
