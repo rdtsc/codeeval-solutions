@@ -57,10 +57,10 @@ template<typename T> class World
     const auto& goalA = this->goals[0], goalB = this->goals[1],
                 portA = this->ports[0], portB = this->ports[1];
 
-    const auto earth = this->getDistances(goalA),
-               water = this->getDistances(portA);
+    const auto earth = this->getDistances(goalA);
 
-    const auto trivialPathLength = (earth[goalB.y][goalB.x] * earthCellCost);
+    const auto trivialPathLength =
+      (earth[goalB.y][goalB.x] * earthCellCost);
 
     const auto complexPathLength = [&]
     {
@@ -76,12 +76,10 @@ template<typename T> class World
       // Port A -> Port B.
       const auto legB = [&]
       {
-        const auto lhs = water[portA.y][portA.x],
-                   rhs = water[portB.y][portB.x];
+        const auto water = this->getDistances(portA);
+        const auto distance = water[portB.y][portB.x];
 
-        const auto delta = ((lhs > rhs) ? (lhs - rhs) : (rhs - lhs));
-
-        return ((delta * waterCellCost) + (portCellCost * 2));
+        return ((distance * waterCellCost) + (portCellCost * 2));
       }();
 
       // Goal B -> (Closest) Port.
@@ -101,7 +99,8 @@ template<typename T> class World
     return std::min(trivialPathLength, complexPathLength);
   }
 
-  private: std::vector<std::vector<T>> getDistances(const Cell<T>& source) const
+  private: std::vector<std::vector<T>>
+    getDistances(const Cell<T>& source) const
   {
     const std::size_t worldWidth = this->cells.size();
 
