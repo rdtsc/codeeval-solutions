@@ -1402,5 +1402,11 @@
     "name": "Code like Huffman",
     "summary": "Learn more about Huffman's tree.",
     "category": "hard"
+  },
+  {
+    "id": "235",
+    "name": "Simple or trump",
+    "summary": "Check which card is higher.",
+    "category": "easy"
   }
 ]
