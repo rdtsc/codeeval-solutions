@@ -1408,5 +1408,11 @@
     "name": "Simple or trump",
     "summary": "Check which card is higher.",
     "category": "easy"
+  },
+  {
+    "id": "236",
+    "name": "Beat or bit",
+    "summary": "Learn more about the Gray code algorithm.",
+    "category": "moderate"
   }
 ]
