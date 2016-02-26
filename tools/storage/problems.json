@@ -1414,5 +1414,11 @@
     "name": "Beat or bit",
     "summary": "Learn more about the Gray code algorithm.",
     "category": "moderate"
+  },
+  {
+    "id": "237",
+    "name": "Panacea - truth or lie",
+    "summary": "Check whether the virus was stopped by antivirus.",
+    "category": "easy"
   }
 ]
