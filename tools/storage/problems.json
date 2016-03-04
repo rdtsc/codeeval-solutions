@@ -1420,5 +1420,11 @@
     "name": "Panacea - truth or lie",
     "summary": "Check whether the virus was stopped by antivirus.",
     "category": "easy"
+  },
+  {
+    "id": "238",
+    "name": "Code combinations",
+    "summary": "Check whether you can make words from the given letters.",
+    "category": "moderate"
   }
 ]
