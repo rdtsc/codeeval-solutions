@@ -7,7 +7,7 @@ for line in (line.rstrip() for line in sys.stdin):
 
   bearing = []
 
-  if(y0 != y1): bearing.append('S' if y0 > y1 else 'N')
-  if(x0 != x1): bearing.append('W' if x0 > x1 else 'E')
+  if y0 != y1: bearing.append('S' if y0 > y1 else 'N')
+  if x0 != x1: bearing.append('W' if x0 > x1 else 'E')
 
   print(''.join(bearing) if bearing else 'here')
