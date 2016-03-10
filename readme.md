@@ -6,8 +6,8 @@ problems.
 CodeEval takes execution speed and memory consumption into account (albeit
 incorrectly at the time of this writing) when calculating ranking points.
 C and C++ are therefore my languages of choice on this platform as they
-generally yield the highest scores. Additionally, Python is used here and
-there, mainly for practice.
+generally yield the highest scores. Additionally, JavaScript and Python are
+used here and there, mainly for practice.
 
 It is strongly encouraged that you do not view my solutions unless you've
 already solved the relevant problems yourself.
@@ -92,9 +92,9 @@ boilerplates which currently include the following actions:
   and a link to the official problem statement.
 - Creation of the problem's metadata in YAML.
 - Scraping of sample input from the problem statement page, if applicable.
-- Creation of skeleton solution files in C99, C++11, and Python 3. Appropriate
-  templates are selected based on the presence of sample input in the problem
-  statement.
+- Creation of skeleton solution files in C99, C++11, JavaScript, and Python 3.
+  Appropriate templates are selected based on the presence of sample input in
+  the problem statement.
 
 This task expects a single command-line argument to be passed in the form of
 the problem's ID. For example:
@@ -109,6 +109,7 @@ Running "init-solution:1" (init-solution) task
 >> Created input.txt in: src/easy/fizz-buzz
 >> Created solution.c in: src/easy/fizz-buzz/solutions/c
 >> Created solution.cpp in: src/easy/fizz-buzz/solutions/c++
+>> Created solution.py in: src/easy/fizz-buzz/solutions/javascript
 >> Created solution.py in: src/easy/fizz-buzz/solutions/python
 
 Done, without errors.
@@ -169,14 +170,16 @@ Running "watch:1:c++" (watch) task
 Any compilation/interpreter errors and/or warnings will appear above the first
 fold.
 
-C99, C++11, and Python 3 are supported out of the box. Support for additional
-languages may be added by modifying this task's settings in: `./gruntfile.js`.
+C99, C++11, JavaScript, and Python 3 are supported out of the box. Support for
+additional languages may be added by modifying this task's settings in:
+`./gruntfile.js`.
 
 <sup>* This task is currently not cross-platform friendly.</sup>
 
 ### Testing
 
-As per CodeEval's setup, use at least GCC 4.8.4 and Python 3.4.3.
+As per CodeEval's setup, use at least GCC 4.8.4, Node.js 5.5.0, and
+Python 3.4.3.
 
 #### C99
 ```bash
@@ -188,6 +191,12 @@ $ [ ! -f input.txt ] && ./solution || ./solution input.txt
 ```bash
 $ g++ -std=c++11 -Wall -Wextra -pedantic -O1 -o solution solution.cpp -lm
 $ [ ! -f input.txt ] && ./solution || ./solution input.txt
+```
+
+#### JavaScript
+```bash
+$ chmod u+x ./solution.js
+$ [ ! -f input.txt ] && ./solution.js || ./solution.js input.txt
 ```
 
 #### Python 3

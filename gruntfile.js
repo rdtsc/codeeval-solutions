@@ -44,6 +44,12 @@ module.exports = function(grunt)
               argless: './tools/templates/c++/main.cpp'
             },
 
+            javascript:
+            {
+              args: './tools/templates/javascript/main-args.js',
+              argless: './tools/templates/javascript/main.js'
+            },
+
             python:
             {
               args: './tools/templates/python/main-args.py',
@@ -93,6 +99,15 @@ module.exports = function(grunt)
               'solution.cpp -lm'
             ].join(' '),
             run: './solution'
+          },
+
+          javascript:
+          {
+            sourceName: 'solution.js',
+            binaryName: null,
+            inputFile: '../../input.txt',
+            compile: false,
+            run: 'node ./solution.js'
           },
 
           python:
