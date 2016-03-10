@@ -18,7 +18,6 @@ lineReader.on('line', (line) =>
 
   for(let i = 1; i < line.length; ++i)
   {
-
     distances.push(line[i] - line[i - 1]);
   }
 
