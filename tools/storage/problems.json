@@ -1426,5 +1426,11 @@
     "name": "Code combinations",
     "summary": "Check whether you can make words from the given letters.",
     "category": "moderate"
+  },
+  {
+    "id": "239",
+    "name": "As quick as a flash",
+    "summary": "Learn more about the quick sort algorithm.",
+    "category": "hard"
   }
 ]
