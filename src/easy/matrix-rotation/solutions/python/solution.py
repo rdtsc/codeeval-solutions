@@ -5,7 +5,6 @@ import math
 
 for line in (line.rstrip() for line in sys.stdin):
   source = line.split()
-  rotated = []
 
   elementCount = len(source)
   width = int(math.sqrt(elementCount))
