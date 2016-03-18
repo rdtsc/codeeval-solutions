@@ -1432,5 +1432,11 @@
     "name": "As quick as a flash",
     "summary": "Learn more about the quick sort algorithm.",
     "category": "hard"
+  },
+  {
+    "id": "240",
+    "name": "Mersenne prime",
+    "summary": "Find all Mersenne numbers smaller than n.",
+    "category": "easy"
   }
 ]
