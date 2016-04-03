@@ -103,12 +103,17 @@ module.exports = function(grunt)
       return command;
     })();
 
+    var inProgress = false;
     var spinner = new spin();
 
     if(language.compile)
     {
       fs.watchFile(solutionFile, {interval: config.pollingInterval}, function()
       {
+        if(inProgress) return;
+
+        inProgress = true;
+
         if(!!config.clearScreen) grunt.log.write("\u001bc");
 
         var execOptions = {cwd: solutionDir};
@@ -137,6 +142,7 @@ module.exports = function(grunt)
             exec(runCommand, execOptions, function(error, stdout, stderr)
             {
               spinner.stop();
+              inProgress = false;
 
               if(stdout)
               {
@@ -164,6 +170,10 @@ module.exports = function(grunt)
     {
       fs.watchFile(solutionFile, {interval: config.pollingInterval}, function()
       {
+        if(inProgress) return;
+
+        inProgress = true;
+
         if(!!config.clearScreen) grunt.log.write("\u001bc");
 
         var execOptions = {cwd: solutionDir};
@@ -176,6 +186,7 @@ module.exports = function(grunt)
         exec(runCommand, execOptions, function(error, stdout, stderr)
         {
           spinner.stop();
+          inProgress = false;
 
           if(stdout)
           {
