@@ -134,7 +134,9 @@ module.exports = function(grunt)
             if(stderr) grunt.log.error(stderr);
           }
 
-          if(!error)
+          if(error) inProgress = false;
+
+          else
           {
             spinner.message('Executing...');
             spinner.start();
