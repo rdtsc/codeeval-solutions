@@ -91,6 +91,19 @@ int main(const int argc, const char* const argv[])
     assert(!line.empty() && (line.size() < 14));
     assert(std::all_of(line.cbegin(), line.cend(), ::isdigit));
 
+    // Get the number of leading zeros.
+    const auto paddingOffset = [&]() -> unsigned
+    {
+      const auto result = line.find_first_not_of('0');
+
+      if(result == std::string::npos) return 0;
+
+      return result;
+    }();
+
+    // Remove leading zeros to speed things up.
+    line = line.substr(paddingOffset);
+
     // There are floor(log10(n)) slots to insert operators.
     const std::size_t operatorCount = (line.size() - 1);
 
@@ -123,6 +136,7 @@ int main(const int argc, const char* const argv[])
       uglyExpressionCount += ::isUgly(::evaluate<std::int_least64_t>(line));
     }
 
-    std::cout << uglyExpressionCount << '\n';
+    // Account for any expressions resulting from removed leading zeros.
+    std::cout << (uglyExpressionCount * std::pow(3, paddingOffset)) << '\n';
   }
 }
