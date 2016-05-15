@@ -206,7 +206,7 @@ template<typename T> class MazeSolver
   {
     for(const auto& slice : maze.slices)
     {
-      std::cout << slice << '\n';
+      outputStream << slice << '\n';
     }
 
     return outputStream;
