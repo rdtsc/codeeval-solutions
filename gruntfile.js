@@ -54,6 +54,12 @@ module.exports = function(grunt)
             {
               args: './tools/templates/python/main-args.py',
               argless: './tools/templates/python/main.py'
+            },
+
+            php:
+            {
+              args: './tools/templates/php/main-args.php',
+              argless: './tools/templates/php/main.php'
             }
           }
         }
@@ -117,6 +123,15 @@ module.exports = function(grunt)
             inputFile: '../../input.txt',
             compile: false,
             run: 'python3 ./solution.py'
+          },
+
+          php:
+          {
+            sourceName: 'solution.php',
+            binaryName: null,
+            inputFile: '../../input.txt',
+            compile: false,
+            run: 'php ./solution.php'
           }
         }
       }
