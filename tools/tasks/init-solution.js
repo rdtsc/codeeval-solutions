@@ -15,7 +15,7 @@ module.exports = function(grunt)
   require('./lib/capitalize');
   require('./lib/full-stop');
 
-  grunt.registerTask('init-solution', function(problemId)
+  grunt.registerTask('init-solution', function(problemId, solutionLanguage)
   {
     this.requiresConfig([this.name, 'config', 'sourcePath']);
     this.requiresConfig([this.name, 'config', 'problemListPath']);
@@ -44,6 +44,16 @@ module.exports = function(grunt)
     {
       grunt.fatal('Local problem list not found. ' +
                   'Try running `grunt update-problem-list` first!');
+    }
+
+    // Ensure the provided solution language, if any, actually exists
+    // in the Grunt config.
+    else if(!(solutionLanguage in config.files.languages))
+    {
+      if(typeof solutionLanguage !== 'undefined')
+      {
+        grunt.fatal('Specified language config not found in the Grunt file.');
+      }
     }
 
     var problem = grunt.file.readJSON(config.problemListPath).find(function(obj)
@@ -146,7 +156,15 @@ module.exports = function(grunt)
     // Make solution templates.
     function makeSolutionTemplates(problemHasInput)
     {
-      for(var language in config.files.languages)
+      var languages = config.files.languages;
+
+      if(typeof solutionLanguage !== 'undefined')
+      {
+        languages = {};
+        languages[solutionLanguage] = true;
+      }
+
+      for(var language in languages)
       {
         var filename = 'solution' +
                        path.extname(config.files.languages[language].argless);
