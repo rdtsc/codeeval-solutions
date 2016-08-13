@@ -7,7 +7,7 @@ $inputFile->setFlags(SplFileObject::READ_AHEAD |
                      SplFileObject::SKIP_EMPTY |
                      SplFileObject::DROP_NEW_LINE);
 
-foreach($inputFile as $n => $l)
+foreach($inputFile as $line)
 {
 
 }
