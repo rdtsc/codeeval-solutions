@@ -50,16 +50,16 @@ module.exports = function(grunt)
               argless: './tools/templates/javascript/main.js'
             },
 
-            python:
-            {
-              args: './tools/templates/python/main-args.py',
-              argless: './tools/templates/python/main.py'
-            },
-
             php:
             {
               args: './tools/templates/php/main-args.php',
               argless: './tools/templates/php/main.php'
+            },
+
+            python:
+            {
+              args: './tools/templates/python/main-args.py',
+              argless: './tools/templates/python/main.py'
             }
           }
         }
@@ -116,15 +116,6 @@ module.exports = function(grunt)
             run: 'node ./solution.js'
           },
 
-          python:
-          {
-            sourceName: 'solution.py',
-            binaryName: null,
-            inputFile: '../../input.txt',
-            compile: false,
-            run: 'python3 ./solution.py'
-          },
-
           php:
           {
             sourceName: 'solution.php',
@@ -132,6 +123,15 @@ module.exports = function(grunt)
             inputFile: '../../input.txt',
             compile: false,
             run: 'php ./solution.php'
+          },
+
+          python:
+          {
+            sourceName: 'solution.py',
+            binaryName: null,
+            inputFile: '../../input.txt',
+            compile: false,
+            run: 'python3 ./solution.py'
           }
         }
       }
