@@ -12,7 +12,7 @@ module.exports = function(grunt)
         listPath: '/open_challenges/',
         storage:
         {
-          path: './tools/storage/problems.json',
+          path: './storage/problems.json',
           humanFriendly: true
         }
       }
@@ -23,7 +23,7 @@ module.exports = function(grunt)
       config:
       {
         sourcePath: './src/',
-        problemListPath: './tools/storage/problems.json',
+        problemListPath: './storage/problems.json',
         problemUrlFormat: 'https://www.codeeval.com/browse/%s/',
         files:
         {
@@ -71,7 +71,7 @@ module.exports = function(grunt)
       config:
       {
         sourcePath: './src/',
-        problemListPath: './tools/storage/problems.json',
+        problemListPath: './storage/problems.json',
         pollingInterval: 500,
         clearScreen: true,
         measureTime: true,
