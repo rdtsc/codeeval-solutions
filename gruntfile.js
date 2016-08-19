@@ -138,5 +138,5 @@ module.exports = function(grunt)
     }
   });
 
-  grunt.loadTasks('./tools/tasks');
+  grunt.loadTasks('./tasks');
 };
