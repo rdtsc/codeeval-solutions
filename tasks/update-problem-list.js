@@ -36,8 +36,9 @@ module.exports = function(grunt)
           username: username,
           password: readline.question(username + "'s password: ",
           {
-            noTrim: true,
-            noEchoBack: true
+            mask: '',
+            keepWhitespace: true,
+            hideEchoBack: true
           })
         }
       };
