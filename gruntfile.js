@@ -34,32 +34,32 @@ module.exports = function(grunt)
           {
             c:
             {
-              args: './tools/templates/c/main-args.c',
-              argless: './tools/templates/c/main.c'
+              args: './templates/c/main-args.c',
+              argless: './templates/c/main.c'
             },
 
             'c++':
             {
-              args: './tools/templates/c++/main-args.cpp',
-              argless: './tools/templates/c++/main.cpp'
+              args: './templates/c++/main-args.cpp',
+              argless: './templates/c++/main.cpp'
             },
 
             javascript:
             {
-              args: './tools/templates/javascript/main-args.js',
-              argless: './tools/templates/javascript/main.js'
+              args: './templates/javascript/main-args.js',
+              argless: './templates/javascript/main.js'
             },
 
             php:
             {
-              args: './tools/templates/php/main-args.php',
-              argless: './tools/templates/php/main.php'
+              args: './templates/php/main-args.php',
+              argless: './templates/php/main.php'
             },
 
             python:
             {
-              args: './tools/templates/python/main-args.py',
-              argless: './tools/templates/python/main.py'
+              args: './templates/python/main-args.py',
+              argless: './templates/python/main.py'
             }
           }
         }
