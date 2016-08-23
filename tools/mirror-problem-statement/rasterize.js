@@ -17,8 +17,7 @@ if(sys.args.length < 3)
 
 page.paperSize =
 {
-  format: 'Letter',
-  orientation: 'portrait',
+  format: 'Tabloid',
   margin: '10mm'
 };
 
