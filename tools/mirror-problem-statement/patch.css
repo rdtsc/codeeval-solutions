@@ -49,6 +49,12 @@ p, pre
   margin: 1.5em auto;
 }
 
+img
+{
+  display: block;
+  margin: 1.5em 0 0;
+}
+
 pre
 {
   padding: 15px;
