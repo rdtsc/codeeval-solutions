@@ -1,0 +1,58 @@
+html, body
+{
+  zoom: 0.78125;
+  background: transparent;
+}
+
+#main-navigation,
+#header,
+#fdbk_tab,
+#footer,
+#main header,
+.backtolist,
+h3 + img,
+#map-canvas,
+[title="Login"]
+{
+  display: none;
+}
+
+#container
+{
+  margin: 0;
+  border: none;
+  background: transparent;
+}
+
+.browse-challenge-page .inner
+{
+  width: auto;
+}
+
+#ce-content
+{
+  padding: 0;
+}
+
+.public_content
+{
+  width: 100%;
+}
+
+h3
+{
+  margin-top: 2em;
+}
+
+p
+{
+  margin-bottom: 1.5em;
+}
+
+pre
+{
+  padding: 15px;
+  border: 1px solid #ccc;
+  background: transparent;
+  page-break-inside: avoid;
+}

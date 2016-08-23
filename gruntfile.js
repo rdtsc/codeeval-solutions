@@ -25,11 +25,13 @@ module.exports = function(grunt)
         sourcePath: './src/',
         problemListPath: './storage/problems.json',
         problemUrlFormat: 'https://www.codeeval.com/browse/%s/',
+        problemUrlFormatAlt: 'https://www.codeeval.com/public_sc/%s/',
         files:
         {
           meta: 'meta.yaml',
           input: 'input.txt',
           readme: 'readme.md',
+          mirror: 'readme.pdf',
           languages:
           {
             c:

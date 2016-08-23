@@ -106,6 +106,7 @@ Running "init-solution:1" (init-solution) task
 >> Created "solutions" directory in: src/easy/fizz-buzz
 >> Created meta.yaml in: src/easy/fizz-buzz
 >> Created readme.md in: src/easy/fizz-buzz
+>> Created readme.pdf in: src/easy/fizz-buzz
 >> Created input.txt in: src/easy/fizz-buzz
 >> Created solution.c in: src/easy/fizz-buzz/solutions/c
 >> Created solution.cpp in: src/easy/fizz-buzz/solutions/c++

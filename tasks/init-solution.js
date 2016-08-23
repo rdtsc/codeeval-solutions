@@ -2,13 +2,15 @@ module.exports = function(grunt)
 {
   'use strict';
 
-  var path    = require('path');
-  var util    = require('util');
-  var request = require('request');
-  var cheerio = require('cheerio');
-  var yaml    = require('js-yaml');
-  var slug    = require('slug');
-  var wrap    = require('word-wrap');
+  var path     = require('path');
+  var util     = require('util');
+  var execFile = require('child_process').execFileSync;
+  var request  = require('request');
+  var cheerio  = require('cheerio');
+  var phantom  = require('phantomjs-prebuilt').path;
+  var yaml     = require('js-yaml');
+  var slug     = require('slug');
+  var wrap     = require('word-wrap');
 
   require('array.prototype.find');
   require('./lib/to-title-case');
@@ -23,6 +25,7 @@ module.exports = function(grunt)
     this.requiresConfig([this.name, 'config', 'files', 'input']);
     this.requiresConfig([this.name, 'config', 'files', 'meta']);
     this.requiresConfig([this.name, 'config', 'files', 'readme']);
+    this.requiresConfig([this.name, 'config', 'files', 'mirror']);
 
     var config = grunt.config([this.name, 'config']);
 
@@ -75,6 +78,7 @@ module.exports = function(grunt)
     {
       meta:      path.join(solutionDir, config.files.meta),
       readme:    path.join(solutionDir, config.files.readme),
+      mirror:    path.join(solutionDir, config.files.mirror),
       input:     path.join(solutionDir, config.files.input),
       solutions: path.join(solutionDir, 'solutions')
     };
@@ -151,6 +155,38 @@ module.exports = function(grunt)
 
       grunt.file.write(paths.readme, readme);
       grunt.log.ok('Created ' + config.files.readme + ' in: ' + solutionDir);
+    })();
+
+    // Mirror problem statement.
+    (function()
+    {
+      if(!grunt.option('overwrite') && grunt.file.isFile(paths.mirror))
+      {
+        grunt.log.writeln('Skipped ' + config.files.mirror +
+                          ' -- already exists in: ' + solutionDir);
+
+        return;
+      }
+
+      try
+      {
+        var job =
+        [
+          './tools/mirror-problem-statement/rasterize.js',
+          util.format(config.problemUrlFormatAlt, problemId),
+          path.resolve(paths.mirror)
+        ];
+
+        execFile(phantom, job);
+
+        grunt.log.ok('Created ' + config.files.mirror + ' in: ' + solutionDir);
+      }
+
+      catch(error)
+      {
+        grunt.fatal('Failed to mirror problem statement; ' +
+                    'rasterizer return code -> ' + error.status);
+      }
     })();
 
     // Make solution templates.
