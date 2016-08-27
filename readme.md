@@ -96,7 +96,7 @@ boilerplates which currently include the following actions:
   Python 3. Appropriate templates are selected based on the presence of sample
   input in the problem statement.
 
-This task expects a single command-line argument to be passed in the form of
+This task requires a single command-line argument to be passed in the form of
 the problem's ID. For example:
 
 ```text
@@ -116,6 +116,28 @@ Running "init-solution:1" (init-solution) task
 
 Done, without errors.
 ```
+
+In addition, an optional language key argument may be passed to the task which
+will only create a solution template in the specified language. Existing
+solutions for the specified problem in other languages are left untouched. For
+example:
+
+```text
+$ grunt init-solution:1:c++
+
+Running "init-solution:1:c++" (init-solution) task
+>> Created "solutions" directory in: src/easy/fizz-buzz
+>> Created meta.yaml in: src/easy/fizz-buzz
+>> Created readme.md in: src/easy/fizz-buzz
+>> Created readme.pdf in: src/easy/fizz-buzz
+>> Created input.txt in: src/easy/fizz-buzz
+>> Created solution.cpp in: src/easy/fizz-buzz/solutions/c++
+
+Done, without errors.
+```
+
+A list of valid solution language keys may be found in this task's settings,
+located in: `./gruntfile.js` under the `init-solution` key.
 
 Problem IDs may be found in the problem statement page's URL.
 For example, the [Fizz Buzz][ce-1] challenge has the following URL:
