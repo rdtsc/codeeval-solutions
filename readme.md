@@ -137,14 +137,14 @@ Done, without errors.
 ```
 
 A list of valid solution language keys may be found in this task's settings,
-located in: `./gruntfile.js` under the `init-solution` key.
+located in: `./gruntfile.js`, under the `init-solution` key.
 
 Problem IDs may be found in the problem statement page's URL.
 For example, the [Fizz Buzz][ce-1] challenge has the following URL:
 `https://www.codeeval.com/browse/1/` -- its ID is therefore: `1`.
 
 Alternatively, you may simply reference the problem metadata cache located in:
-`./tools/storage/problems.json`
+`./tools/storage/problems.json`.
 
 Also note the following:
 
@@ -203,7 +203,7 @@ for additional languages may be added by modifying this task's settings in:
 ### Testing
 
 As per CodeEval's setup, use at least GCC 4.8.4, Node.js 5.5.0, PHP 5.6.19,
-and Python 3.4.3.
+and Python 3.4.3, in a Linux environment.
 
 #### C99
 ```bash
@@ -234,6 +234,7 @@ $ [ ! -f input.txt ] && ./solution.php || ./solution.php input.txt
 $ chmod u+x ./solution.py
 $ [ ! -f input.txt ] && ./solution.py || ./solution.py input.txt
 ```
+
 
 ## License and Copyright
 
