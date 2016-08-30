@@ -16,7 +16,7 @@ const char Decode<Bytes...>::message[sizeof...(Bytes) + 1] =
 
     2. a) Transform: /(\w)(\w)/ -> "$1 $2\n"
        b) Sort lines
-       c) Transfrom: /\w\s(\w)/ -> "\U$1"
+       c) Transform: /\w\s(\w)/ -> "\U$1"
 
        Transform A   ->   Transform B   ->   Transform C
        -----------        -----------        -----------
