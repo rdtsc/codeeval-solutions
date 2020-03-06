@@ -1,9 +1,9 @@
 {
   "name": "code-eval-solutions",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
-  "dependencies":
-  {
+  "license": "MIT",
+  "devDependencies": {
     "grunt": "~0.4.5",
     "request": "~2.53.0",
     "cheerio": "~0.18.0",
