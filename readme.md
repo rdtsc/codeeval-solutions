@@ -1,19 +1,23 @@
-# CodeEval Solutions
+# CodeEval (Defunct) Solutions
 
-This repository houses my personal solutions to [CodeEval][ce]'s public
-problems.
+**As of 2018-02-12, [CodeEval][ce] has ceased operations. This repository houses
+an archive of relevant helper tools and my ancient solutions to all 239
+interactive challenges that once lived on the platform.**
+
+A mirror of the platform's entire public problem set (sans solutions/tools) is
+available in [this repository][ce-mirror].
+
+
+## Background
+
+It is strongly encouraged that you do not view my solutions unless you've
+already solved the relevant problems yourself.
 
 CodeEval takes execution speed and memory consumption into account (albeit
 incorrectly at the time of this writing) when calculating ranking points.
 C and C++ are therefore my languages of choice on this platform as they
 generally yield the highest scores. Additionally, JavaScript, PHP, and Python
 are used here and there, mainly for practice.
-
-It is strongly encouraged that you do not view my solutions unless you've
-already solved the relevant problems yourself.
-
-
-## Background
 
 CodeEval adds a new challenge to one of the following categories once a week:
 
@@ -25,14 +29,38 @@ This typically happens on Fridays during what appears to be Central European
 business hours. These base categories are mirrored in the `./src/` directory
 and house all my submitted solutions.
 
+In practice, achieving a perfect score was not possible because a solution would
+have to consume no memory and have an infinite speed of execution. Therefore,
+the provided solutions in C and C++ almost always favor speed/leanness over
+readability in the interest of accumulating maximum points. An attainable
+"perfect" solution would yield the following scores by CodeEval's judge:
+
+- **34.998** points for challenges in the *easy* category
+- **64.996** points for challenges in the *moderate* category
+- **99.994** points for challenges in the *hard* category
+
+The maximum attainable account score, therefore, would have been
+`(34.998 * 82) + (64.996 * 81) + (99.994 * 76)` = **15,734.056** points at the
+time of this writing.
+
+Various patches were applied (pre-flight) to the C and C++ solutions which
+resulted in the accumulation of an almost perfect account score of
+**15,734.013** points across all 239 challenges.
+
+Some had to do with implementing fast challenge-specific I/O and aggressive
+memory management, while others exploited discovered bugs in the instrumentation
+framework and the platform's test harness which tricked the judge into awarding
+nearly maximum points, even for solutions with sub-optimal time/space
+complexity.
+
 
 ## Development
 
 ### Basic Setup
 
 ```text
-$ git clone https://github.com/rdtsc/code-eval-solutions
-$ cd code-eval-solutions/
+$ git clone https://github.com/rdtsc/codeeval-solutions
+$ cd codeeval-solutions
 $ sudo npm install grunt-cli -g
 $ npm install
 ```
@@ -245,14 +273,17 @@ All referenced product names, trademarks, and logos are property of their
 respective owners.
 
 
-[ce]:     https://www.codeeval.com/
-          "CodeEval - Coding Challenges for the World's Best Developers"
+[ce]:        https://www.codeeval.com/
+             "CodeEval - Coding Challenges for the World's Best Developers"
 
-[ce-1]:   https://www.codeeval.com/browse/1/
-          "CodeEval - Fizz Buzz Challenge"
+[ce-mirror]: https://github.com/rdtsc/codeeval-problem-statements/
+             "CodeEval Problem Statement Archive"
 
-[grunt]:  http://gruntjs.com/
-          "Grunt: The JavaScript Task Runner"
+[ce-1]:      src/easy/fizz-buzz/
+             "CodeEval - Fizz Buzz Challenge"
 
-[lic-me]: http://opensource.org/licenses/MIT/
-          "The MIT License (MIT)"
+[grunt]:     http://gruntjs.com/
+             "Grunt: The JavaScript Task Runner"
+
+[lic-me]:    http://opensource.org/licenses/MIT/
+             "The MIT License (MIT)"
