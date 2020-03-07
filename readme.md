@@ -70,11 +70,13 @@ $ npm install
 To keep things consistent, the following [Grunt][grunt] tasks are provided for
 automating solution testing and boilerplate creation.
 
-- `update-problem-list`
-- `init-solution`
-- `watch`
+- [~~update-problem-list~~](#task-update-problem-list)
+- [~~init-solution~~](#task-init-solution)
+- [watch](#task-watch)
 
-#### Task: `update-problem-list`
+#### Task: ~~`update-problem-list`~~
+
+**No longer applicable, CodeEval is gone**
 
 The `update-problem-list` task is responsible for caching basic problem
 metadata such as problem ID, URL, and brief description. Unfortunately, this
@@ -110,7 +112,9 @@ Done, without errors.
 though neither of these authentication methods are currently supported by this
 task.</sup>
 
-#### Task: `init-solution`
+#### Task: ~~`init-solution`~~
+
+**No longer applicable, CodeEval is gone**
 
 The `init-solution` task is responsible for creating challenge solution
 boilerplates which currently include the following actions:
@@ -228,7 +232,7 @@ for additional languages may be added by modifying this task's settings in:
 
 <sup>* This task is currently not cross-platform friendly.</sup>
 
-### Testing
+### Running Solutions
 
 As per CodeEval's setup, use at least GCC 4.8.4, Node.js 5.5.0, PHP 5.6.19,
 and Python 3.4.3, in a Linux environment.
