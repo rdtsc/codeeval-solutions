@@ -76,7 +76,7 @@ automating solution testing and boilerplate creation.
 
 #### Task: ~~`update-problem-list`~~
 
-**No longer applicable, CodeEval is gone**
+**No longer applicable, CodeEval is gone.**
 
 The `update-problem-list` task is responsible for caching basic problem
 metadata such as problem ID, URL, and brief description. Unfortunately, this
@@ -114,7 +114,7 @@ task.</sup>
 
 #### Task: ~~`init-solution`~~
 
-**No longer applicable, CodeEval is gone**
+**No longer applicable, CodeEval is gone.**
 
 The `init-solution` task is responsible for creating challenge solution
 boilerplates which currently include the following actions:
