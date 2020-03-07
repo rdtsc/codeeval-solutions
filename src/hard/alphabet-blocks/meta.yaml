@@ -3,3 +3,4 @@ name: Alphabet Blocks
 category: Hard
 summary: Forming words from alphabet blocks.
 url: "https://www.codeeval.com/browse/201/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/201-alphabet-blocks/"

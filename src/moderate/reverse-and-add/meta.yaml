@@ -3,3 +3,4 @@ name: Reverse and Add
 category: Moderate
 summary: Continually add a number to its reverse to arrive at a palindrome.
 url: https://www.codeeval.com/browse/45/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/045-reverse-and-add/"

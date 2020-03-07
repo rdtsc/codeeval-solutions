@@ -3,3 +3,4 @@ name: "Lakes, Not Cakes"
 category: Hard
 summary: Count all lakes.
 url: "https://www.codeeval.com/browse/213/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/213-lakes-not-cakes/"

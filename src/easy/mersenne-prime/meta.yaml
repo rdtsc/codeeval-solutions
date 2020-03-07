@@ -3,3 +3,4 @@ name: Mersenne Prime
 category: Easy
 summary: Find all Mersenne numbers smaller than n.
 url: "https://www.codeeval.com/browse/240/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/240-mersenne-prime/"

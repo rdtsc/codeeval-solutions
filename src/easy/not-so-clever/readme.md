@@ -1,11 +1,11 @@
-[Not So Clever][ce]
--------------------
+Not so clever
+-------------
 
 **Problem 232**
 
 > Simplicity is not always good.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/232/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/232-not-so-clever/
+          "View Problem Statement Mirror"

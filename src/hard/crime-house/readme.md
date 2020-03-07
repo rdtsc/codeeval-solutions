@@ -1,11 +1,11 @@
-[Crime House][ce]
------------------
+Crime House
+-----------
 
 **Problem 195**
 
 > Count criminals in the Crime House.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/195/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/195-crime-house/
+          "View Problem Statement Mirror"

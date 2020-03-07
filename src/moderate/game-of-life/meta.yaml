@@ -3,3 +3,4 @@ name: Game of Life
 category: Moderate
 summary: Implement the classical cellular automaton game.
 url: "https://www.codeeval.com/browse/161/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/161-game-of-life/"

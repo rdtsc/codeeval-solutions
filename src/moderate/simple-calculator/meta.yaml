@@ -3,3 +3,4 @@ name: Simple Calculator
 category: Moderate
 summary: Create a simple calculator.
 url: "https://www.codeeval.com/browse/94/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/094-simple-calculator/"

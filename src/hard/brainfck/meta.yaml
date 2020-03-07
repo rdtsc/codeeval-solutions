@@ -3,3 +3,4 @@ name: "Brainf*ck"
 category: Hard
 summary: Blow your mind.
 url: "https://www.codeeval.com/browse/210/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/210-brainfck/"

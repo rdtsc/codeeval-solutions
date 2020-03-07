@@ -1,11 +1,11 @@
-[Seek for an Intruder][ce]
---------------------------
+Seek for an Intruder
+--------------------
 
 **Problem 137**
 
 > Find the IP address of an intruder.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/137/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/137-seek-for-an-intruder/
+          "View Problem Statement Mirror"

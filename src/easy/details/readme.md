@@ -1,11 +1,11 @@
-[Details][ce]
--------------
+Details
+-------
 
 **Problem 183**
 
 > Determine how many cells will be shifted detail.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/183/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/183-details/
+          "View Problem Statement Mirror"

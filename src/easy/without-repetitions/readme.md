@@ -1,11 +1,11 @@
-[Without Repetitions][ce]
--------------------------
+Without Repetitions
+-------------------
 
 **Problem 173**
 
 > Delete characters that are consistently repeated.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/173/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/173-without-repetitions/
+          "View Problem Statement Mirror"

@@ -3,3 +3,4 @@ name: Read More
 category: Easy
 summary: Limit the length of the text.
 url: "https://www.codeeval.com/browse/167/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/167-read-more/"

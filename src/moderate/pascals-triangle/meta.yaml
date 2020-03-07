@@ -3,3 +3,4 @@ name: Pascals Triangle
 category: Moderate
 summary: Print out pascals triangle upto a certain depth.
 url: "https://www.codeeval.com/browse/66/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/066-pascals-triangle/"

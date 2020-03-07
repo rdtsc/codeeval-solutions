@@ -1,11 +1,11 @@
-[Split the Number][ce]
-----------------------
+Split The Number
+----------------
 
 **Problem 131**
 
 > Evaluate the number according to the pattern.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/131/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/131-split-the-number/
+          "View Problem Statement Mirror"

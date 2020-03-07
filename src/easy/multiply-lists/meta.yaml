@@ -3,3 +3,4 @@ name: Multiply Lists
 category: Easy
 summary: Multiply elements in 2 lists.
 url: "https://www.codeeval.com/browse/113/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/113-multiply-lists/"

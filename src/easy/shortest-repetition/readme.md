@@ -1,11 +1,11 @@
-[Shortest Repetition][ce]
--------------------------
+Shortest Repetition
+-------------------
 
 **Problem 107**
 
 > Find the shortest repetition in a string.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/107/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/107-shortest-repetition/
+          "View Problem Statement Mirror"

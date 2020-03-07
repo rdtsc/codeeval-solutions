@@ -3,3 +3,4 @@ name: Slang Flavor
 category: Easy
 summary: Add some slang to the text.
 url: https://www.codeeval.com/browse/174/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/174-slang-flavor/"

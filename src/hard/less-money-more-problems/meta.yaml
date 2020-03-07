@@ -3,3 +3,4 @@ name: "Less Money, More Problems"
 category: Hard
 summary: Help citizens by adding new coin denominations.
 url: "https://www.codeeval.com/browse/198/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/198-less-money-more-problems/"

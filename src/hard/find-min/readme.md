@@ -1,11 +1,11 @@
-[Find Min][ce]
---------------
+Find Min
+--------
 
 **Problem 85**
 
 > Facebook Hacker Cup 2013 problem.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/85/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/085-find-min/
+          "View Problem Statement Mirror"

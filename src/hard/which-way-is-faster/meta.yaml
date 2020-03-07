@@ -3,3 +3,4 @@ name: Which Way Is Faster?
 category: Hard
 summary: Find the fastest way.
 url: "https://www.codeeval.com/browse/207/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/207-which-way-is-faster/"

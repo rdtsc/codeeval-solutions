@@ -3,3 +3,4 @@ name: Real Fake
 category: Easy
 summary: Check credit card numbers.
 url: "https://www.codeeval.com/browse/227/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/227-real-fake/"

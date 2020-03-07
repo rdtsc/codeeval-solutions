@@ -1,11 +1,11 @@
-[Roller Coaster][ce]
---------------------
+Roller Coaster
+--------------
 
 **Problem 156**
 
 > Turn the text into RoLlErCoAsTeR case.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/156/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/156-roller-coaster/
+          "View Problem Statement Mirror"

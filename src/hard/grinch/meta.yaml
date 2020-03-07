@@ -3,3 +3,4 @@ name: Grinch
 category: Hard
 summary: Help Grinch to find the shortest way.
 url: "https://www.codeeval.com/browse/229/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/229-grinch/"

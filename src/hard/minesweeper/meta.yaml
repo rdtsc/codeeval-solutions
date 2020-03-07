@@ -3,3 +3,4 @@ name: Minesweeper
 category: Hard
 summary: "Find the mines within a M*N matrix."
 url: "https://www.codeeval.com/browse/79/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/079-minesweeper/"

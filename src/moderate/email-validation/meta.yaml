@@ -3,3 +3,4 @@ name: Email Validation
 category: Moderate
 summary: Write a regular expression to validate an email address.
 url: "https://www.codeeval.com/browse/35/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/035-email-validation/"

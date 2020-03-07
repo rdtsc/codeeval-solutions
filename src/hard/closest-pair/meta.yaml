@@ -3,3 +3,4 @@ name: Closest Pair
 category: Hard
 summary: "Given a set of points in a two dimensional space, you will have to find the distance between the closest two points."
 url: "https://www.codeeval.com/browse/51/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/051-closest-pair/"

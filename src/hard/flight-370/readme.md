@@ -1,11 +1,11 @@
-[Flight 370][ce]
-----------------
+Flight 370
+----------
 
 **Problem 141**
 
 > Follow the current search results.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/141/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/141-flight-370/
+          "View Problem Statement Mirror"

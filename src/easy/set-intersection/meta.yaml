@@ -3,3 +3,4 @@ name: Set Intersection
 category: Easy
 summary: Print the intersection of two sets of numbers.
 url: "https://www.codeeval.com/browse/30/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/030-set-intersection/"

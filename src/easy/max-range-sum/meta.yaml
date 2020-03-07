@@ -3,3 +3,4 @@ name: Max Range Sum
 category: Easy
 summary: Determine max sum at the range.
 url: "https://www.codeeval.com/browse/186/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/186-max-range-sum/"

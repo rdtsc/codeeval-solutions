@@ -3,3 +3,4 @@ name: Chain Inspection
 category: Moderate
 summary: Try to pass a chain.
 url: "https://www.codeeval.com/browse/119/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/119-chain-inspection/"

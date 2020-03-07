@@ -3,3 +3,4 @@ name: Straight Lines
 category: Hard
 summary: Print the number of straight lines.
 url: "https://www.codeeval.com/browse/204/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/204-straight-lines/"

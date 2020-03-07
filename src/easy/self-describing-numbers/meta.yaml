@@ -3,3 +3,4 @@ name: Self Describing Numbers
 category: Easy
 summary: Determine if a number is a self-describing number or not.
 url: "https://www.codeeval.com/browse/40/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/040-self-describing-numbers/"

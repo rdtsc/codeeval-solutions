@@ -3,3 +3,4 @@ name: Details
 category: Easy
 summary: Determine how many cells will be shifted detail.
 url: https://www.codeeval.com/browse/183/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/183-details/"

@@ -3,3 +3,4 @@ name: Capitalize Words
 category: Easy
 summary: Capitalize words in a sentence.
 url: "https://www.codeeval.com/browse/93/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/093-capitalize-words/"

@@ -1,11 +1,11 @@
-[Real Fake][ce]
----------------
+Real fake
+---------
 
 **Problem 227**
 
 > Check credit card numbers.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/227/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/227-real-fake/
+          "View Problem Statement Mirror"

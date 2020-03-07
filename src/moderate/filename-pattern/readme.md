@@ -1,11 +1,11 @@
-[Filename Pattern][ce]
-----------------------
+Filename Pattern
+----------------
 
 **Problem 169**
 
 > Filter a list of filenames.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/169/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/169-filename-pattern/
+          "View Problem Statement Mirror"

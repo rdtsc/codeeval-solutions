@@ -1,11 +1,11 @@
-[Happy Numbers][ce]
--------------------
+Happy Numbers
+-------------
 
 **Problem 39**
 
 > Determine if a number is a happy number or not.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/39/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/039-happy-numbers/
+          "View Problem Statement Mirror"

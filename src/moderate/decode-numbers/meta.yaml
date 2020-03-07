@@ -3,3 +3,4 @@ name: Decode Numbers
 category: Moderate
 summary: Count the number of ways to decode a string.
 url: "https://www.codeeval.com/browse/73/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/073-decode-numbers/"

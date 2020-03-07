@@ -1,11 +1,11 @@
-[Lights Out][ce]
-----------------
+Lights Out
+----------
 
 **Problem 191**
 
 > Switch all the lights off with minimum number of moves.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/191/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/191-lights-out/
+          "View Problem Statement Mirror"

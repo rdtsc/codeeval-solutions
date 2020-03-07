@@ -1,11 +1,11 @@
-[Largest Sub-Matrix][ce]
-------------------------
+Largest Sub-Matrix
+------------------
 
 **Problem 105**
 
 > Determine the largest sub-matrix in a matrix.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/105/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/105-largest-sub-matrix/
+          "View Problem Statement Mirror"

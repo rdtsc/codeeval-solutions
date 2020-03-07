@@ -3,3 +3,4 @@ name: Calculate Distance
 category: Easy
 summary: Calculate a distance between two points.
 url: "https://www.codeeval.com/browse/99/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/099-calculate-distance/"

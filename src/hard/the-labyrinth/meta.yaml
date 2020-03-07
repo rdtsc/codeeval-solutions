@@ -3,3 +3,4 @@ name: The Labyrinth
 category: Hard
 summary: Find the shortest way to exit.
 url: "https://www.codeeval.com/browse/157/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/157-the-labyrinth/"

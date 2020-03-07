@@ -1,11 +1,11 @@
-[ASCII Decryption][ce]
-----------------------
+ASCII Decryption
+----------------
 
 **Problem 155**
 
 > Decrypt a message.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/155/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/155-ascii-decryption/
+          "View Problem Statement Mirror"

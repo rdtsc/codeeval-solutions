@@ -3,3 +3,4 @@ name: Longest Lines
 category: Moderate
 summary: "Finding the 'N' longest lines within a file."
 url: "https://www.codeeval.com/browse/2/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/002-longest-lines/"

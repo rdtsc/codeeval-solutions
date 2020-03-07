@@ -1,11 +1,11 @@
-[Telephone Words][ce]
----------------------
+Telephone Words
+---------------
 
 **Problem 59**
 
 > Print out the words corresponding to a telephone number.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/59/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/059-telephone-words/
+          "View Problem Statement Mirror"

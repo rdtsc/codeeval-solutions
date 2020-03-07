@@ -1,11 +1,11 @@
-[Following Integer][ce]
------------------------
+Following Integer
+-----------------
 
 **Problem 44**
 
 > Determine the next number in a sequence.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/44/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/044-following-integer/
+          "View Problem Statement Mirror"

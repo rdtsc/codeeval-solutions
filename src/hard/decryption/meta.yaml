@@ -3,3 +3,4 @@ name: Decryption
 category: Hard
 summary: Determine the plain text message from an encrypted string.
 url: "https://www.codeeval.com/browse/61/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/061-decryption/"

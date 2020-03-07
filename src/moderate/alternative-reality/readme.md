@@ -1,11 +1,11 @@
-[Alternative Reality][ce]
--------------------------
+Alternative reality
+-------------------
 
 **Problem 223**
 
 > Count all alternative ways.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/223/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/223-alternative-reality/
+          "View Problem Statement Mirror"

@@ -3,3 +3,4 @@ name: Lettercase Percentage Ratio
 category: Easy
 summary: Find the percentage ratio.
 url: "https://www.codeeval.com/browse/147/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/147-lettercase-percentage-ratio/"

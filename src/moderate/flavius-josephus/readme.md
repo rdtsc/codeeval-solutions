@@ -1,11 +1,11 @@
-[Flavius Josephus][ce]
-----------------------
+Flavius Josephus
+----------------
 
 **Problem 75**
 
 > Eliminate every i'th item from a circular list.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/75/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/075-flavius-josephus/
+          "View Problem Statement Mirror"

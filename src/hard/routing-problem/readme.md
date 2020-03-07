@@ -1,11 +1,11 @@
-[Routing Problem][ce]
----------------------
+Routing Problem
+---------------
 
 **Problem 129**
 
 > Find all the shortest paths for the package between two specified hosts.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/129/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/129-routing-problem/
+          "View Problem Statement Mirror"

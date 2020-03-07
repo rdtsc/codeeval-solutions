@@ -1,11 +1,11 @@
-[Working Experience][ce]
-------------------------
+Working experience
+------------------
 
 **Problem 139**
 
 > Retrieve an actual value.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/139/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/139-working-experience/
+          "View Problem Statement Mirror"

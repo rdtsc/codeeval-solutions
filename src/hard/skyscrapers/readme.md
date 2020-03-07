@@ -1,11 +1,11 @@
-[Skyscrapers][ce]
------------------
+Skyscrapers
+-----------
 
 **Problem 120**
 
 > Outline skyscrapers in a city.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/120/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/120-skyscrapers/
+          "View Problem Statement Mirror"

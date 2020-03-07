@@ -3,3 +3,4 @@ name: Strings and Arrows
 category: Easy
 summary: Print the number of arrows in a string.
 url: "https://www.codeeval.com/browse/203/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/203-strings-and-arrows/"

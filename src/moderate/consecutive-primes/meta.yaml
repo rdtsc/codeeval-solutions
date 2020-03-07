@@ -3,3 +3,4 @@ name: Consecutive Primes
 category: Moderate
 summary: Determine how many ways the numbers can be arranged such that every consecutive pair sums to a prime.
 url: "https://www.codeeval.com/browse/187/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/187-consecutive-primes/"

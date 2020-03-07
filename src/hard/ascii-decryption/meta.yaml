@@ -3,3 +3,4 @@ name: ASCII Decryption
 category: Hard
 summary: Decrypt a message.
 url: https://www.codeeval.com/browse/155/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/155-ascii-decryption/"

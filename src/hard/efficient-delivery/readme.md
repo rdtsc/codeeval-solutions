@@ -1,11 +1,11 @@
-[Efficient Delivery][ce]
-------------------------
+Efficient Delivery
+------------------
 
 **Problem 123**
 
 > Load your tankers with oil.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/123/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/123-efficient-delivery/
+          "View Problem Statement Mirror"

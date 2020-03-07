@@ -1,11 +1,11 @@
-[N Mod M][ce]
--------------
+N Mod M
+-------
 
 **Problem 62**
 
 > Determine the modulus (without the modulus operator).
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/62/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/062-n-mod-m/
+          "View Problem Statement Mirror"

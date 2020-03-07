@@ -3,3 +3,4 @@ name: Text Dollar
 category: Hard
 summary: Print out the text dollar amount of a given quantity.
 url: https://www.codeeval.com/browse/52/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/052-text-dollar/"

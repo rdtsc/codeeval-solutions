@@ -3,3 +3,4 @@ name: Prime Numbers
 category: Moderate
 summary: Print prime numbers less than N.
 url: "https://www.codeeval.com/browse/46/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/046-prime-numbers/"

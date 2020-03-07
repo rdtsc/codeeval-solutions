@@ -3,3 +3,4 @@ name: Code Like Huffman
 category: Hard
 summary: "Learn more about Huffman's tree."
 url: "https://www.codeeval.com/browse/234/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/234-code-like-huffman/"

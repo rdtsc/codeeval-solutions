@@ -1,11 +1,11 @@
-[First Non-Repeated Character][ce]
-----------------------------------
+First Non-Repeated Character
+----------------------------
 
 **Problem 12**
 
 > Find the first non repeated character in a string.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/12/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/012-first-non-repeated-character/
+          "View Problem Statement Mirror"

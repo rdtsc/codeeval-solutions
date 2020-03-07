@@ -1,11 +1,11 @@
-[Data Recovery][ce]
--------------------
+Data Recovery
+-------------
 
 **Problem 140**
 
 > Reconstruct a sentence using hints.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/140/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/140-data-recovery/
+          "View Problem Statement Mirror"

@@ -3,3 +3,4 @@ name: Poker Hands
 category: Hard
 summary: Compare two poker hands.
 url: "https://www.codeeval.com/browse/86/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/086-poker-hands/"

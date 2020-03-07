@@ -3,3 +3,4 @@ name: Find Min
 category: Hard
 summary: Facebook Hacker Cup 2013 problem.
 url: "https://www.codeeval.com/browse/85/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/085-find-min/"

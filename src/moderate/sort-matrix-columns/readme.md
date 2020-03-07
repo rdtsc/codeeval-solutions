@@ -1,11 +1,11 @@
-[Sort Matrix Columns][ce]
--------------------------
+Sort matrix columns
+-------------------
 
 **Problem 200**
 
 > Sort matrix columns from lowest to highest numbers.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/200/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/200-sort-matrix-columns/
+          "View Problem Statement Mirror"

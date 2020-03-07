@@ -3,3 +3,4 @@ name: Distinct Triangles
 category: Hard
 summary: Find the number of distinct triangles formed in a graph.
 url: "https://www.codeeval.com/browse/188/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/188-distinct-triangles/"

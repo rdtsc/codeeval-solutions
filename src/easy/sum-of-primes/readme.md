@@ -1,11 +1,11 @@
-[Sum of Primes][ce]
--------------------
+Sum of Primes
+-------------
 
 **Problem 4**
 
 > Sum of first 1000 primes.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/4/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/004-sum-of-primes/
+          "View Problem Statement Mirror"

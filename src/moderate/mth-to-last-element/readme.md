@@ -1,11 +1,11 @@
-[Mth to Last Element][ce]
--------------------------
+Mth to last element
+-------------------
 
 **Problem 10**
 
 > Determine the Mth to last element of a list.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/10/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/010-mth-to-last-element/
+          "View Problem Statement Mirror"

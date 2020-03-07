@@ -3,3 +3,4 @@ name: Knight Moves
 category: Easy
 summary: Find positions for the next move of the knight.
 url: https://www.codeeval.com/browse/180/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/180-knight-moves/"

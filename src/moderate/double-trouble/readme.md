@@ -1,11 +1,11 @@
-[Double Trouble][ce]
---------------------
+Double trouble
+--------------
 
 **Problem 215**
 
 > Calculate the number of correct variants for messages.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/215/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/215-double-trouble/
+          "View Problem Statement Mirror"

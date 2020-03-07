@@ -3,3 +3,4 @@ name: Bats Challenge
 category: Moderate
 summary: Count bats on the wire.
 url: "https://www.codeeval.com/browse/146/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/146-bats-challenge/"

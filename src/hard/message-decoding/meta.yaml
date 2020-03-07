@@ -3,3 +3,4 @@ name: Message Decoding
 category: Hard
 summary: Decode an encoded message.
 url: "https://www.codeeval.com/browse/36/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/036-message-decoding/"

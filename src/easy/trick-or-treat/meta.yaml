@@ -3,3 +3,4 @@ name: Trick or Treat
 category: Easy
 summary: Count all candies.
 url: "https://www.codeeval.com/browse/220/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/220-trick-or-treat/"

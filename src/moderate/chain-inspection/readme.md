@@ -1,11 +1,11 @@
-[Chain Inspection][ce]
-----------------------
+Chain Inspection
+----------------
 
 **Problem 119**
 
 > Try to pass a chain.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/119/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/119-chain-inspection/
+          "View Problem Statement Mirror"

@@ -3,3 +3,4 @@ name: Builders Team
 category: Moderate
 summary: Count all squares on the map.
 url: "https://www.codeeval.com/browse/218/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/218-builders-team/"

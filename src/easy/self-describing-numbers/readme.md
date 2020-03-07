@@ -1,11 +1,11 @@
-[Self Describing Numbers][ce]
------------------------------
+Self Describing Numbers
+-----------------------
 
 **Problem 40**
 
 > Determine if a number is a self-describing number or not.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/40/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/040-self-describing-numbers/
+          "View Problem Statement Mirror"

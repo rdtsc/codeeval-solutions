@@ -3,3 +3,4 @@ name: Meet Comb Sort
 category: Moderate
 summary: Learn more about the comb sort algorithm.
 url: "https://www.codeeval.com/browse/233/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/233-meet-comb-sort/"

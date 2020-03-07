@@ -1,11 +1,11 @@
-[Simple Sorting][ce]
---------------------
+Simple Sorting
+--------------
 
 **Problem 91**
 
 > Sort several numbers.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/91/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/091-simple-sorting/
+          "View Problem Statement Mirror"

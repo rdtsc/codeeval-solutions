@@ -1,11 +1,11 @@
-[Decimal to Binary][ce]
------------------------
+Decimal To Binary
+-----------------
 
 **Problem 27**
 
 > Print the binary representation of a decimal number.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/27/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/027-decimal-to-binary/
+          "View Problem Statement Mirror"

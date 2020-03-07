@@ -1,11 +1,11 @@
-[Max Range Sum][ce]
--------------------
+Max Range Sum
+-------------
 
 **Problem 186**
 
 > Determine max sum at the range.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/186/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/186-max-range-sum/
+          "View Problem Statement Mirror"

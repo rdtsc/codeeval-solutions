@@ -1,11 +1,11 @@
-[File Size][ce]
----------------
+File Size
+---------
 
 **Problem 26**
 
 > Print the file size in bytes.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/26/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/026-file-size/
+          "View Problem Statement Mirror"

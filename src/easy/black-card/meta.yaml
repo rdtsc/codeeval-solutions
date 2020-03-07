@@ -3,3 +3,4 @@ name: Black Card
 category: Easy
 summary: Find the winner.
 url: "https://www.codeeval.com/browse/222/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/222-black-card/"

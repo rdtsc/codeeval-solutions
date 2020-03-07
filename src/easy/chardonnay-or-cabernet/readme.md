@@ -1,11 +1,11 @@
-[Chardonnay or Cabernet][ce]
-----------------------------
+Chardonnay or Cabernet
+----------------------
 
 **Problem 211**
 
 > Guess a wine name.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/211/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/211-chardonnay-or-cabernet/
+          "View Problem Statement Mirror"

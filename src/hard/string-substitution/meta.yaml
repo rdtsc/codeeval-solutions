@@ -3,3 +3,4 @@ name: String Substitution
 category: Hard
 summary: Create a new string by replacing substrings within it.
 url: "https://www.codeeval.com/browse/50/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/050-string-substitution/"

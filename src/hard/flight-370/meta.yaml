@@ -3,3 +3,4 @@ name: Flight 370
 category: Hard
 summary: Follow the current search results.
 url: "https://www.codeeval.com/browse/141/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/141-flight-370/"

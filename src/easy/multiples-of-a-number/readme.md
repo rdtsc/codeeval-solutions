@@ -1,11 +1,11 @@
-[Multiples of a Number][ce]
----------------------------
+Multiples of a Number
+---------------------
 
 **Problem 18**
 
 > Multiples of a number greater than another number.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/18/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/018-multiples-of-a-number/
+          "View Problem Statement Mirror"

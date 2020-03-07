@@ -1,11 +1,11 @@
-[Odd Numbers][ce]
------------------
+Odd Numbers
+-----------
 
 **Problem 25**
 
 > Print the odd numbers from 1 to 99.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/25/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/025-odd-numbers/
+          "View Problem Statement Mirror"

@@ -1,11 +1,11 @@
-[Black Card][ce]
-----------------
+Black card
+----------
 
 **Problem 222**
 
 > Find the winner.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/222/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/222-black-card/
+          "View Problem Statement Mirror"

@@ -1,11 +1,11 @@
-[Palindromic Ranges][ce]
-------------------------
+Palindromic Ranges
+------------------
 
 **Problem 47**
 
 > Find out a range of palindromic numbers.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/47/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/047-palindromic-ranges/
+          "View Problem Statement Mirror"

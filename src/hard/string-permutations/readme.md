@@ -1,11 +1,11 @@
-[String Permutations][ce]
--------------------------
+String Permutations
+-------------------
 
 **Problem 14**
 
 > Print out all permutations of a string.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/14/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/014-string-permutations/
+          "View Problem Statement Mirror"

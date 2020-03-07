@@ -3,3 +3,4 @@ name: Distinct Subsequences
 category: Hard
 summary: Determine the number of distinct subsequnces within a string.
 url: "https://www.codeeval.com/browse/69/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/069-distinct-subsequences/"

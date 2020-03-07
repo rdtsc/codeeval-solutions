@@ -3,3 +3,4 @@ name: The Cubes
 category: Hard
 summary: Find the length of the shortest way in the multilevel labyrinth.
 url: "https://www.codeeval.com/browse/175/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/175-the-cubes/"

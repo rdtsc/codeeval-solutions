@@ -3,3 +3,4 @@ name: Double Trouble
 category: Moderate
 summary: Calculate the number of correct variants for messages.
 url: "https://www.codeeval.com/browse/215/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/215-double-trouble/"

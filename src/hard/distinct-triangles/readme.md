@@ -1,11 +1,11 @@
-[Distinct Triangles][ce]
-------------------------
+Distinct Triangles
+------------------
 
 **Problem 188**
 
 > Find the number of distinct triangles formed in a graph.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/188/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/188-distinct-triangles/
+          "View Problem Statement Mirror"

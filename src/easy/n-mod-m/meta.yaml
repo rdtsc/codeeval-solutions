@@ -3,3 +3,4 @@ name: N Mod M
 category: Easy
 summary: Determine the modulus (without the modulus operator).
 url: "https://www.codeeval.com/browse/62/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/062-n-mod-m/"

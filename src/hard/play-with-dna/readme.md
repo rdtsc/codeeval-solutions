@@ -1,11 +1,11 @@
-[Play With DNA][ce]
--------------------
+Play with DNA
+-------------
 
 **Problem 126**
 
 > Write an algorithm that a finds DNA segment in a given DNA string.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/126/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/126-play-with-dna/
+          "View Problem Statement Mirror"

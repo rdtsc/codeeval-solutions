@@ -3,3 +3,4 @@ name: Digit Statistics
 category: Hard
 summary: Find statistics in sequence.
 url: https://www.codeeval.com/browse/144/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/144-digit-statistics/"

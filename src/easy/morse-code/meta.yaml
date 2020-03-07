@@ -3,3 +3,4 @@ name: Morse Code
 category: Easy
 summary: Decode Morse code.
 url: "https://www.codeeval.com/browse/116/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/116-morse-code/"

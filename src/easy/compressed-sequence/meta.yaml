@@ -3,3 +3,4 @@ name: Compressed Sequence
 category: Easy
 summary: Write a program that compresses a sequence of numbers.
 url: "https://www.codeeval.com/browse/128/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/128-compressed-sequence/"

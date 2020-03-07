@@ -3,3 +3,4 @@ name: Even Numbers
 category: Easy
 summary: Determine if a number is even or not.
 url: https://www.codeeval.com/browse/100/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/100-even-numbers/"

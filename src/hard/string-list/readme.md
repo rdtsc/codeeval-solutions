@@ -1,11 +1,11 @@
-[String List][ce]
------------------
+String List
+-----------
 
 **Problem 38**
 
 > Create a new string from constituent alphabets.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/38/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/038-string-list/
+          "View Problem Statement Mirror"

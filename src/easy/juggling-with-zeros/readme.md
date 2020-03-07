@@ -1,11 +1,11 @@
-[Juggling With Zeros][ce]
--------------------------
+Juggling With Zeros
+-------------------
 
 **Problem 149**
 
 > Convert a zero-based number into integer.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/149/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/149-juggling-with-zeros/
+          "View Problem Statement Mirror"

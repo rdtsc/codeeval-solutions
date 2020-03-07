@@ -1,11 +1,11 @@
-[The Frequency][ce]
--------------------
+The Frequency
+-------------
 
 **Problem 168**
 
 > Find the signals frequency.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/168/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/168-the-frequency/
+          "View Problem Statement Mirror"

@@ -1,11 +1,11 @@
-[Point in Circle][ce]
----------------------
+Point in Circle
+---------------
 
 **Problem 98**
 
 > Define whether a point is in a circle.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/98/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/098-point-in-circle/
+          "View Problem Statement Mirror"

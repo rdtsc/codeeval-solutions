@@ -3,3 +3,4 @@ name: Clean Up the Words
 category: Easy
 summary: Print the words separated by spaces.
 url: "https://www.codeeval.com/browse/205/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/205-clean-up-the-words/"

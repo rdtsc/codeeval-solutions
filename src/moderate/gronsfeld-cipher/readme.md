@@ -1,11 +1,11 @@
-[Gronsfeld Cipher][ce]
-----------------------
+Gronsfeld cipher
+----------------
 
 **Problem 181**
 
 > Decipher the message enciphered with the Gronsfeld cipher.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/181/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/181-gronsfeld-cipher/
+          "View Problem Statement Mirror"

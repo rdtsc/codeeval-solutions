@@ -3,3 +3,4 @@ name: Array Absurdity
 category: Moderate
 summary: Determine if an array contains a duplicated entry.
 url: https://www.codeeval.com/browse/41/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/041-array-absurdity/"

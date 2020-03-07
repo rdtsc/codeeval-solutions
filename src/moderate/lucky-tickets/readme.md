@@ -1,11 +1,11 @@
-[Lucky Tickets][ce]
--------------------
+Lucky tickets
+-------------
 
 **Problem 206**
 
 > Count the lucky tickets.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/206/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/206-lucky-tickets/
+          "View Problem Statement Mirror"

@@ -3,3 +3,4 @@ name: Find the Highest Score
 category: Easy
 summary: Find the highest rate in the table.
 url: "https://www.codeeval.com/browse/208/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/208-find-the-highest-score/"

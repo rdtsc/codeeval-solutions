@@ -3,3 +3,4 @@ name: Commuting Engineer
 category: Hard
 summary: Travelling Salesman Problem.
 url: "https://www.codeeval.com/browse/90/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/090-commuting-engineer/"

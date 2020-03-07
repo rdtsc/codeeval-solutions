@@ -1,11 +1,11 @@
-[Longest Path][ce]
-------------------
+Longest Path
+------------
 
 **Problem 182**
 
 > Find the longest path of unique elements.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/182/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/182-longest-path/
+          "View Problem Statement Mirror"

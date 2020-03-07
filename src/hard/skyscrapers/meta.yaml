@@ -3,3 +3,4 @@ name: Skyscrapers
 category: Hard
 summary: Outline skyscrapers in a city.
 url: "https://www.codeeval.com/browse/120/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/120-skyscrapers/"

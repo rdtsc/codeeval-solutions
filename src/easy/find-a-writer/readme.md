@@ -1,11 +1,11 @@
-[Find a Writer][ce]
--------------------
+Find a Writer
+-------------
 
 **Problem 97**
 
 > Find a famous writer in a string.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/97/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/097-find-a-writer/
+          "View Problem Statement Mirror"

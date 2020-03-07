@@ -3,3 +3,4 @@ name: Beat or Bit
 category: Moderate
 summary: Learn more about the Gray code algorithm.
 url: "https://www.codeeval.com/browse/236/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/236-beat-or-bit/"

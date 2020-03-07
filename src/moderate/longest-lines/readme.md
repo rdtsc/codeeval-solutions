@@ -1,11 +1,11 @@
-[Longest Lines][ce]
--------------------
+Longest Lines
+-------------
 
 **Problem 2**
 
 > Finding the 'N' longest lines within a file.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/2/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/002-longest-lines/
+          "View Problem Statement Mirror"

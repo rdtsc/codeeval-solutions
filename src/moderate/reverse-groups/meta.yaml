@@ -3,3 +3,4 @@ name: Reverse Groups
 category: Moderate
 summary: Reverse elements in a list k items at a time.
 url: "https://www.codeeval.com/browse/71/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/071-reverse-groups/"

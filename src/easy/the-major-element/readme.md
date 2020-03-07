@@ -1,11 +1,11 @@
-[The Major Element][ce]
------------------------
+The Major Element
+-----------------
 
 **Problem 132**
 
 > Find the major element in a sequence.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/132/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/132-the-major-element/
+          "View Problem Statement Mirror"

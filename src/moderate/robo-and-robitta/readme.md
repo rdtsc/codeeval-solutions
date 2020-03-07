@@ -1,11 +1,11 @@
-[Robo and Robitta][ce]
-----------------------
+Robo and Robitta
+----------------
 
 **Problem 212**
 
 > Count all nuts.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/212/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/212-robo-and-robitta/
+          "View Problem Statement Mirror"

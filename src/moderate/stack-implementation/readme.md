@@ -1,11 +1,11 @@
-[Stack Implementation][ce]
---------------------------
+Stack Implementation
+--------------------
 
 **Problem 9**
 
 > Implement a stack interface.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/9/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/009-stack-implementation/
+          "View Problem Statement Mirror"

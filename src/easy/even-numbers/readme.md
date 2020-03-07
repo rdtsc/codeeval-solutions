@@ -1,11 +1,11 @@
-[Even Numbers][ce]
-------------------
+Even Numbers
+------------
 
 **Problem 100**
 
 > Determine if a number is even or not.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/100/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/100-even-numbers/
+          "View Problem Statement Mirror"

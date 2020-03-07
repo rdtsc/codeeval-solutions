@@ -3,3 +3,4 @@ name: Lowercase
 category: Easy
 summary: Lowercase text.
 url: https://www.codeeval.com/browse/20/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/020-lowercase/"

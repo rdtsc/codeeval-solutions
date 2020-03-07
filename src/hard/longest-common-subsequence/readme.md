@@ -1,11 +1,11 @@
-[Longest Common Subsequence][ce]
---------------------------------
+Longest Common Subsequence
+--------------------------
 
 **Problem 6**
 
 > LCS between two strings.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/6/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/006-longest-common-subsequence/
+          "View Problem Statement Mirror"

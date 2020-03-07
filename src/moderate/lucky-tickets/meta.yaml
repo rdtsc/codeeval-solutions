@@ -3,3 +3,4 @@ name: Lucky Tickets
 category: Moderate
 summary: Count the lucky tickets.
 url: "https://www.codeeval.com/browse/206/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/206-lucky-tickets/"

@@ -3,3 +3,4 @@ name: Suggest Groups
 category: Moderate
 summary: Help your friends to join groups.
 url: "https://www.codeeval.com/browse/165/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/165-suggest-groups/"

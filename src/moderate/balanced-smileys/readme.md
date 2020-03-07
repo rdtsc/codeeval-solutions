@@ -1,11 +1,11 @@
-[Balanced Smileys][ce]
-----------------------
+Balanced Smileys
+----------------
 
 **Problem 84**
 
 > Facebook Hacker Cup 2013 problem.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/84/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/084-balanced-smileys/
+          "View Problem Statement Mirror"

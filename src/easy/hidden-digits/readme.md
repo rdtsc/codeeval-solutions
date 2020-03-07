@@ -1,11 +1,11 @@
-[Hidden Digits][ce]
--------------------
+Hidden Digits
+-------------
 
 **Problem 122**
 
 > Try to look behind the scenes.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/122/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/122-hidden-digits/
+          "View Problem Statement Mirror"

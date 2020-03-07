@@ -3,3 +3,4 @@ name: The Tourist
 category: Hard
 summary: Find the shortest route between cities.
 url: "https://www.codeeval.com/browse/219/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/219-the-tourist/"

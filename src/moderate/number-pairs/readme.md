@@ -1,11 +1,11 @@
-[Number Pairs][ce]
-------------------
+Number Pairs
+------------
 
 **Problem 34**
 
 > Find pairs of numbers in a sorted array whose sum is X.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/34/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/034-number-pairs/
+          "View Problem Statement Mirror"

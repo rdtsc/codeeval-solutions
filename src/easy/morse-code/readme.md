@@ -1,11 +1,11 @@
-[Morse Code][ce]
-----------------
+Morse Code
+----------
 
 **Problem 116**
 
 > Decode Morse code.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/116/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/116-morse-code/
+          "View Problem Statement Mirror"

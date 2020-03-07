@@ -3,3 +3,4 @@ name: String Permutations
 category: Hard
 summary: Print out all permutations of a string.
 url: "https://www.codeeval.com/browse/14/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/014-string-permutations/"

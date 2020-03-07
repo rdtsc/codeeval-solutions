@@ -1,11 +1,11 @@
-[JSON Menu IDs][ce]
--------------------
+JSON menu IDs
+-------------
 
 **Problem 102**
 
 > Calculate IDs in JSON menu.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/102/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/102-json-menu-ids/
+          "View Problem Statement Mirror"

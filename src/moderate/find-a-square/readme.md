@@ -1,11 +1,11 @@
-[Find a Square][ce]
--------------------
+Find a Square
+-------------
 
 **Problem 101**
 
 > Do 4 points make a square?
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/101/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/101-find-a-square/
+          "View Problem Statement Mirror"

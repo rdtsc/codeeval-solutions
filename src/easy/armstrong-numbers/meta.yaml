@@ -3,3 +3,4 @@ name: Armstrong Numbers
 category: Easy
 summary: Determine if a number is an armstrong number.
 url: "https://www.codeeval.com/browse/82/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/082-armstrong-numbers/"

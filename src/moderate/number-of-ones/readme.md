@@ -1,11 +1,11 @@
-[Number of Ones][ce]
---------------------
+Number of Ones
+--------------
 
 **Problem 16**
 
 > Determine the number of one bits in an integer.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/16/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/016-number-of-ones/
+          "View Problem Statement Mirror"

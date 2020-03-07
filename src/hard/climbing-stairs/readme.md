@@ -1,11 +1,11 @@
-[Climbing Stairs][ce]
----------------------
+Climbing Stairs
+---------------
 
 **Problem 64**
 
 > Count the number of ways to climb to the top of a staircase.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/64/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/064-climbing-stairs/
+          "View Problem Statement Mirror"

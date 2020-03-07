@@ -3,3 +3,4 @@ name: Number Pairs
 category: Moderate
 summary: Find pairs of numbers in a sorted array whose sum is X.
 url: "https://www.codeeval.com/browse/34/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/034-number-pairs/"

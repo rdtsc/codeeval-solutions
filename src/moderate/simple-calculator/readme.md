@@ -1,11 +1,11 @@
-[Simple Calculator][ce]
------------------------
+Simple Calculator
+-----------------
 
 **Problem 94**
 
 > Create a simple calculator.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/94/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/094-simple-calculator/
+          "View Problem Statement Mirror"

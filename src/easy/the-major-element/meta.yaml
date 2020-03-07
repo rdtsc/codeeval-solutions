@@ -3,3 +3,4 @@ name: The Major Element
 category: Easy
 summary: Find the major element in a sequence.
 url: "https://www.codeeval.com/browse/132/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/132-the-major-element/"

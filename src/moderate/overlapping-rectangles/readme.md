@@ -1,11 +1,11 @@
-[Overlapping Rectangles][ce]
-----------------------------
+Overlapping Rectangles
+----------------------
 
 **Problem 70**
 
 > Determine if two rectangles overlap.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/70/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/070-overlapping-rectangles/
+          "View Problem Statement Mirror"

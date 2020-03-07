@@ -3,3 +3,4 @@ name: Prefix Expressions
 category: Hard
 summary: Evaluating a prefix expression.
 url: https://www.codeeval.com/browse/7/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/007-prefix-expressions/"

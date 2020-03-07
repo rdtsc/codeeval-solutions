@@ -1,11 +1,11 @@
-[The Labyrinth][ce]
--------------------
+The Labyrinth
+-------------
 
 **Problem 157**
 
 > Find the shortest way to exit.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/157/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/157-the-labyrinth/
+          "View Problem Statement Mirror"

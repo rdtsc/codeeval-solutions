@@ -1,11 +1,11 @@
-[Clean Up the Words][ce]
-------------------------
+Clean up the words
+------------------
 
 **Problem 205**
 
 > Print the words separated by spaces.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/205/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/205-clean-up-the-words/
+          "View Problem Statement Mirror"

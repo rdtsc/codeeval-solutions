@@ -1,11 +1,11 @@
-[Interrupted Bubble Sort][ce]
------------------------------
+Interrupted Bubble Sort
+-----------------------
 
 **Problem 158**
 
 > Sort a list of elements. Partially.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/158/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/158-interrupted-bubble-sort/
+          "View Problem Statement Mirror"

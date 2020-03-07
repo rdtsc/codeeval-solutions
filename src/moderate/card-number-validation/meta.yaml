@@ -3,3 +3,4 @@ name: Card Number Validation
 category: Moderate
 summary: Check if bank card numbers are valid.
 url: https://www.codeeval.com/browse/172/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/172-card-number-validation/"

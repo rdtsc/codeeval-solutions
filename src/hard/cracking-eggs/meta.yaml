@@ -3,3 +3,4 @@ name: Cracking Eggs
 category: Hard
 summary: Determine the number of drops.
 url: "https://www.codeeval.com/browse/151/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/151-cracking-eggs/"

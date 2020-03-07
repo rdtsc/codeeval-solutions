@@ -3,3 +3,4 @@ name: Penultimate Word
 category: Easy
 summary: Find the next-to-last word.
 url: "https://www.codeeval.com/browse/92/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/092-penultimate-word/"

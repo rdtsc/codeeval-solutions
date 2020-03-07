@@ -1,11 +1,11 @@
-[A Bus Network][ce]
--------------------
+A bus network
+-------------
 
 **Problem 134**
 
 > Try to save more time.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/134/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/134-a-bus-network/
+          "View Problem Statement Mirror"

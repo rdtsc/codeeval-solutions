@@ -3,3 +3,4 @@ name: Jolly Jumpers
 category: Moderate
 summary: Determine if a sequence of numbers is a Jolly Jumper.
 url: "https://www.codeeval.com/browse/43/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/043-jolly-jumpers/"

@@ -1,11 +1,11 @@
-[Bats Challenge][ce]
---------------------
+Bats Challenge
+--------------
 
 **Problem 146**
 
 > Count bats on the wire.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/146/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/146-bats-challenge/
+          "View Problem Statement Mirror"

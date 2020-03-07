@@ -1,11 +1,11 @@
-[Grinch][ce]
-------------
+Grinch
+------
 
 **Problem 229**
 
 > Help Grinch to find the shortest way.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/229/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/229-grinch/
+          "View Problem Statement Mirror"

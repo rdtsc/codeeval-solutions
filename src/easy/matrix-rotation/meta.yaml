@@ -3,3 +3,4 @@ name: Matrix Rotation
 category: Easy
 summary: Rotate a 2D matrix 90 degrees clockwise.
 url: https://www.codeeval.com/browse/178/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/178-matrix-rotation/"

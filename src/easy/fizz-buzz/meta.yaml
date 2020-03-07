@@ -3,3 +3,4 @@ name: Fizz Buzz
 category: Easy
 summary: A simple game involving divisibility tests.
 url: https://www.codeeval.com/browse/1/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/001-fizz-buzz/"

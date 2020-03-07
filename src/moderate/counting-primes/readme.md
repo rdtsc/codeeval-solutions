@@ -1,11 +1,11 @@
-[Counting Primes][ce]
----------------------
+Counting Primes
+---------------
 
 **Problem 63**
 
 > Count the number of primes between two integers.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/63/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/063-counting-primes/
+          "View Problem Statement Mirror"

@@ -3,3 +3,4 @@ name: Advanced Calculator
 category: Hard
 summary: Create an advanced calculator.
 url: "https://www.codeeval.com/browse/95/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/095-advanced-calculator/"

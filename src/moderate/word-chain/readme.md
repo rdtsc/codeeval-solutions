@@ -1,11 +1,11 @@
-[Word Chain][ce]
-----------------
+Word chain
+----------
 
 **Problem 135**
 
 > Find the longest chain of words.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/135/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/135-word-chain/
+          "View Problem Statement Mirror"

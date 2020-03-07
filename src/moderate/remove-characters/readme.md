@@ -1,11 +1,11 @@
-[Remove Characters][ce]
------------------------
+Remove Characters
+-----------------
 
 **Problem 13**
 
 > Delete specific characters from a string.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/13/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/013-remove-characters/
+          "View Problem Statement Mirror"

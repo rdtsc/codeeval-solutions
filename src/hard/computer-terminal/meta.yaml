@@ -3,3 +3,4 @@ name: Computer Terminal
 category: Hard
 summary: Print text to terminal with control sequences.
 url: https://www.codeeval.com/browse/108/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/108-computer-terminal/"

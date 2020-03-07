@@ -1,11 +1,11 @@
-[Computer Terminal][ce]
------------------------
+Computer Terminal
+-----------------
 
 **Problem 108**
 
 > Print text to terminal with control sequences.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/108/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/108-computer-terminal/
+          "View Problem Statement Mirror"

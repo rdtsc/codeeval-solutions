@@ -1,11 +1,11 @@
-[Package Problem][ce]
----------------------
+Package Problem
+---------------
 
 **Problem 114**
 
 > Put as many things into a package as possible.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/114/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/114-package-problem/
+          "View Problem Statement Mirror"

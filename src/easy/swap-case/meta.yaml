@@ -3,3 +3,4 @@ name: Swap Case
 category: Easy
 summary: Swap case in a string.
 url: https://www.codeeval.com/browse/96/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/096-swap-case/"

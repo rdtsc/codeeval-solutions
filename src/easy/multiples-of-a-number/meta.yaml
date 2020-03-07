@@ -3,3 +3,4 @@ name: Multiples of a Number
 category: Easy
 summary: Multiples of a number greater than another number.
 url: "https://www.codeeval.com/browse/18/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/018-multiples-of-a-number/"

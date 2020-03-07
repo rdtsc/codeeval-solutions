@@ -1,11 +1,11 @@
-[Twenty Forty Eight][ce]
-------------------------
+Twenty Forty Eight
+------------------
 
 **Problem 194**
 
 > Implement the 2048 game logic.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/194/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/194-twenty-forty-eight/
+          "View Problem Statement Mirror"

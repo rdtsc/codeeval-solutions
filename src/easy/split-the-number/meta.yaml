@@ -3,3 +3,4 @@ name: Split the Number
 category: Easy
 summary: Evaluate the number according to the pattern.
 url: "https://www.codeeval.com/browse/131/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/131-split-the-number/"

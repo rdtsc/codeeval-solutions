@@ -3,3 +3,4 @@ name: To PI or Not to PI
 category: Moderate
 summary: Print a PI number.
 url: "https://www.codeeval.com/browse/228/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/228-to-pi-or-not-to-pi/"

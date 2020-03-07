@@ -3,3 +3,4 @@ name: Sum of Primes
 category: Easy
 summary: Sum of first 1000 primes.
 url: "https://www.codeeval.com/browse/4/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/004-sum-of-primes/"

@@ -3,3 +3,4 @@ name: Peak Traffic
 category: Hard
 summary: Finding out which friends you interact with most.
 url: "https://www.codeeval.com/browse/49/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/049-peak-traffic/"

@@ -1,11 +1,11 @@
-[Black or White][ce]
---------------------
+Black or white
+--------------
 
 **Problem 209**
 
 > Find the smallest submatrix.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/209/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/209-black-or-white/
+          "View Problem Statement Mirror"

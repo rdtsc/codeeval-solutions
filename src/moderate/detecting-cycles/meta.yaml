@@ -3,3 +3,4 @@ name: Detecting Cycles
 category: Moderate
 summary: Detecting loops within a sequence.
 url: "https://www.codeeval.com/browse/5/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/005-detecting-cycles/"

@@ -1,11 +1,11 @@
-[Big Digits][ce]
-----------------
+Big Digits
+----------
 
 **Problem 163**
 
 > Print out magnified digits using pseudographics.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/163/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/163-big-digits/
+          "View Problem Statement Mirror"

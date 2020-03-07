@@ -3,3 +3,4 @@ name: JSON Menu IDs
 category: Easy
 summary: Calculate IDs in JSON menu.
 url: "https://www.codeeval.com/browse/102/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/102-json-menu-ids/"

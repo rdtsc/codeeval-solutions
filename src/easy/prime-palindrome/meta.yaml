@@ -3,3 +3,4 @@ name: Prime Palindrome
 category: Easy
 summary: Biggest prime palindrome < 1000.
 url: "https://www.codeeval.com/browse/3/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/003-prime-palindrome/"

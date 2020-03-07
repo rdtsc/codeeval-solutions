@@ -1,11 +1,11 @@
-[Lowest Unique Number][ce]
---------------------------
+Lowest Unique Number
+--------------------
 
 **Problem 103**
 
 > Find the lowest unique number in a set.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/103/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/103-lowest-unique-number/
+          "View Problem Statement Mirror"

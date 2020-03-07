@@ -1,11 +1,11 @@
-[Meet Cocktail Sort][ce]
-------------------------
+Meet Cocktail sort
+------------------
 
 **Problem 231**
 
 > Learn more about cocktail sort algorithm.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/231/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/231-meet-cocktail-sort/
+          "View Problem Statement Mirror"

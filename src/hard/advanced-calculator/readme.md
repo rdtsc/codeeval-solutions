@@ -1,11 +1,11 @@
-[Advanced Calculator][ce]
--------------------------
+Advanced Calculator
+-------------------
 
 **Problem 95**
 
 > Create an advanced calculator.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/95/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/095-advanced-calculator/
+          "View Problem Statement Mirror"

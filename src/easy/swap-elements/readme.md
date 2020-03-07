@@ -1,11 +1,11 @@
-[Swap Elements][ce]
--------------------
+Swap Elements
+-------------
 
 **Problem 112**
 
 > Swap elements in a list.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/112/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/112-swap-elements/
+          "View Problem Statement Mirror"

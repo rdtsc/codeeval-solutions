@@ -3,3 +3,4 @@ name: URI Comparison
 category: Moderate
 summary: Determine if two URIs match.
 url: "https://www.codeeval.com/browse/80/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/080-uri-comparison/"

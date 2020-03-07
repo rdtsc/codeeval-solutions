@@ -1,11 +1,11 @@
-[Bit Positions][ce]
--------------------
+Bit Positions
+-------------
 
 **Problem 19**
 
 > Bits in position x,y are same or different.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/19/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/019-bit-positions/
+          "View Problem Statement Mirror"

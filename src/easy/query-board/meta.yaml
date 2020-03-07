@@ -3,3 +3,4 @@ name: Query Board
 category: Easy
 summary: Set and get values from a matrix using tiny DSL.
 url: "https://www.codeeval.com/browse/87/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/087-query-board/"

@@ -1,11 +1,11 @@
-[Slang Flavor][ce]
-------------------
+Slang Flavor
+------------
 
 **Problem 174**
 
 > Add some slang to the text.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/174/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/174-slang-flavor/
+          "View Problem Statement Mirror"

@@ -3,3 +3,4 @@ name: Mixed Content
 category: Easy
 summary: Separate words with digits.
 url: "https://www.codeeval.com/browse/115/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/115-mixed-content/"

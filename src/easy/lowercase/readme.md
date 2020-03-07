@@ -1,11 +1,11 @@
-[Lowercase][ce]
----------------
+Lowercase
+---------
 
 **Problem 20**
 
 > Lowercase text.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/20/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/020-lowercase/
+          "View Problem Statement Mirror"

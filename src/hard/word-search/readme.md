@@ -1,11 +1,11 @@
-[Word Search][ce]
------------------
+Word Search
+-----------
 
 **Problem 65**
 
 > Find if a word exists in a grid.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/65/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/065-word-search/
+          "View Problem Statement Mirror"

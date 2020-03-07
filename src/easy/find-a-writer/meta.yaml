@@ -3,3 +3,4 @@ name: Find a Writer
 category: Easy
 summary: Find a famous writer in a string.
 url: "https://www.codeeval.com/browse/97/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/097-find-a-writer/"

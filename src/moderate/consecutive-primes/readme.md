@@ -1,12 +1,12 @@
-[Consecutive Primes][ce]
-------------------------
+Consecutive Primes
+------------------
 
 **Problem 187**
 
 > Determine how many ways the numbers can be arranged such that every
 > consecutive pair sums to a prime.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/187/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/187-consecutive-primes/
+          "View Problem Statement Mirror"

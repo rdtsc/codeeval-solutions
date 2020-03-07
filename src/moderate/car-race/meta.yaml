@@ -3,3 +3,4 @@ name: Car Race
 category: Moderate
 summary: Determine the fastest car.
 url: "https://www.codeeval.com/browse/138/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/138-car-race/"

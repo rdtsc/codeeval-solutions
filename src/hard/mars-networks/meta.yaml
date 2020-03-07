@@ -3,3 +3,4 @@ name: Mars Networks
 category: Hard
 summary: Find the minimum length of the optical fiber cable which connects probes to a network.
 url: "https://www.codeeval.com/browse/164/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/164-mars-networks/"

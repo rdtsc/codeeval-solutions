@@ -3,3 +3,4 @@ name: "One Zero, Two Zeros..."
 category: Easy
 summary: Count zeros in a binary system.
 url: "https://www.codeeval.com/browse/217/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/217-one-zero-two-zeros/"

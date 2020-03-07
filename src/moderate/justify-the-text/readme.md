@@ -1,11 +1,11 @@
-[Justify the Text][ce]
-----------------------
+Justify the Text
+----------------
 
 **Problem 177**
 
 > Align the text to the specified width.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/177/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/177-justify-the-text/
+          "View Problem Statement Mirror"

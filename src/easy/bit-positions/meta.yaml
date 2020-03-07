@@ -3,3 +3,4 @@ name: Bit Positions
 category: Easy
 summary: "Bits in position x,y are same or different."
 url: "https://www.codeeval.com/browse/19/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/019-bit-positions/"

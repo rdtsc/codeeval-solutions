@@ -1,11 +1,11 @@
-[Delta Time][ce]
-----------------
+Delta Time
+----------
 
 **Problem 166**
 
 > Find the time difference.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/166/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/166-delta-time/
+          "View Problem Statement Mirror"

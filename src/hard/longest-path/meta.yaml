@@ -3,3 +3,4 @@ name: Longest Path
 category: Hard
 summary: Find the longest path of unique elements.
 url: "https://www.codeeval.com/browse/182/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/182-longest-path/"

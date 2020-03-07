@@ -3,3 +3,4 @@ name: Juggling With Zeros
 category: Easy
 summary: Convert a zero-based number into integer.
 url: "https://www.codeeval.com/browse/149/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/149-juggling-with-zeros/"

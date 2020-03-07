@@ -3,3 +3,4 @@ name: Lowest Common Ancestor
 category: Moderate
 summary: Determine the lowest common ancestor within a tree.
 url: "https://www.codeeval.com/browse/11/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/011-lowest-common-ancestor/"

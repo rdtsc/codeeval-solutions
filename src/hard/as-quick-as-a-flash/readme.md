@@ -1,11 +1,11 @@
-[As Quick as a Flash][ce]
--------------------------
+As quick as a flash
+-------------------
 
 **Problem 239**
 
 > Learn more about the quick sort algorithm.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/239/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/239-as-quick-as-a-flash/
+          "View Problem Statement Mirror"

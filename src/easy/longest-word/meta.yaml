@@ -3,3 +3,4 @@ name: Longest Word
 category: Easy
 summary: Get the longest word in a sentence.
 url: "https://www.codeeval.com/browse/111/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/111-longest-word/"

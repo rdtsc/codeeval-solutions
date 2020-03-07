@@ -3,3 +3,4 @@ name: Spiral Printing
 category: Hard
 summary: Print out a 2D array in spiral order.
 url: "https://www.codeeval.com/browse/57/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/057-spiral-printing/"

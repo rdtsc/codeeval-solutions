@@ -3,3 +3,4 @@ name: String Mask
 category: Easy
 summary: Change case letters by mask.
 url: "https://www.codeeval.com/browse/199/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/199-string-mask/"

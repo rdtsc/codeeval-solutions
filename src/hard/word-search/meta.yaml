@@ -3,3 +3,4 @@ name: Word Search
 category: Hard
 summary: Find if a word exists in a grid.
 url: "https://www.codeeval.com/browse/65/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/065-word-search/"

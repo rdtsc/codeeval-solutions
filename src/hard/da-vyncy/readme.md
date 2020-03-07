@@ -1,11 +1,11 @@
-[Da Vyncy][ce]
---------------
+Da Vyncy
+--------
 
 **Problem 77**
 
 > Recreate a document from a set of fragments.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/77/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/077-da-vyncy/
+          "View Problem Statement Mirror"

@@ -3,3 +3,4 @@ name: Simple Sorting
 category: Easy
 summary: Sort several numbers.
 url: "https://www.codeeval.com/browse/91/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/091-simple-sorting/"

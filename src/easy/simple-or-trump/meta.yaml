@@ -3,3 +3,4 @@ name: Simple or Trump
 category: Easy
 summary: Check which card is higher.
 url: "https://www.codeeval.com/browse/235/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/235-simple-or-trump/"

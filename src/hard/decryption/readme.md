@@ -1,11 +1,11 @@
-[Decryption][ce]
-----------------
+Decryption
+----------
 
 **Problem 61**
 
 > Determine the plain text message from an encrypted string.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/61/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/061-decryption/
+          "View Problem Statement Mirror"

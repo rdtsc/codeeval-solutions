@@ -3,3 +3,4 @@ name: Fibonacci Series
 category: Easy
 summary: Print out the nth fibonacci number.
 url: "https://www.codeeval.com/browse/22/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/022-fibonacci-series/"

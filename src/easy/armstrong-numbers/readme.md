@@ -1,11 +1,11 @@
-[Armstrong Numbers][ce]
------------------------
+Armstrong Numbers
+-----------------
 
 **Problem 82**
 
 > Determine if a number is an armstrong number.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/82/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/082-armstrong-numbers/
+          "View Problem Statement Mirror"

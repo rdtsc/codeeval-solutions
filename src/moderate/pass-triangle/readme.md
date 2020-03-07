@@ -1,11 +1,11 @@
-[Pass Triangle][ce]
--------------------
+Pass Triangle
+-------------
 
 **Problem 89**
 
 > Lead the way within the triangle.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/89/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/089-pass-triangle/
+          "View Problem Statement Mirror"

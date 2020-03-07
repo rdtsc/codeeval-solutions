@@ -1,11 +1,11 @@
-[Prisoner or Citizen][ce]
--------------------------
+Prisoner or Citizen
+-------------------
 
 **Problem 224**
 
 > In jail or at large?
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/224/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/224-prisoner-or-citizen/
+          "View Problem Statement Mirror"

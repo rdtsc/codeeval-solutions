@@ -3,3 +3,4 @@ name: Everything or Nothing
 category: Hard
 summary: Check if a code is correct.
 url: "https://www.codeeval.com/browse/216/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/216-everything-or-nothing/"

@@ -1,11 +1,11 @@
-[String Searching][ce]
-----------------------
+String Searching
+----------------
 
 **Problem 28**
 
 > Determine if substring match exists.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/28/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/028-string-searching/
+          "View Problem Statement Mirror"

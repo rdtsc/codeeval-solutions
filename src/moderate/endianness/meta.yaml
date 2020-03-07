@@ -3,3 +3,4 @@ name: Endianness
 category: Moderate
 summary: Determine the endianness of a system.
 url: https://www.codeeval.com/browse/15/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/015-endianness/"

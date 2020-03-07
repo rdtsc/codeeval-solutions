@@ -1,11 +1,11 @@
-[Builders Team][ce]
--------------------
+Builders team.
+--------------
 
 **Problem 218**
 
 > Count all squares on the map.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/218/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/218-builders-team/
+          "View Problem Statement Mirror"

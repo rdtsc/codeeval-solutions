@@ -1,11 +1,11 @@
-[Message Decoding][ce]
-----------------------
+Message Decoding
+----------------
 
 **Problem 36**
 
 > Decode an encoded message.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/36/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/036-message-decoding/
+          "View Problem Statement Mirror"

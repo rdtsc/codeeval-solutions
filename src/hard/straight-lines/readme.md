@@ -1,11 +1,11 @@
-[Straight Lines][ce]
---------------------
+Straight lines
+--------------
 
 **Problem 204**
 
 > Print the number of straight lines.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/204/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/204-straight-lines/
+          "View Problem Statement Mirror"

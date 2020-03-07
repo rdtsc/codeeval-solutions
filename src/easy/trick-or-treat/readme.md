@@ -1,11 +1,11 @@
-[Trick or Treat][ce]
---------------------
+Trick or Treat
+--------------
 
 **Problem 220**
 
 > Count all candies.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/220/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/220-trick-or-treat/
+          "View Problem Statement Mirror"

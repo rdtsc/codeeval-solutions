@@ -3,3 +3,4 @@ name: Glue Shredded Pieces
 category: Hard
 summary: Reconstruct the original text from overlapping pieces.
 url: "https://www.codeeval.com/browse/185/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/185-glue-shredded-pieces/"

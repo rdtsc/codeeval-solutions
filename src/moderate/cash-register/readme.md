@@ -1,11 +1,11 @@
-[Cash Register][ce]
--------------------
+Cash Register
+-------------
 
 **Problem 54**
 
 > Determine the amount of change to be returned.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/54/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/054-cash-register/
+          "View Problem Statement Mirror"

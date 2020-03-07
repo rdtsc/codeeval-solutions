@@ -3,3 +3,4 @@ name: Overlapping Rectangles
 category: Moderate
 summary: Determine if two rectangles overlap.
 url: "https://www.codeeval.com/browse/70/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/070-overlapping-rectangles/"

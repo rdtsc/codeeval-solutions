@@ -1,11 +1,11 @@
-[Penultimate Word][ce]
-----------------------
+Penultimate Word
+----------------
 
 **Problem 92**
 
 > Find the next-to-last word.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/92/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/092-penultimate-word/
+          "View Problem Statement Mirror"

@@ -3,3 +3,4 @@ name: Point in Circle
 category: Moderate
 summary: Define whether a point is in a circle.
 url: https://www.codeeval.com/browse/98/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/098-point-in-circle/"

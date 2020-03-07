@@ -1,11 +1,11 @@
-[String Substitution][ce]
--------------------------
+String Substitution
+-------------------
 
 **Problem 50**
 
 > Create a new string by replacing substrings within it.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/50/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/050-string-substitution/
+          "View Problem Statement Mirror"

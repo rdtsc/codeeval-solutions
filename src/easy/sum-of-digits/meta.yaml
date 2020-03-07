@@ -3,3 +3,4 @@ name: Sum of Digits
 category: Easy
 summary: Sum of digits comprising a number.
 url: https://www.codeeval.com/browse/21/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/021-sum-of-digits/"

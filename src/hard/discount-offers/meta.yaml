@@ -3,3 +3,4 @@ name: Discount Offers
 category: Hard
 summary: Determine optimal pairing of customers with products.
 url: "https://www.codeeval.com/browse/48/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/048-discount-offers/"

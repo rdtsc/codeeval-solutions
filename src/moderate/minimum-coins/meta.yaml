@@ -3,3 +3,4 @@ name: Minimum Coins
 category: Moderate
 summary: Find the minimum number of coins to arrive at a total.
 url: "https://www.codeeval.com/browse/74/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/074-minimum-coins/"

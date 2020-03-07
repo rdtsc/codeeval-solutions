@@ -3,3 +3,4 @@ name: Lights Out
 category: Hard
 summary: Switch all the lights off with minimum number of moves.
 url: "https://www.codeeval.com/browse/191/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/191-lights-out/"

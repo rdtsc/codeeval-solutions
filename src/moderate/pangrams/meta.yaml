@@ -3,3 +3,4 @@ name: Pangrams
 category: Moderate
 summary: Find the missing alphabets.
 url: "https://www.codeeval.com/browse/37/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/037-pangrams/"

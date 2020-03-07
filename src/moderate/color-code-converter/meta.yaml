@@ -3,3 +3,4 @@ name: Color Code Converter
 category: Moderate
 summary: Determine and convert the color code.
 url: "https://www.codeeval.com/browse/148/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/148-color-code-converter/"

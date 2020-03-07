@@ -1,11 +1,11 @@
-[Beat or Bit][ce]
------------------
+Beat or bit
+-----------
 
 **Problem 236**
 
 > Learn more about the Gray code algorithm.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/236/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/236-beat-or-bit/
+          "View Problem Statement Mirror"

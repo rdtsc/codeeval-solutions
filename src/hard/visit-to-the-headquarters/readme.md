@@ -1,11 +1,11 @@
-[Visit to the Headquarters][ce]
--------------------------------
+Visit to the Headquarters
+-------------------------
 
 **Problem 142**
 
 > Organize the queues.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/142/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/142-visit-to-the-headquarters/
+          "View Problem Statement Mirror"

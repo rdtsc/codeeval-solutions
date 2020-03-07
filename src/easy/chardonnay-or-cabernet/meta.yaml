@@ -3,3 +3,4 @@ name: Chardonnay or Cabernet
 category: Easy
 summary: Guess a wine name.
 url: "https://www.codeeval.com/browse/211/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/211-chardonnay-or-cabernet/"

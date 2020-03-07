@@ -1,11 +1,11 @@
-[Seat Your Team Members][ce]
-----------------------------
+Seat your team members
+----------------------
 
 **Problem 118**
 
 > Place the employees in a new office.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/118/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/118-seat-your-team-members/
+          "View Problem Statement Mirror"

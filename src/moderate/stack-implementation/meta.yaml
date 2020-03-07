@@ -3,3 +3,4 @@ name: Stack Implementation
 category: Moderate
 summary: Implement a stack interface.
 url: https://www.codeeval.com/browse/9/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/009-stack-implementation/"

@@ -1,11 +1,11 @@
-[DNA Alignment][ce]
--------------------
+DNA Alignment
+-------------
 
 **Problem 171**
 
 > Find the highest score of DNA sequences alignment.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/171/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/171-dna-alignment/
+          "View Problem Statement Mirror"

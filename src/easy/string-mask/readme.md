@@ -1,11 +1,11 @@
-[String Mask][ce]
------------------
+String mask
+-----------
 
 **Problem 199**
 
 > Change case letters by mask.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/199/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/199-string-mask/
+          "View Problem Statement Mirror"

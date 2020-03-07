@@ -3,3 +3,4 @@ name: Column Names
 category: Moderate
 summary: Convert integer to excel-style column name.
 url: "https://www.codeeval.com/browse/197/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/197-column-names/"

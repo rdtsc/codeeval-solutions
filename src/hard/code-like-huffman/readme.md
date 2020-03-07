@@ -1,11 +1,11 @@
-[Code Like Huffman][ce]
------------------------
+Code like Huffman
+-----------------
 
 **Problem 234**
 
 > Learn more about Huffman's tree.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/234/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/234-code-like-huffman/
+          "View Problem Statement Mirror"

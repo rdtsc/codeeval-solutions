@@ -3,3 +3,4 @@ name: Sum of Integers
 category: Moderate
 summary: Determine the largest sum of contiguous integers in an array.
 url: "https://www.codeeval.com/browse/17/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/017-sum-of-integers/"

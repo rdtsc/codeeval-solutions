@@ -1,11 +1,11 @@
-[Swap Case][ce]
----------------
+Swap Case
+---------
 
 **Problem 96**
 
 > Swap case in a string.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/96/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/096-swap-case/
+          "View Problem Statement Mirror"

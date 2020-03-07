@@ -1,11 +1,11 @@
-[Text to Number][ce]
---------------------
+Text to Number
+--------------
 
 **Problem 110**
 
 > Convert English text representation of a number to a decimal number.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/110/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/110-text-to-number/
+          "View Problem Statement Mirror"

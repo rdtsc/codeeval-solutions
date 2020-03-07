@@ -3,3 +3,4 @@ name: File Size
 category: Easy
 summary: Print the file size in bytes.
 url: https://www.codeeval.com/browse/26/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/026-file-size/"

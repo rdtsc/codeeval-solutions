@@ -1,11 +1,11 @@
-[Query Board][ce]
------------------
+Query Board
+-----------
 
 **Problem 87**
 
 > Set and get values from a matrix using tiny DSL.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/87/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/087-query-board/
+          "View Problem Statement Mirror"

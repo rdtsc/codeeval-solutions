@@ -1,11 +1,11 @@
-[Column Names][ce]
-------------------
+Column Names
+------------
 
 **Problem 197**
 
 > Convert integer to excel-style column name.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/197/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/197-column-names/
+          "View Problem Statement Mirror"

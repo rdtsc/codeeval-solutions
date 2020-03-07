@@ -3,3 +3,4 @@ name: Longest Common Subsequence
 category: Hard
 summary: LCS between two strings.
 url: "https://www.codeeval.com/browse/6/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/006-longest-common-subsequence/"

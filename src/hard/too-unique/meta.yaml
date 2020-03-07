@@ -3,3 +3,4 @@ name: Too Unique
 category: Hard
 summary: Find and mark the biggest submatrices of unique elements.
 url: "https://www.codeeval.com/browse/162/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/162-too-unique/"

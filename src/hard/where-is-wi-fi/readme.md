@@ -1,11 +1,11 @@
-[Where Is Wi-Fi][ce]
---------------------
+Where is Wi-Fi
+--------------
 
 **Problem 159**
 
 > Find out in which buildings there are hotspots.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/159/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/159-where-is-wi-fi/
+          "View Problem Statement Mirror"

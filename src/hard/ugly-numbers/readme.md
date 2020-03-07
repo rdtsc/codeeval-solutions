@@ -1,11 +1,11 @@
-[Ugly Numbers][ce]
-------------------
+Ugly Numbers
+------------
 
 **Problem 42**
 
 > Count the number of expressions that can be created from a number.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/42/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/042-ugly-numbers/
+          "View Problem Statement Mirror"

@@ -3,3 +3,4 @@ name: Try to Solve It
 category: Moderate
 summary: How good decoder are you?
 url: "https://www.codeeval.com/browse/226/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/226-try-to-solve-it/"

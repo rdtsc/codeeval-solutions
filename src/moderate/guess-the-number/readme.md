@@ -1,11 +1,11 @@
-[Guess the Number][ce]
-----------------------
+Guess the Number
+----------------
 
 **Problem 170**
 
 > Guess the number in log2(N) steps.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/170/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/170-guess-the-number/
+          "View Problem Statement Mirror"

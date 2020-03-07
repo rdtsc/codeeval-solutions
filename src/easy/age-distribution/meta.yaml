@@ -3,3 +3,4 @@ name: Age Distribution
 category: Easy
 summary: Print out where the person is.
 url: https://www.codeeval.com/browse/152/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/152-age-distribution/"

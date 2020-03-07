@@ -1,11 +1,11 @@
-[The Cubes][ce]
----------------
+The Cubes
+---------
 
 **Problem 175**
 
 > Find the length of the shortest way in the multilevel labyrinth.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/175/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/175-the-cubes/
+          "View Problem Statement Mirror"

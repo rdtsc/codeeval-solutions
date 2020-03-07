@@ -3,3 +3,4 @@ name: Counting Primes
 category: Moderate
 summary: Count the number of primes between two integers.
 url: "https://www.codeeval.com/browse/63/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/063-counting-primes/"

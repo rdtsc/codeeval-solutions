@@ -3,3 +3,4 @@ name: Filename Pattern
 category: Moderate
 summary: Filter a list of filenames.
 url: "https://www.codeeval.com/browse/169/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/169-filename-pattern/"

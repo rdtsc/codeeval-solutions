@@ -1,11 +1,11 @@
-[Calculate Distance][ce]
-------------------------
+Calculate Distance
+------------------
 
 **Problem 99**
 
 > Calculate a distance between two points.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/99/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/099-calculate-distance/
+          "View Problem Statement Mirror"

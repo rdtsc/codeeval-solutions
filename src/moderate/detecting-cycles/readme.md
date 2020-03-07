@@ -1,11 +1,11 @@
-[Detecting Cycles][ce]
-----------------------
+Detecting Cycles
+----------------
 
 **Problem 5**
 
 > Detecting loops within a sequence.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/5/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/005-detecting-cycles/
+          "View Problem Statement Mirror"

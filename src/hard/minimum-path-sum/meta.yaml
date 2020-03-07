@@ -3,3 +3,4 @@ name: Minimum Path Sum
 category: Hard
 summary: Calculate the minimum sum of a path through a matrix.
 url: https://www.codeeval.com/browse/72/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/072-minimum-path-sum/"

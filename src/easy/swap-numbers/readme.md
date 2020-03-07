@@ -1,11 +1,11 @@
-[Swap Numbers][ce]
-------------------
+Swap Numbers
+------------
 
 **Problem 196**
 
 > Swap numbers surrounding a word.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/196/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/196-swap-numbers/
+          "View Problem Statement Mirror"

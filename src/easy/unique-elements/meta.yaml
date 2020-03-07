@@ -3,3 +3,4 @@ name: Unique Elements
 category: Easy
 summary: Extract unique list from a sorted list of numbers.
 url: "https://www.codeeval.com/browse/29/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/029-unique-elements/"

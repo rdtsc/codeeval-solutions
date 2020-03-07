@@ -1,11 +1,11 @@
-[Simple or Trump][ce]
----------------------
+Simple or trump
+---------------
 
 **Problem 235**
 
 > Check which card is higher.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/235/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/235-simple-or-trump/
+          "View Problem Statement Mirror"

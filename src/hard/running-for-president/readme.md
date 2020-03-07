@@ -1,11 +1,11 @@
-[Running for President][ce]
----------------------------
+Running for president
+---------------------
 
 **Problem 145**
 
 > Build your strategy to win the Presidency of the United States.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/145/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/145-running-for-president/
+          "View Problem Statement Mirror"

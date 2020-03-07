@@ -3,3 +3,4 @@ name: Racing Chars
 category: Easy
 summary: Explore a race track avoiding crashes.
 url: "https://www.codeeval.com/browse/136/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/136-racing-chars/"

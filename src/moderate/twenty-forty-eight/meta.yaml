@@ -3,3 +3,4 @@ name: Twenty Forty Eight
 category: Moderate
 summary: Implement the 2048 game logic.
 url: "https://www.codeeval.com/browse/194/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/194-twenty-forty-eight/"

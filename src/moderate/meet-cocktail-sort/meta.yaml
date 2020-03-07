@@ -3,3 +3,4 @@ name: Meet Cocktail Sort
 category: Moderate
 summary: Learn more about cocktail sort algorithm.
 url: "https://www.codeeval.com/browse/231/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/231-meet-cocktail-sort/"

@@ -1,11 +1,11 @@
-[Lettercase Percentage Ratio][ce]
----------------------------------
+Lettercase Percentage Ratio
+---------------------------
 
 **Problem 147**
 
 > Find the percentage ratio.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/147/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/147-lettercase-percentage-ratio/
+          "View Problem Statement Mirror"

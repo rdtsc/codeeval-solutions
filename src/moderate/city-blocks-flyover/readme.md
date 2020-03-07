@@ -1,12 +1,12 @@
-[City Blocks Flyover][ce]
--------------------------
+City Blocks Flyover
+-------------------
 
 **Problem 133**
 
 > Chart the path of a helicopter from above to discover how many city blocks it
 > flew over.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/133/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/133-city-blocks-flyover/
+          "View Problem Statement Mirror"

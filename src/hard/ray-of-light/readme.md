@@ -1,11 +1,11 @@
-[Ray of Light][ce]
-------------------
+Ray of Light
+------------
 
 **Problem 176**
 
 > Trace the path of light distribution.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/176/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/176-ray-of-light/
+          "View Problem Statement Mirror"

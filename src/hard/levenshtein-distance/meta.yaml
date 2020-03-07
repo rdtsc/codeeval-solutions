@@ -3,3 +3,4 @@ name: Levenshtein Distance
 category: Hard
 summary: Find out how big the social network of a word is.
 url: "https://www.codeeval.com/browse/58/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/058-levenshtein-distance/"

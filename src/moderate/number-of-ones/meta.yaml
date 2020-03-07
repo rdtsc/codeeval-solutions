@@ -3,3 +3,4 @@ name: Number of Ones
 category: Moderate
 summary: Determine the number of one bits in an integer.
 url: https://www.codeeval.com/browse/16/
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/016-number-of-ones/"

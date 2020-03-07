@@ -1,11 +1,11 @@
-[Roman and Arabic][ce]
-----------------------
+Roman and Arabic
+----------------
 
 **Problem 150**
 
 > Calculate aromatic numbers.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/150/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/150-roman-and-arabic/
+          "View Problem Statement Mirror"

@@ -3,3 +3,4 @@ name: Road Trip
 category: Easy
 summary: Do not be left without petrol.
 url: "https://www.codeeval.com/browse/124/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/124-road-trip/"

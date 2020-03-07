@@ -1,11 +1,11 @@
-[Jolly Jumpers][ce]
--------------------
+Jolly Jumpers
+-------------
 
 **Problem 43**
 
 > Determine if a sequence of numbers is a Jolly Jumper.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/43/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/043-jolly-jumpers/
+          "View Problem Statement Mirror"

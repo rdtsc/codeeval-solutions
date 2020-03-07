@@ -1,11 +1,11 @@
-[Sequence Transformation][ce]
------------------------------
+Sequence Transformation
+-----------------------
 
 **Problem 130**
 
 > Transform a binary sequence into a string.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/130/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/130-sequence-transformation/
+          "View Problem Statement Mirror"

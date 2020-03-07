@@ -1,11 +1,11 @@
-[The Tourist][ce]
------------------
+The Tourist
+-----------
 
 **Problem 219**
 
 > Find the shortest route between cities.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/219/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/219-the-tourist/
+          "View Problem Statement Mirror"

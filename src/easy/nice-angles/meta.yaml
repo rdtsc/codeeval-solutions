@@ -3,3 +3,4 @@ name: Nice Angles
 category: Easy
 summary: Convert angle values to sexagesimal format.
 url: "https://www.codeeval.com/browse/160/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/160-nice-angles/"

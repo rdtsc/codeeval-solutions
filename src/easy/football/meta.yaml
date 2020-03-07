@@ -3,3 +3,4 @@ name: Football
 category: Easy
 summary: Find countries that are football fans.
 url: "https://www.codeeval.com/browse/230/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/230-football/"

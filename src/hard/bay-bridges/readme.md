@@ -1,11 +1,11 @@
-[Bay Bridges][ce]
------------------
+Bay Bridges
+-----------
 
 **Problem 109**
 
 > Build Bridges Over San Francisco Bay.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/109/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/109-bay-bridges/
+          "View Problem Statement Mirror"

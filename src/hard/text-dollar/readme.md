@@ -1,11 +1,11 @@
-[Text Dollar][ce]
------------------
+Text Dollar
+-----------
 
 **Problem 52**
 
 > Print out the text dollar amount of a given quantity.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/52/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/052-text-dollar/
+          "View Problem Statement Mirror"

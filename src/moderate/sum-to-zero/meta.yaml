@@ -3,3 +3,4 @@ name: Sum to Zero
 category: Moderate
 summary: Count of ways in which the sum of four numbers is zero.
 url: "https://www.codeeval.com/browse/81/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/081-sum-to-zero/"

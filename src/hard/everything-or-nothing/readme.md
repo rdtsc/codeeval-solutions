@@ -1,11 +1,11 @@
-[Everything or Nothing][ce]
----------------------------
+Everything or nothing
+---------------------
 
 **Problem 216**
 
 > Check if a code is correct.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/216/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/216-everything-or-nothing/
+          "View Problem Statement Mirror"

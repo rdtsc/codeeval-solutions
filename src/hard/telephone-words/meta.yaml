@@ -3,3 +3,4 @@ name: Telephone Words
 category: Hard
 summary: Print out the words corresponding to a telephone number.
 url: "https://www.codeeval.com/browse/59/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/059-telephone-words/"

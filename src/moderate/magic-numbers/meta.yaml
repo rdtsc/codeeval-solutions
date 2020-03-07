@@ -3,3 +3,4 @@ name: Magic Numbers
 category: Moderate
 summary: Print out a list of all the magic numbers in a provided range.
 url: "https://www.codeeval.com/browse/193/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/193-magic-numbers/"

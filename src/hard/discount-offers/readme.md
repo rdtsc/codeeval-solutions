@@ -1,11 +1,11 @@
-[Discount Offers][ce]
----------------------
+Discount Offers
+---------------
 
 **Problem 48**
 
 > Determine optimal pairing of customers with products.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/48/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/048-discount-offers/
+          "View Problem Statement Mirror"

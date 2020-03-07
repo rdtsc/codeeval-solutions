@@ -1,11 +1,11 @@
-[One Zero, Two Zeros...][ce]
-----------------------------
+One zero, two zeros...
+----------------------
 
 **Problem 217**
 
 > Count zeros in a binary system.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/217/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/217-one-zero-two-zeros/
+          "View Problem Statement Mirror"

@@ -1,11 +1,11 @@
-[Code Combinations][ce]
------------------------
+Code combinations
+-----------------
 
 **Problem 238**
 
 > Check whether you can make words from the given letters.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/238/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/238-code-combinations/
+          "View Problem Statement Mirror"

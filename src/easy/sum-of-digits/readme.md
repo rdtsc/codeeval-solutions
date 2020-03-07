@@ -1,11 +1,11 @@
-[Sum of Digits][ce]
--------------------
+Sum of Digits
+-------------
 
 **Problem 21**
 
 > Sum of digits comprising a number.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/21/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/021-sum-of-digits/
+          "View Problem Statement Mirror"

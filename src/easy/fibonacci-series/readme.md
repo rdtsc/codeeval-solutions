@@ -1,11 +1,11 @@
-[Fibonacci Series][ce]
-----------------------
+Fibonacci Series
+----------------
 
 **Problem 22**
 
 > Print out the nth fibonacci number.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/22/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/022-fibonacci-series/
+          "View Problem Statement Mirror"

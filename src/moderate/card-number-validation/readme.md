@@ -1,11 +1,11 @@
-[Card Number Validation][ce]
-----------------------------
+Card number validation
+----------------------
 
 **Problem 172**
 
 > Check if bank card numbers are valid.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/172/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/moderate/172-card-number-validation/
+          "View Problem Statement Mirror"

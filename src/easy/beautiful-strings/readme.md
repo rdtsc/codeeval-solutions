@@ -1,11 +1,11 @@
-[Beautiful Strings][ce]
------------------------
+Beautiful Strings
+-----------------
 
 **Problem 83**
 
 > Facebook Hacker Cup 2013 problem.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/83/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/083-beautiful-strings/
+          "View Problem Statement Mirror"

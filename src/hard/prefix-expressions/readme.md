@@ -1,11 +1,11 @@
-[Prefix Expressions][ce]
-------------------------
+Prefix expressions
+------------------
 
 **Problem 7**
 
 > Evaluating a prefix expression.
 
-Full problem statement is available on [CodeEval][ce].
+Full problem statement is available [here][mirror].
 
-[ce]: https://www.codeeval.com/browse/7/
-      "View problem statement on CodeEval"
+[mirror]: https://github.com/rdtsc/codeeval-problem-statements/tree/master/hard/007-prefix-expressions/
+          "View Problem Statement Mirror"

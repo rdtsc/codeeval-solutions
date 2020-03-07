@@ -3,3 +3,4 @@ name: Swap Elements
 category: Easy
 summary: Swap elements in a list.
 url: "https://www.codeeval.com/browse/112/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/112-swap-elements/"

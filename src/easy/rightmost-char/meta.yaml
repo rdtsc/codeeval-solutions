@@ -3,3 +3,4 @@ name: Rightmost Char
 category: Easy
 summary: Print the position of the rightmost occurrence of a char.
 url: "https://www.codeeval.com/browse/31/"
+mirror: "https://github.com/rdtsc/codeeval-problem-statements/tree/master/easy/031-rightmost-char/"
