@@ -277,7 +277,7 @@ All referenced product names, trademarks, and logos are property of their
 respective owners.
 
 
-[ce]:        https://www.codeeval.com/
+[ce]:        https://web.archive.org/web/20180212230457/https://www.codeeval.com/
              "CodeEval - Coding Challenges for the World's Best Developers"
 
 [ce-mirror]: https://github.com/rdtsc/codeeval-problem-statements/
